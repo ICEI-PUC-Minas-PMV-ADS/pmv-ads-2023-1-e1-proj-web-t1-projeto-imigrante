@@ -4,17 +4,17 @@
 
 `Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-  `EIXO 1`
+  `Primeiro período `
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* ALISSA NISHIHARA
-* FERNANDA BANDEIRA
-* IGOR CARVALHO XIMENES
-* LUCAS DE SOUSA
-* MARIA TERESA ABREU
+* ALissa Nishihara
+* Fernanda Bandeira
+* Igor Carvalho Ximenes
+* Lucas de Sousa
+* Maria Teresa Abreu
 
 ## Orientador
 
