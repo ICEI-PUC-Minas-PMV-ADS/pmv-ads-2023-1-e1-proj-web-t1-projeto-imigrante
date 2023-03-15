@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# PROJETO IMIGRANTES
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+  `EIXO 1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* ALISSA NISHIHARA
+* FERNANDA BANDEIRA
+* IGOR CARVALHO XIMENES
+* LUCAS DE SOUSA
+* MARIA TERESA ABREU
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina De Paiva
 
 ## Instruções de utilização
 
