@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* ALissa Nishihara
+* Alissa Nishihara
 * Fernanda Bandeira
 * Igor Carvalho Ximenes
 * Lucas de Sousa
