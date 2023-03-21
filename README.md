@@ -15,6 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Igor Carvalho Ximenes
 * Lucas de Sousa
 * Maria Teresa Abreu
+* Viícius Dias
 
 ## Orientador
 
