@@ -4,9 +4,9 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-Niara Lopes é uma imigrante de uma região muito pobre e necessitada da África, na qual havia uma carência de ensino e estrutura para estudo, estimulando sua vinda para o Brasil, devido aos serviços fornecidos. Recém chegada ao Brasil, está buscando informações de como tirar a carteira de estrangeiro, e futuramente pretende iniciar uma graduação em design na USP (Universidade de São Paulo).
+Niara Lopes é uma imigrante de uma região muito pobre e necessitada da África, na qual havia uma carência de ensino e estrutura para estudo, estimulando sua vinda para o Brasil, devido aos serviços e qualidade na educação que o país oferece. Recém chegada ao Brasil, está buscando informações de como tirar a carteira de estrangeiro, e futuramente pretende iniciar uma graduação em design na USP (Universidade de São Paulo).
 
-Santiago González é um refugiado da Venezuela, e veio ao Brasil para fugir da crise econômica que seu país enfrenta, proporcionar uma vida melhor à sua família, e educação de qualidade para seus filhos. Atualmente trabalha como motoboy, porém seu sonho é voltar atuar na sua área em que trabalhava na Venezuela, que é engenharia mecânica, e busca informações de como validar de diploma universitário estrangeiro no Brasil.
+Santiago González é um refugiado da Venezuela, e veio ao Brasil para fugir da crise econômica que seu país enfrenta, proporcionar uma vida melhor à sua família, e educação de qualidade para seus filhos. Atualmente trabalha como motoboy, porém seu sonho é voltar atuar na área em que trabalhava na Venezuela, que é engenharia mecânica, e busca informações de como validar de diploma universitário estrangeiro no Brasil.
 
  
 ## Histórias de Usuários
@@ -16,9 +16,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                    |PARA ... `MOTIVO/VALOR`                                               |
 |--------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------- |
 |Niara Lopes         |Como imigrante quero encontar informações de como tirar a carteira de estrangeiro  | Para que eu possa me regularizar no país                 |    
-|Niara Lopes         |Acessar o conteúdo com a tradução em inglês, do qual eu tenho fluência | Conseguir acessar e entender as informações                          |
-|Santaigo González   |Me informar de todo o processo para validar meu diploma universitário  | Conseguir um emprego melhor, dentro da minha área                    |
-|Santaigo González   |Comentar nas publicações e ler relatos de situações como a minha       | Interagir e tirar dúvidas com pessoas que passam pela mesma situação |
+|Niara Lopes         |Como imigrante quero poder acessar o conteúdo em um idioma do qual eu tenho fluência, como o inglês | Conseguir acessar e entender as informações |
+|Santaigo González   |Como refugiado necessito me informar de todo o processo para validar meu diploma universitário no Brasil | Conseguir um emprego melhor, dentro da minha área           |
+|Santaigo González   |Como refugiado quero poder comentar nas publicações, e ler relatos sobre situações parecidas com a minha       | Interagir e tirar dúvidas com pessoas que passam pela mesma situação |
 
 
 ## Requisitos
