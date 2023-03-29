@@ -15,10 +15,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                    |PARA ... `MOTIVO/VALOR`                                               |
 |--------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------- |
-|Niara Lopes         |Como imigrante quero encontar informações de como tirar a carteira de estrangeiro  | Para que eu possa me regularizar no país                 |    
-|Niara Lopes         |Como imigrante quero poder acessar o conteúdo em um idioma do qual eu tenho fluência, como o inglês | Conseguir acessar e entender as informações |
-|Santaigo González   |Como refugiado necessito me informar de todo o processo para validar meu diploma universitário no Brasil | Conseguir um emprego melhor, dentro da minha área           |
-|Santaigo González   |Como refugiado quero poder comentar nas publicações, e ler relatos sobre situações parecidas com a minha       | Interagir e tirar dúvidas com pessoas que passam pela mesma situação |
+|Niara Lopes         |Como imigrante quero encontar informações de como tirar a carteira de estrangeiro.  | Para que eu possa me regularizar no país                 |    
+|Niara Lopes         |Como imigrante quero poder acessar o conteúdo em um idioma do qual eu tenho fluência, como o inglês | Conseguir acessar e entender as informações. |
+|Santaigo González   |Como refugiado necessito me informar de todo o processo para validar meu diploma universitário no Brasil | Conseguir um emprego melhor, dentro da minha área.           |
+|Santaigo González   |Como refugiado quero poder comentar nas publicações, e ler relatos sobre situações parecidas com a minha.       | Interagir e tirar dúvidas com pessoas que passam pela mesma situação. |
 
 
 ## Requisitos
@@ -30,22 +30,22 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 |ID    | Descrição do Requisito | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve conter informações sobre como tirar a carteira de identificação estrangeira | MÉDIA | 
-|RF-002| O site deve conter um campo de mensagens para que o usuário escreva suas dúvidas ou receba esclarecimentos | ALTA |
-|RF-003| O site deve permitir ao usuário trocar seu idioma para o inglês | ALTA | 
-|RF-004| O site deve exibir os comentários registrados pelos usuários |BAIXA | 
-|RF-005| O site deve conter informações sobre como validar diploma universitário estrangeiro |BAIXA | 
+|RF-001| O site deve conter informações sobre como tirar a carteira de identificação estrangeira. | MÉDIA | 
+|RF-002| O site deve conter um campo de mensagens para que o usuário escreva suas dúvidas ou receba esclarecimentos. | ALTA |
+|RF-003| O site deve permitir ao usuário trocar seu idioma para o inglês. | ALTA | 
+|RF-004| O site deve exibir os comentários registrados pelos usuários. |BAIXA | 
+|RF-005| O site deve conter informações sobre como validar diploma universitário estrangeiro. |BAIXA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) | ALTA | 
-|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada | ALTA | 
-|RNF-003| O sistema deve ser multiplataforma – Windows, Linux e macOS | ALTA | 
-|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | ALTA | 
-|RNF-005| O sistema deve funcionar 24h por dia, todos os dias da semana | ALTA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku). | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada. | ALTA | 
+|RNF-003| O sistema deve ser multiplataforma – Windows, Linux e macOS. | ALTA | 
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
+|RNF-005| O sistema deve funcionar 24h por dia, todos os dias da semana. | ALTA | 
 
 
 ## Restrições
@@ -54,9 +54,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                                                                                               |
 |--|-------------------------------------------------------------------------------------------------------------------------|
-|01| O projeto deve ser entregue no final do semestre letivo, não havendo possibilidade de ultrapassar a data de: 16/06/2023 |
-|03| O aplicativo deve se ater às tecnologias básicas de desenvolvimento web front-end                                       |
-|04| A equipe não deve subcontratar o desenvolvimento do trabalho                                                            |
-|05| Cada etapa do projeto deve ser designada para aquele mais apto a entregá-la dentro do prazo estipulado                  |
+|01| O projeto deve ser entregue no final do semestre letivo, não havendo possibilidade de ultrapassar a data de: 16/06/2023. |
+|02| O aplicativo deve se ater às tecnologias básicas de desenvolvimento web front-end.                                       |
+|03| A equipe não deve subcontratar o desenvolvimento do trabalho.                                                            |
+|04| Cada etapa do projeto deve ser designada para aquele mais apto a entregá-la dentro do prazo estipulado.                  |
 
 
