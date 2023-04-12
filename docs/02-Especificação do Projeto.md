@@ -17,8 +17,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------- |
 |Niara Lopes         |Como imigrante quero encontrar informações de como tirar a carteira de estrangeiro.  | Para que eu possa me regularizar no país.                 |    
 |Niara Lopes         |Como imigrante quero poder acessar o conteúdo em um idioma do qual eu tenho fluência, como o inglês. | Conseguir acessar e entender as informações. |
-|Santaigo González   |Como refugiado necessito me informar de todo o processo para validar meu diploma universitário no Brasil. | Conseguir um emprego melhor, dentro da minha área.           |
-|Santaigo González   |Como refugiado quero poder comentar nas publicações, e ler relatos sobre situações parecidas com a minha.       | Interagir e tirar dúvidas com pessoas que passam pela mesma situação. |
+|Santiago González   |Como refugiado necessito me informar de todo o processo para validar meu diploma universitário no Brasil. | Conseguir um emprego melhor, dentro da minha área.           |
+|Santiago González   |Como refugiado quero poder comentar nas publicações, e ler relatos sobre situações parecidas com a minha.       | Interagir e tirar dúvidas com pessoas que passam pela mesma situação. |
 
 
 ## Requisitos
