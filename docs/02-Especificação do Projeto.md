@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
+
 
 ## Personas
 
@@ -57,6 +57,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deve ser entregue no final do semestre letivo, não havendo possibilidade de ultrapassar a data de: 16/06/2023. |
 |02| O aplicativo deve se ater às tecnologias básicas de desenvolvimento web front-end.                                       |
 |03| A equipe não deve subcontratar o desenvolvimento do trabalho.                                                            |
-|04| Cada etapa do projeto deve ser designada para aquele mais apto a entregá-la dentro do prazo estipulado.                  |
+
 
 
