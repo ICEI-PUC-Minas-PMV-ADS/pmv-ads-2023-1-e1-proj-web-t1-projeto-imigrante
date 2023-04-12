@@ -5,7 +5,7 @@ Durante a segunda guerra mundial milhares de pessoas em todo mundo foram forçad
 
 
 ## Problema
- O problema que se busca resolver é a dificuldade que essas pessoas enfrentam para terem acesso às informações ao chegarem no país. 
+ O problema que se busca resolver com essa aplicação, é a dificuldade que essas pessoas enfrentam para terem acesso às informações ao chegarem no país. 
 
 
 ## Objetivos
