@@ -5,7 +5,7 @@ Durante a segunda guerra mundial milhares de pessoas em todo mundo foram forçad
 
 
 ## Problema
-O Brasil tem recebido milhares de imigrantes anualmente, e muitos chegam em situação de vulnerabilidade social e econômica, com pouca qualificação profissional, além de não saber falar o idioma local. Diante disso, o problema que se busca resolver é a dificuldade que essas pessoas enfrentam para terem acesso às informações ao chegarem no país. Essa aplicação facilitará o acesso a serviços básicos , integração cultural , oportunidades de trabalho e educação, reunindo em um único lugar todas essas informações.
+ O problema que se busca resolver é a dificuldade que essas pessoas enfrentam para terem acesso às informações ao chegarem no país. 
 
 
 ## Objetivos
