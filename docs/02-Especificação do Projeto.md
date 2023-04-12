@@ -4,9 +4,26 @@
 
 ## Personas
 
-Niara Lopes é uma imigrante de uma região muito pobre e necessitada da África, na qual havia uma carência de ensino e estrutura para estudo, estimulando sua vinda para o Brasil, devido aos serviços e qualidade na educação que o país oferece. Recém chegada ao Brasil, está buscando informações de como tirar a carteira de estrangeiro, e futuramente pretende iniciar uma graduação em design na USP (Universidade de São Paulo).
+|Niara Lopes| ![Capture2](https://user-images.githubusercontent.com/93337008/231519186-f31a8044-6292-4eaa-9f56-e76b5fbd29ef.PNG) |
+|-----------------------|-|
+|Idade:|24|
+|Origem | Imigrante Africana |
+|Sobre:|  Recém chegada, veio para o Brasil com o objetivo de iniciar sua graduação em design na USP (Universidade de São Paulo). |
+|Motivações: | Regularizar sua documentação e iniciar uma faculdade futuramente. |
+|História:|Niara é uma imigrante de uma região muito pobre e necessitada da África, na qual havia uma carência de ensino e estrutura para estudo, estimulando sua vinda para o Brasil.|
+|Necessidades:|Emissão de documentos estrangeiro e canal de informações que possua tradução para o seu idioma.|
 
-Santiago González é um refugiado da Venezuela, e veio ao Brasil para fugir da crise econômica que seu país enfrenta, proporcionar uma vida melhor à sua família, e educação de qualidade para seus filhos. Atualmente trabalha como motoboy, porém seu sonho é voltar atuar na área em que trabalhava na Venezuela, que é engenharia mecânica, e busca informações de como validar de diploma universitário estrangeiro no Brasil.
+
+
+|Santiago González|![santo](https://user-images.githubusercontent.com/93337008/231519473-0f1800d4-885e-4e20-8368-c4c8cb6c1c15.PNG) |
+|-----------------------|-|
+|Idade:|38|
+|Origem | Refugiado Venezuelano |
+|Sobre:| Deixou a Venezuela devido à crise econômica e falta de segurança e instabilidade do país, e veio para o Brasil à procura de oportunidades de trabalho na área da sua formação, engenharia mecânica, e dar uma melhor educação para seus filhos.|
+|Motivações: |Melhores oportunidades de emprego, e proporcionar uma vida boa para a sua família. |
+|História:|Santiago é pai de 3 filhos. Atualmente atua como motoboy, e buscou refúgio no Brasil sonhando em conseguir um trabalho em sua área de formação, e suporte para educação de seus filhos.|
+|Necessidades:|Validação de diploma universitário.|
+
 
  
 ## Histórias de Usuários
