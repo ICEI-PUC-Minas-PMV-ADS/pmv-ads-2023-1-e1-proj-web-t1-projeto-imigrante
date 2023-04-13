@@ -37,12 +37,6 @@ etiquetas:
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
@@ -56,19 +50,13 @@ A equipe está organizada da seguinte maneira:
 -     Equipe de Design: Todos da equipe
 
 
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
 ### Processo
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Project estruturado com as seguintes listas: 
 -     Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 -     To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
 -     Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
--     In Review: Checagem de qualidade. Ao certificar que a tarefa foi finalizada e está correta, é movida para esta coluna done.
--     Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+-     In Review: Contém as tarefas que foram concluídas e serão checadas, de forma a se controlar a qualidade do desenvolvimento;
+-     Done: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. 
 
 
 ### Ferramentas
@@ -85,7 +73,4 @@ O VS Code foi escolhido porque ele possui integração com o Git e o GitHub.
 O Microsoft Teams  e Discord por ser prático para reuniões online, comunicação entre equipe de forma ágil e fácil compartilhamento de arquivos, e por fim, para criar diagramas utilizamos o Figma e Canva que permitem edição em tempo real de todos os participantes do grupo, e possuem versões gratuitas.
 
 
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+
