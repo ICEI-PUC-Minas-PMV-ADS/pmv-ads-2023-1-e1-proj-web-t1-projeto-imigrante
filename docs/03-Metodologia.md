@@ -80,6 +80,7 @@ As ferramentas empregadas no projeto são:
 - Figma
 - Microsoft Teams e Discord
 - Canva
+
 O VS Code foi escolhido porque ele possui integração com o Git e o GitHub. 
 O Microsoft Teams  e Discord por ser prático para reuniões online, comunicação entre equipe de forma ágil e fácil compartilhamento de arquivos, e por fim, para criar diagramas utilizamos o Figma e Canva que permitem edição em tempo real de todos os participantes do grupo, e possuem versões gratuitas.
 
