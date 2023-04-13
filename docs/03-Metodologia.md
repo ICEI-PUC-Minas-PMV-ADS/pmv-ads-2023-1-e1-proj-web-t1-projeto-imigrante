@@ -3,7 +3,17 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
+
+|Ambiente| Plataforma                       |Links de Acesso                                     |
+|--------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------- |
+|Repositório de código fonte      |GitHub  | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante           |
+|Documentos do projeto   |Google Docs| https://docs.google.com/document/d/1nbzajftkpqVVF9J-lLGfIkXE8_k9pDqo/edit |
+|Gerenciamento do Projeto |GitHub Project | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/349 |
+|Projeto de Interface e  Wireframes |Canvas e Figma  | https://www.figma.com/file/vMgPjokx8237Lb2JlRO3rg/Home-page?node-id=0%3A1&t=6900ftFA6qzRYx6v-0
+https://www.canva.com/design/DAFf6MQGk80/4FP6hEJOZjMuSF0n0Z82fA/edit?utm_content=DAFf6MQGk80&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton|
+|Comunicação  e reuniões |Microsoft Teams e Discord | (https://teams.microsoft.com/_#/school/conversations/Grupo%202%20-%20Imigrantes?threadId=19:3336090c411944cea103fd58cfb6bd16@thread.tacv2&ctx=channel) |
+
 
 ## Controle de Versão
 
