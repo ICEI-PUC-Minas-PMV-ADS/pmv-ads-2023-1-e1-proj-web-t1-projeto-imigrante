@@ -58,7 +58,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - `Done`: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. 
 
 ![GitHub-Project](https://user-images.githubusercontent.com/93337008/231883921-5fdb31b1-1d7f-4d97-a5a8-a30482d4b620.PNG)
-*Figura 2 - Tela do quadro de distribuição e organização de tarefas no GitHub*
+*Figura 1 - Tela do quadro de distribuição e organização de tarefas no GitHub Project*
 
 
 
