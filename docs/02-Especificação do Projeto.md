@@ -1,6 +1,5 @@
 # Especificações do Projeto
-
-
+A definição do problema foi consolidada por meio de pesquisas na internet acerca de imigrantes e refugiados que estão no Brasil, ou pretendem imigrar, possibilitando a criação das pessoas e histórias de usuários.
 
 ## Personas
 
