@@ -19,7 +19,7 @@ A definição do problema foi consolidada por meio de pesquisas na internet acer
 |Idade:|38|
 |Origem | Refugiado da Venezuela |
 |Sobre:| Deixou a Venezuela devido à crise econômica e falta de segurança e instabilidade do país, e veio para o Brasil à procura de oportunidades de trabalho na área da sua formação, engenharia mecânica, e dar uma melhor educação para seus filhos.|
-|Motivações: |Melhores oportunidades de emprego, e proporcionar uma vida boa para a sua família. |
+|Motivações: |Encontar um emprego em sua área de formação, e proporcionar uma vida boa para a sua família. |
 |História:|Santiago é pai de 3 filhos. Atualmente atua como motoboy, e buscou refúgio no Brasil sonhando em conseguir um trabalho em sua área de formação, e suporte para educação de seus filhos.|
 |Necessidades:|Validação de diploma universitário.|
 
