@@ -1,7 +1,7 @@
 # Introdução
 
 No Brasil, a imigração ocorre desde o seu descobrimento até os dias atuais. Entre os séculos XVI e XIX os portugueses adentraram o território brasileiro, assim sendo os primeiros imigrantes do Brasil. Após esse primeiro período, em meados dos séculos XIX e XX, ocorreu a abertura dos portos às nações estrangeiras, ou seja, novos povos entraram em território brasileiro, principalmente os povos Europeus que se espalharam ao redor do País.
-Durante a segunda guerra mundial milhares de pessoas em todo mundo foram forçadas a sair de seus países em busca de refúgio, zelando pela própria vida. A partir desse momento vários países se depararam com um grande fluxo migratório, e foi necessário desenvolver leis que assegurassem direitos aos refugiados, para que os mesmos, não sofressem abusos ou qualquer tipo de negligência. Já em tempos atuais o maior volume de imigrantes vem da Venezuela, esse fluxo imigratório se dá por conta de uma forte crise econômica na Venezuela e entre os períodos de 2015 e 2019 o Brasil recebeu mais de 170 mil solicitações de refúgio.
+Durante a segunda guerra mundial milhares de pessoas em todo mundo foram forçadas a sair de seus países em busca de refúgio, zelando pela própria vida.Já em tempos atuais o maior número de imigrantes vem da Venezuela e do continente Africano. Entre os períodos de 2015 e 2019 o Brasil recebeu mais de 170 mil solicitações de refúgio.Esse fluxo imigrátorio se dá por conta de uma grande crise econômica que o país enfrenta, e muitos chegam em situação de vulnerabilidade social e econômica, com pouca qualificação profissional, além de não saber falar o idioma local.
 
 
 ## Problema
