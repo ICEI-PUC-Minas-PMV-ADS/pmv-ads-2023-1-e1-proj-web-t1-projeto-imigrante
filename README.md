@@ -6,7 +6,7 @@
 
 `Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-  `Primeiro período `
+  `Primeiro Semestre `
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
