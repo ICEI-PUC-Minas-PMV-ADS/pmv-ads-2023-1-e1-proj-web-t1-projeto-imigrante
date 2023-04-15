@@ -31,10 +31,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                    |PARA ... `MOTIVO/VALOR`                                               |
 |--------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------- |
-|Niara Lopes         |Como imigrante quero encontrar informações de como tirar a carteira de estrangeiro.  | Para que eu possa me regularizar no país.                 |    
-|Niara Lopes         |Como imigrante quero poder acessar o conteúdo em um idioma do qual eu tenho fluência, como o inglês. | Conseguir acessar e entender as informações. |
-|Santiago González   |Como refugiado necessito me informar de todo o processo para validar meu diploma universitário no Brasil. | Conseguir um emprego melhor, dentro da minha área.           |
-|Santiago González   |Como refugiado quero poder comentar nas publicações, e ler relatos sobre situações parecidas com a minha.       | Interagir e tirar dúvidas com pessoas que passam pela mesma situação. |
+|Niara Lopes         |Como imigrante quero encontrar informações de como tirar a carteira de estrangeiro.  | Para que eu possa me regularizar no país.| 
+|Niara Lopes         |Como imigrante quero poder acessar o conteúdo em um idioma do qual eu tenho fluência, como o inglês. | Conseguir acessar e entender as informações.|
+|Niara Lopes         |Como imigrante quero um botão de doação para que possa ajudar imigrantes e refugiados  | Para ajudar as ongs que me ajudaram.|
+
+|Santiago González   |Como refugiado quero poder escutar os textos do site       | Para que me ajude na compreensão e facilite a navegação.|
+|Santiago González   |Como refugiado quero poder cadastrar meu currículo         | Para poder achar um emprego. |
+|Santiago González   |Como refugiado quero me cadastrar no site                  | Para poder receber notícias  |   
 
 
 ## Requisitos
