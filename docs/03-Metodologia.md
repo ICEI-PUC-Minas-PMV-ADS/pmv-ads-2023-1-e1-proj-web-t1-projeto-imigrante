@@ -8,13 +8,13 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-|Ambiente| Plataforma                       |Links de Acesso                                     |
+|Ambiente               | Plataforma                       |Links de Acesso              |
 |--------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------- |
-|Repositório de código fonte      |GitHub  | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante           |
-|Documentos do projeto   |Google Docs| https://docs.google.com/document/d/1nbzajftkpqVVF9J-lLGfIkXE8_k9pDqo/edit |
-|Gerenciamento do Projeto |GitHub Project | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/349 |
-|Projeto de Interface e  Wireframes |Canvas e Figma  |https://www.figma.com/file/vMgPjokx8237Lb2JlRO3rg/Projeto-Imigrante---Home-page?node-id=0-1&t=VgL0np69OjXWuuye-0 - https://www.canva.com/design/DAFf6MQGk80/4FP6hEJOZjMuSF0n0Z82fA/edit?utm_content=DAFf6MQGk80&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton |
-|Comunicação  e reuniões |Microsoft Teams e Discord | https://teams.microsoft.com/_#/school/conversations/Grupo%202%20-%20Imigrantes?threadId=19:3336090c411944cea103fd58cfb6bd16@thread.tacv2&ctx=channel - https://discord.com/channels/1080497334154166423/1080497334640721993 |
+|Repositório de código fonte      |GitHub  | [Repositório](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante)          |
+|Documentos do projeto   |Google Docs|[Google Docs]( https://docs.google.com/document/d/1nbzajftkpqVVF9J-lLGfIkXE8_k9pDqo/edit) |
+|Gerenciamento do Projeto |GitHub Project |[GitHub Project]( https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/349) |
+|Projeto de Interface e  Wireframes |Canvas e Figma  |[Figma](https://www.figma.com/file/vMgPjokx8237Lb2JlRO3rg/Projeto-Imigrante---Home-page?node-id=0-1&t=VgL0np69OjXWuuye-0) -  [Canva]( https://www.canva.com/design/DAFfUhRQzJM/slz_UaO9ao0CTZFsXiB_Bg/edit?analyticsCorrelationId=982b0837-b935-4070-9337-4f9de4c075ed)|
+|Comunicação  e reuniões |Microsoft Teams e Discord | [Teams](https://teams.microsoft.com/_#/school/conversations/Grupo%202%20-%20Imigrantes?threadId=19:3336090c411944cea103fd58cfb6bd16@thread.tacv2&ctx=channel) [Discord]( https://discord.com/channels/1080497334154166423/1080497334640721993) |
 
 
 ## Controle de Versão
