@@ -14,7 +14,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Documentos do projeto   |Google Docs|[Google Docs]( https://docs.google.com/document/d/1nbzajftkpqVVF9J-lLGfIkXE8_k9pDqo/edit) |
 |Gerenciamento do Projeto |GitHub Project |[GitHub Project]( https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/349) |
 |Projeto de Interface e  Wireframes |Canvas e Figma  |[Figma](https://www.figma.com/file/vMgPjokx8237Lb2JlRO3rg/Projeto-Imigrante---Home-page?node-id=0-1&t=VgL0np69OjXWuuye-0) -  [Canva]( https://www.canva.com/design/DAFfUhRQzJM/slz_UaO9ao0CTZFsXiB_Bg/edit?analyticsCorrelationId=982b0837-b935-4070-9337-4f9de4c075ed)|
-|Comunicação  e reuniões |Microsoft Teams e Discord | [Teams](https://teams.microsoft.com/_#/school/conversations/Grupo%202%20-%20Imigrantes?threadId=19:3336090c411944cea103fd58cfb6bd16@thread.tacv2&ctx=channel) [Discord]( https://discord.com/channels/1080497334154166423/1080497334640721993) |
+|Comunicação  e reuniões |Microsoft Teams e Discord | [Teams](https://teams.microsoft.com/_#/school/conversations/Grupo%202%20-%20Imigrantes?threadId=19:3336090c411944cea103fd58cfb6bd16@thread.tacv2&ctx=channel) - [Discord]( https://discord.com/channels/1080497334154166423/1080497334640721993) |
 
 
 ## Controle de Versão
