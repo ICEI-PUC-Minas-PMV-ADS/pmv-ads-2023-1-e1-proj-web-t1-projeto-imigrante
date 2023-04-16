@@ -18,11 +18,19 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 - Conteúdo -  Apresentará, para cada tela, seu conteúdo personalizado;
 - Rodapé -  Contém informações sobre direitos autorais, newsletter e social media.
 
-
 ![estrutua-padrao](https://user-images.githubusercontent.com/93337008/232315869-01305876-2750-4d61-9b16-63a0b154256b.PNG)
 *Figura 3 - Estrutura padrão do site*
 
 ### Tela- Home-Page
+A tela home page mostra informações para auxiliar imigrantes e refugiados.
+Com base na estrutura padrão, o bloco cabeçalho possui 3 elementos distintos:
+- Componente de doação permite doar um valor definido pelo usuário, ajudando institutos de imigrantes e refugiados;
+- O componente de transcrição de áudio auxilia pessoas com deficiência visual, ou ainda não fluentes em português, ajudando na compreensão de textos e navegação no site.
+- O componente de tradução proporcionará a tradução do site em inglês e espanhol, facilitando o entendimento do usuário para obter as informações que necessita.
+
+O bloco conteúdo mostra todas as informações (imagem e título) necessárias que um imigrante ou refugiado precisa saber ao chegar no Brasil, facilitando o acesso a serviços básicos, dicas de integração cultural, oportunidades de trabalho e educaçinformações.
+
+E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para receber mais informações e novidades.
 
 ![image](https://user-images.githubusercontent.com/93337008/232316113-1e9db7f4-17ef-4202-ac0c-9b87dbc94639.png)
 *Figura 4 - Tela inicial com todas as informações*
