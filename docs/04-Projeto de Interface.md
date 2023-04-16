@@ -18,3 +18,24 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 - Conteúdo -  Apresentará, para cada tela, seu conteúdo personalizado;
 - Rodapé -  Contém informações sobre direitos autorais, newsletter e social media.
 
+
+![estrutua-padrao](https://user-images.githubusercontent.com/93337008/232315869-01305876-2750-4d61-9b16-63a0b154256b.PNG)
+*Figura 3 - Estrutura padrão do site*
+
+### Tela- Home-Page
+
+![image](https://user-images.githubusercontent.com/93337008/232316113-1e9db7f4-17ef-4202-ac0c-9b87dbc94639.png)
+*Figura 4 - Tela inicial com todas as informações*
+
+
+### Tela- Leitura da informação
+![image](https://user-images.githubusercontent.com/93337008/232316326-ee3bf00e-e95c-43ac-a22b-1fab1e9f90b6.png)
+*Figura 4 - Tela de Leitura da informação*
+
+### Tela- Envio currículo
+![image](https://user-images.githubusercontent.com/93337008/232316513-fbec0cc7-b0d9-4e67-8e1f-9fe52b6a51ea.png)
+*Figura 4 - Tela para enviar o currículo*
+
+
+
+
