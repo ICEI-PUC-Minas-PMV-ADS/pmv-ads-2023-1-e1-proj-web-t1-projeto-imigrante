@@ -30,11 +30,11 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 ### Tela- Leitura da informação
 ![image](https://user-images.githubusercontent.com/93337008/232316326-ee3bf00e-e95c-43ac-a22b-1fab1e9f90b6.png)
-*Figura 4 - Tela de Leitura da informação*
+*Figura 5 - Tela de Leitura da informação*
 
 ### Tela- Envio currículo
 ![image](https://user-images.githubusercontent.com/93337008/232316513-fbec0cc7-b0d9-4e67-8e1f-9fe52b6a51ea.png)
-*Figura 4 - Tela para enviar o currículo*
+*Figura 6 - Tela para enviar o currículo*
 
 
 
