@@ -41,7 +41,7 @@ E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para re
 *Figura 5 - Tela de Leitura da informação*
 
 ### Tela- Envio currículo
-![image](https://user-images.githubusercontent.com/93337008/232544007-a996f77b-1453-4c5b-929e-ead8c5adc4ff.png)
+![image](https://user-images.githubusercontent.com/93337008/232571825-c12871e3-becc-46c1-9057-7fe721900e32.png)
 *Figura 6 - Tela para enviar o currículo*
 
 ### Tela Doação - Selecionar valor e forma pagamento
