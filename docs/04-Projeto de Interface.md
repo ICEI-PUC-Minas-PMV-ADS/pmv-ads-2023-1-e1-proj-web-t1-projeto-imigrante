@@ -28,7 +28,7 @@ Com base na estrutura padrão, o bloco cabeçalho possui 3 elementos distintos:
 - O componente de transcrição de áudio auxilia pessoas com deficiência visual, ou ainda não fluentes em português, ajudando na compreensão de textos e navegação no site.
 - O componente de tradução proporcionará a tradução do site em inglês e espanhol, facilitando o entendimento do usuário para obter as informações que necessita.
 
-O bloco conteúdo mostra todas as informações (imagem e título) necessárias que um imigrante ou refugiado precisa saber ao chegar no Brasil, facilitando o acesso a serviços básicos, dicas de integração cultural, oportunidades de trabalho e educaçinformações.
+O bloco conteúdo mostra todas as informações (imagem e título) necessárias que um imigrante ou refugiado precisa saber ao chegar no Brasil, facilitando o acesso a serviços básicos, dicas de integração cultural, oportunidades de trabalho e educação.
 
 E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para receber mais informações e novidades.
 
