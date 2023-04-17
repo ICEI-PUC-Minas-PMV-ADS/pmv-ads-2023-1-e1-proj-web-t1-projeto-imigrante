@@ -45,8 +45,7 @@ E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para re
 *Figura 6 - Tela sobre dicas de mercado de trabalho e para envio de currículo*
 
 ### Tela Doação - Selecionar valor e forma pagamento
-
-![image](https://user-images.githubusercontent.com/93337008/232529636-493b6a72-fb69-465b-a4a4-822e4fa82b7e.png)
+![image](https://user-images.githubusercontent.com/93337008/232597269-29221400-4197-4888-9584-fe62663cde9f.png)
 *Figura 7 - Tela de doação para selecionar valor e forma de pagamento*
 
 ### Tela Doação- Informações pessoais
