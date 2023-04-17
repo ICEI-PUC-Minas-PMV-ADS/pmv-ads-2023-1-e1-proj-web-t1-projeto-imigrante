@@ -61,8 +61,7 @@ E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para re
 ![image](https://user-images.githubusercontent.com/93337008/232533240-98a7a3f3-5dc0-450b-ab59-72a3543b9e66.png)
 *Figura 10 - Tela de doação para realizar pagamento com cartão de crédito*
 
-### Tela Doação- Dados pagamento boleto
-![image](https://user-images.githubusercontent.com/93337008/232544392-5130b01e-ac91-4568-a675-bbd007b5e238.png)
+### Tela Doação- Dados pagamento boleto![image](https://user-images.githubusercontent.com/93337008/232556397-f48c5063-127b-42ff-bf67-550354c8062a.png)
 *Figura 11 - Tela de doação para realizar pagamento com boleto*
 
 
