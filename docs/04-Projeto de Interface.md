@@ -41,6 +41,7 @@ E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para re
 *Figura 5 - Tela de Leitura da informação*
 
 ### Tela- Envio currículo
+(nessa tela o usuário tem a opcao de enviar o seu currículo para receber dicas de como formata-lo, e caso nao tenha um currículo, recebera ajuda para criar um)
 ![image](https://user-images.githubusercontent.com/93337008/232530999-6fd9445e-d5ce-481c-b224-3426973db74e.png)
 *Figura 6 - Tela para enviar o currículo*
 
