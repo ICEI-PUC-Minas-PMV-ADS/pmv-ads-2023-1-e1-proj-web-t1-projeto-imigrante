@@ -42,7 +42,7 @@ E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para re
 
 ### Tela- Envio currículo
 ![image](https://user-images.githubusercontent.com/93337008/232571825-c12871e3-becc-46c1-9057-7fe721900e32.png)
-*Figura 6 - Tela para enviar o currículo*
+*Figura 6 - Tela sobre dicas de mercado de trabalho e para envio de currículo*
 
 ### Tela Doação - Selecionar valor e forma pagamento
 
