@@ -41,8 +41,7 @@ E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para re
 *Figura 5 - Tela de Leitura da informação*
 
 ### Tela- Envio currículo
-(nessa tela o usuário tem a opcao de enviar o seu currículo para receber dicas de como formata-lo, e caso nao tenha um currículo, recebera ajuda para criar um)
-![image](https://user-images.githubusercontent.com/93337008/232530999-6fd9445e-d5ce-481c-b224-3426973db74e.png)
+![image](https://user-images.githubusercontent.com/93337008/232544007-a996f77b-1453-4c5b-929e-ead8c5adc4ff.png)
 *Figura 6 - Tela para enviar o currículo*
 
 ### Tela Doação - Selecionar valor e forma pagamento
@@ -63,6 +62,7 @@ E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para re
 *Figura 10 - Tela de doação para realizar pagamento com cartão de crédito*
 
 ### Tela Doação- Dados pagamento boleto
+![image](https://user-images.githubusercontent.com/93337008/232544392-5130b01e-ac91-4568-a675-bbd007b5e238.png)
 *Figura 11 - Tela de doação para realizar pagamento com boleto*
 
 
