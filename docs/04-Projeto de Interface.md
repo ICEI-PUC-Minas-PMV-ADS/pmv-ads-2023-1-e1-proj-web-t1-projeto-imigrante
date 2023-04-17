@@ -37,12 +37,38 @@ E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para re
 
 
 ### Tela- Leitura da informação
-![image](https://user-images.githubusercontent.com/93337008/232316326-ee3bf00e-e95c-43ac-a22b-1fab1e9f90b6.png)
+![image](https://user-images.githubusercontent.com/93337008/232530638-a7a08afc-4bb7-4cc1-970c-b353c5f5040b.png)
 *Figura 5 - Tela de Leitura da informação*
 
 ### Tela- Envio currículo
-![image](https://user-images.githubusercontent.com/93337008/232316513-fbec0cc7-b0d9-4e67-8e1f-9fe52b6a51ea.png)
+![image](https://user-images.githubusercontent.com/93337008/232530999-6fd9445e-d5ce-481c-b224-3426973db74e.png)
 *Figura 6 - Tela para enviar o currículo*
+
+### Tela Doação - Selecionar valor e forma pagamento
+
+![image](https://user-images.githubusercontent.com/93337008/232529636-493b6a72-fb69-465b-a4a4-822e4fa82b7e.png)
+*Figura 7 - Tela de doação para selecionar valor e forma de pagamento*
+
+### Tela Doação- Informações pessoais
+![image](https://user-images.githubusercontent.com/93337008/232531674-e4b8217e-d0b1-4df4-a4af-0cfb8625a7cc.png)
+*Figura 8 - Tela de doação para preencher dados pessoais*
+
+### Tela Doação- Dados pagamento Pix
+![image](https://user-images.githubusercontent.com/93337008/232532624-ebf78f1b-5531-42c2-ac8a-fadb62a3b2f2.png)
+*Figura 9 - Tela de doação para realizar pagamento com pix*
+
+### Tela Doação- Dados pagamento cartão de crédito
+![image](https://user-images.githubusercontent.com/93337008/232533240-98a7a3f3-5dc0-450b-ab59-72a3543b9e66.png)
+*Figura 10 - Tela de doação para realizar pagamento com cartão de crédito*
+
+### Tela Doação- Dados pagamento boleto
+*Figura 11 - Tela de doação para realizar pagamento com boleto*
+
+
+### Tela Doação- Finalização do pagamento
+![image](https://user-images.githubusercontent.com/93337008/232534155-0614762f-7237-41e9-99be-486ee12f67b6.png)
+*Figura 11 - Tela de doação com a mensagem de pagamento finalizado*
+
 
 
 
