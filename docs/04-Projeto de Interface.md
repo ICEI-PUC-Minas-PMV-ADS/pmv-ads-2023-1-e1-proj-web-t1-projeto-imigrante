@@ -76,7 +76,7 @@ O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home
 
 O bloco rodapé apresenta os mesmos elementos da home-page.
 
-![image](https://user-images.githubusercontent.com/93337008/232531674-e4b8217e-d0b1-4df4-a4af-0cfb8625a7cc.png)
+![image](https://user-images.githubusercontent.com/93337008/232890016-0aefb4e7-a73d-4a3f-a6c2-0e8f72be3a5e.png)
 *Figura 8 - Tela de doação para preencher dados pessoais*
 
 ### Tela Doação- Dados pagamento Pix
