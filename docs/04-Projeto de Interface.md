@@ -100,7 +100,7 @@ Selecionado o pagamento via boleto bancário, o usuário será redirecionado par
 O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação). 
 O bloco rodapé apresenta os mesmos elementos da home-page.
 
-[image](https://user-images.githubusercontent.com/93337008/232556397-f48c5063-127b-42ff-bf67-550354c8062a.png)
+![image](https://user-images.githubusercontent.com/93337008/232891593-77a0b1dc-cf8e-4a54-98b7-ace5b4b7d955.png)
 *Figura 11 - Tela de doação para realizar pagamento com boleto*
 
 
@@ -110,7 +110,7 @@ O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home
 O bloco rodapé apresenta os mesmos elementos da home-page.
 
 ![image](https://user-images.githubusercontent.com/93337008/232534155-0614762f-7237-41e9-99be-486ee12f67b6.png)
-*Figura 11 - Tela de doação com a mensagem de pagamento finalizado*
+*Figura 12 - Tela de doação com a mensagem de pagamento finalizado*
 
 
 
