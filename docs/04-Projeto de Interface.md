@@ -80,18 +80,35 @@ O bloco rodapé apresenta os mesmos elementos da home-page.
 *Figura 8 - Tela de doação para preencher dados pessoais*
 
 ### Tela Doação- Dados pagamento Pix
+A tela de pagamento PIX apresenta, no bloco conteúdo, três campos para preencher com nome, cpf e email e o QR CODE para efetuar o pagamento.
+O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação). 
+O bloco rodapé apresenta os mesmos elementos da home-page.
+
 ![image](https://user-images.githubusercontent.com/93337008/232532624-ebf78f1b-5531-42c2-ac8a-fadb62a3b2f2.png)
 *Figura 9 - Tela de doação para realizar pagamento com pix*
 
 ### Tela Doação- Dados pagamento cartão de crédito
+Se o usuário escolher a forma de pagamento via cartão de crédito, será redirecionado a tela de pagamento onde terá os campos para preencher os seus dados bancários como bandeira do cartão, número do cartão, nome do titular, validade do cartão e CVV. Após preenchidos todos os campos, o usuário poderá clicar no botão “pagar”.
+O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação). 
+O bloco rodapé apresenta os mesmos elementos da home-page.
+
 ![image](https://user-images.githubusercontent.com/93337008/232533240-98a7a3f3-5dc0-450b-ab59-72a3543b9e66.png)
 *Figura 10 - Tela de doação para realizar pagamento com cartão de crédito*
 
-### Tela Doação- Dados pagamento boleto![image](https://user-images.githubusercontent.com/93337008/232556397-f48c5063-127b-42ff-bf67-550354c8062a.png)
+### Tela Doação- Dados pagamento boleto
+Selecionado o pagamento via boleto bancário, o usuário será redirecionado para a tela que apresentará campos para preencher com nome, email e cpf/cnpj. Ao lado aparecerá o valor do boleto e o código de barras. Ao finalizar os dados o usuário receberá um link via email para visualização do boleto.
+O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação). 
+O bloco rodapé apresenta os mesmos elementos da home-page.
+
+[image](https://user-images.githubusercontent.com/93337008/232556397-f48c5063-127b-42ff-bf67-550354c8062a.png)
 *Figura 11 - Tela de doação para realizar pagamento com boleto*
 
 
 ### Tela Doação- Finalização do pagamento
+Após cumprir todos os passos para o pagamento, o usuário será redirecionado para a página de finalização do pagamento onde aparecerá no bloco conteúdo uma mensagem com a verificação do pagamento, sinalizando que o pagamento foi confirmado e/ou o boleto foi gerado com sucesso.
+O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação). 
+O bloco rodapé apresenta os mesmos elementos da home-page.
+
 ![image](https://user-images.githubusercontent.com/93337008/232534155-0614762f-7237-41e9-99be-486ee12f67b6.png)
 *Figura 11 - Tela de doação com a mensagem de pagamento finalizado*
 
