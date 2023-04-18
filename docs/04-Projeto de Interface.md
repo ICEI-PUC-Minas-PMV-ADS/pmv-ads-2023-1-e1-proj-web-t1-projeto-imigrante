@@ -40,7 +40,8 @@ E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para re
 A tela de leitura da informação contará com um título com uma imagem de fundo. 
 Abaixo do título, contará com um texto informativo relacionado ao título e em cada tela de informação terá um card de comentário abaixo do texto, onde irão conter os comentários das pessoas e um bloco para deixar seu comentário. Após redigir o comentário, o usuário deverá clicar no botão “comentar” para postar o comentário. O usuário também poderá responder outro comentário clicando no botão “responder” a frente de cada comentário.
 
-O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação). 
+O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação).
+
 O bloco rodapé apresenta os mesmos elementos da home-page.
 
 ![image](https://user-images.githubusercontent.com/93337008/232530638-a7a08afc-4bb7-4cc1-970c-b353c5f5040b.png)
@@ -50,6 +51,7 @@ O bloco rodapé apresenta os mesmos elementos da home-page.
 A tela de envio do currículo se encontrará na tela de leitura da informação “mercado de trabalho”, onde o usuário conseguirá enviar o seu currículo e postar. O usuário também poderá acessar a parte de dicas onde conseguirá encontrar ajuda para formular o currículo. Caso o usuário não tenha curriculo, basta enviar o nome e o email que alguém entrará em contato para auxiliar na criação do currículo.
 
 O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação). 
+
 O bloco rodapé apresenta os mesmos elementos da home-page.
 
 ![image](https://user-images.githubusercontent.com/93337008/232571825-c12871e3-becc-46c1-9057-7fe721900e32.png)
@@ -61,6 +63,7 @@ Abaixo dos valores, terá um aviso ressaltando que o valor da doação é destin
 Após selecionar a forma de pagamento e o valor, o usuário poderá clicar no botão “Próximo” para dar seguimento ao pagamento.
 
 O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação). 
+
 O bloco rodapé apresenta os mesmos elementos da home-page.
 
 ![image](https://user-images.githubusercontent.com/93337008/232597269-29221400-4197-4888-9584-fe62663cde9f.png)
@@ -70,6 +73,7 @@ O bloco rodapé apresenta os mesmos elementos da home-page.
 Selecionada a forma de pagamento e o valor a ser doado, o usuário será redirecionado para a tela de informações pessoais, onde irá inserir seus dados (nome, email, cidade e estado). O usuário deve preencher todos os campos com seus dados para avançar para a página de efetuação do pagamento.
 
 O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação). 
+
 O bloco rodapé apresenta os mesmos elementos da home-page.
 
 ![image](https://user-images.githubusercontent.com/93337008/232531674-e4b8217e-d0b1-4df4-a4af-0cfb8625a7cc.png)
