@@ -7,7 +7,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 ## User Flow
 O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente Canva do projeto](https://www.canva.com/design/DAFfUhRQzJM/slz_UaO9ao0CTZFsXiB_Bg/edit?analyticsCorrelationId=982b0837-b935-4070-9337-4f9de4c075ed).
 
-![image](https://user-images.githubusercontent.com/93337008/232893494-b9c78082-6062-4bc7-8587-530ed37c1349.png)
+![image](https://user-images.githubusercontent.com/93337008/233127906-6ef36de6-a77a-47e9-95e9-45b583208c7f.png)
 *Figura 2 - Fluxo de telas do usuário*
 
 
