@@ -84,7 +84,7 @@ A tela de pagamento PIX apresenta, no bloco conteúdo, três campos para preench
 O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação). 
 O bloco rodapé apresenta os mesmos elementos da home-page.
 
-![image](https://user-images.githubusercontent.com/93337008/232532624-ebf78f1b-5531-42c2-ac8a-fadb62a3b2f2.png)
+![image](https://user-images.githubusercontent.com/93337008/232934994-679ddafb-b772-4cd0-a989-72ff033e1d59.png)
 *Figura 9 - Tela de doação para realizar pagamento com pix*
 
 ### Tela Doação- Dados pagamento cartão de crédito
