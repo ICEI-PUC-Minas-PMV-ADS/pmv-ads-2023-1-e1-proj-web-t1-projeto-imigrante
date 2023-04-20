@@ -38,7 +38,7 @@ E o bloco rodapé permite que o usuário se cadastre na nossa newsletter para re
 
 ### Tela- Leitura da informação
 A tela de leitura da informação contará com um título com uma imagem de fundo. 
-Abaixo do título, contará com um texto informativo relacionado ao título e em cada tela de informação terá um card de comentário abaixo do texto, onde irão conter os comentários das pessoas e um bloco para deixar seu comentário, e cada comentário acompanhará o nome e sobrenome da pessoa, e uma um ícone de avatar do usuário sem foto. Após redigir o comentário, o usuário deverá clicar no botão “comentar” para postar o comentário. O usuário também poderá responder outro comentário clicando no botão “responder” a frente de cada comentário.
+Abaixo do título, contará com um texto informativo relacionado ao título e em cada tela de informação terá um card de comentário abaixo do texto, onde irão conter os comentários das pessoas e um bloco para deixar seu comentário, e cada um acompanhará o nome e sobrenome da pessoa, e um um ícone avatar do usuário sem foto. Após redigir o comentário, o usuário deverá clicar no botão “comentar” para postar o comentário. O usuário também poderá responder outro comentário clicando no botão “responder” a frente de cada comentário.
 
 O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação).
 
