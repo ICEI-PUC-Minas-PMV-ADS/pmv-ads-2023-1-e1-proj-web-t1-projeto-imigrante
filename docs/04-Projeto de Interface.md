@@ -16,7 +16,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 - **Cabeçalho**- Local onde são dispostos elementos fixos de identidade como o logo, e a navegação principal do site (menu da aplicação); 
 - **Conteúdo**-  Apresentará, para cada tela, seu conteúdo personalizado;
-- Rodapé -  Contém informações sobre direitos autorais, newsletter e social media.
+- **Rodapé** -  Contém informações sobre direitos autorais, newsletter e social media.
 
 ![estrutua-padrao](https://user-images.githubusercontent.com/93337008/232315869-01305876-2750-4d61-9b16-63a0b154256b.PNG)
 *Figura 3 - Estrutura padrão do site*
