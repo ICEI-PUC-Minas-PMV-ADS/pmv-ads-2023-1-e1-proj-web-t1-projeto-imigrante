@@ -1,12 +1,32 @@
 # Template padrão do site
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme Figura 13.
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+![image](https://user-images.githubusercontent.com/93337008/233437750-b0216a12-65d9-4150-b81e-ac310b3bfa54.png)
+*Figura 13 - Estrutura padrão do site*
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+O template criado está disponível no [Figma](https://www.figma.com/file/vMgPjokx8237Lb2JlRO3rg/Projeto-Imigrante---Home-page?node-id=0-1&t=mx3nI3FsPl5zauC6-0), e é composto pelos seguintes layouts: 
+	
+- **Cabeçalho**- Local onde são dispostos elementos fixos de identidade como o logo, e a navegação principal do site (menu da aplicação); 
+- **Conteúdo**-  Apresentará, para cada tela, seu conteúdo personalizado;
+- **Rodapé** -  Contém informações sobre direitos autorais, newsletter e social media.
+
+A responsividade segue o padrão do Bootstrap.
+
+### Tela- Home-Page
+
+### Tela- Leitura da informação
+
+### Tela- Envio currículo
+
+### Tela Doação - Selecionar valor e forma pagamento
+
+### Tela Doação- Informações pessoais
+
+### Tela Doação- Dados pagamento Pix
+
+### Tela Doação- Dados pagamento cartão de crédito
+
+### Tela Doação- Dados pagamento boleto
+
+### Tela Doação- Finalização do pagamento
