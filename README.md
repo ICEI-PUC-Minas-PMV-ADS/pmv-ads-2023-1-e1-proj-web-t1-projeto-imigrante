@@ -8,20 +8,21 @@
 
   `1º SEMESTRE 2023 `
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto consiste em criar uma aplicação web que facilite o acesso às informações e serviços voltados aos estrangeiros e refugiados em situação de vulnerabilidade, que já residem no Brasil ou que  buscam informações e pretendem viver aqui.
+
 
 ## Integrantes
 
-* Alissa Nishihara
-* Fernanda Bandeira
-* Igor Carvalho Ximenes
-* Lucas de Sousa
-* Maria Teresa Abreu
-* Vinícius Dias
+* [Alissa Nishihara](https://github.com/alissacn)
+* [Fernanda Bandeira](https://github.com/NandaPinheiro)
+* [Igor Carvalho Ximenes](https://github.com/igorcximenes)
+* [Lucas de Sousa](https://github.com/Lucassantos-coder)
+* [Maria Teresa Abreu](https://github.com/teresoumaria)
+* [Vinícius Dias](https://github.com/ViniciusDG)
 
 ## Orientador
 
-* Joyce Christina De Paiva
+* [Joyce Christina De Paiva](https://github.com/joycecpc)
 
 ## Instruções de utilização
 
