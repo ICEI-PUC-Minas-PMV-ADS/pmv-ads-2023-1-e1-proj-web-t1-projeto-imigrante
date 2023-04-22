@@ -48,7 +48,7 @@ O bloco rodapé apresenta os mesmos elementos da home-page.
 *Figura 5 - Tela de Leitura da informação*
 
 ### Tela- Envio currículo
-A tela de envio do currículo se encontrará na tela de leitura da informação “mercado de trabalho”, onde o usuário conseguirá enviar o seu currículo e postar. O usuário também poderá acessar a parte de dicas onde conseguirá encontrar ajuda para formular o currículo. Caso o usuário não tenha curriculo, basta enviar o nome e o email que alguém entrará em contato para auxiliar na criação do currículo.
+A tela de envio do currículo se encontrará na tela de leitura da informação “mercado de trabalho”, onde o usuário poderá encontrar informações e dicas sobre como conseguir um emprego no Brasil. O usuário terá a opcão de enviar seu currículo para que alguém possa ajudar a formata-lo, e caso não possua, contará com auxílio para a criação de um.
 
 O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação). 
 
