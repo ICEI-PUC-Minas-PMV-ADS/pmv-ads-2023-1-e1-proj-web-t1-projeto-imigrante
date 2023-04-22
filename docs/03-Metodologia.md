@@ -32,7 +32,7 @@ A equipe está organizada da seguinte maneira:
 
 ### Processo
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Project estruturado com as seguintes listas: 
-- `Backlog`: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+- `Backlog`: Recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 - `To Do`: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
 - `In Progress`: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 - `In Review`: Contém as tarefas que foram concluídas e serão checadas, de forma a se controlar a qualidade do desenvolvimento;
