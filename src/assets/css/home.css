@@ -1,3 +1,38 @@
 body {
-    font-family: "Helvetica", Sans-Serif;
-  }
+  font-family: "Helvetica", Sans-Serif;
+}
+
+/* Css Main destacados */
+.destacados-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #0035A0;
+}
+
+.title-dest{
+  color: #0035A0;
+}
+
+.dest-card {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+
+.line {
+  border-bottom: solid #D9D9D9;
+  border-bottom-width: thin;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.div-saude {
+ margin-top: 100px;
+}
+
+.img-fluid {
+  border-radius: 20px;
+  position: relative;
+  transform: scale(.9);
+  transition: all .3s ease-in-out;
+}
