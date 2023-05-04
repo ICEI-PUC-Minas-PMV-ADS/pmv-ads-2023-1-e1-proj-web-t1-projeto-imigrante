@@ -16,20 +16,22 @@ body {
   margin-top: 40px;
   margin-bottom: 40px;
   color: #0035A0;
+  text-decoration: none;
 }
 
 #h3-destacados::after {
-  content:"";
-  display:block;
+  content: "";
+  display: block;
   width: 2em;
-  max-width:60%;
+  max-width: 60%;
   border-bottom: 0.3em solid #D9D9D9;
-  margin-top:5px;
+  margin-top: 5px;
 }
 
 
-.title-dest {
+.title-dest a{
   color: #0035A0;
+  text-decoration: none;
 }
 
 .dest-card {
