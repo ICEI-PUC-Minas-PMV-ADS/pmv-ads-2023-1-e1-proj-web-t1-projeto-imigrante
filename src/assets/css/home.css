@@ -8,44 +8,68 @@ body {
     font-family: "Helvetica", Sans-Serif;
   }
 
+
+
+
+
+  /* Footer start */
   footer {
-    height: 8em;
+    height: 10em;
     width: 100vw;
     background-color: #F5F5F7;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .title-input {
-    position: relative;
+  /* Envolvendo cadastro newsletter + icons numa tag pai */
+
+  .title-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
   }
-  .title-input h4{
+
+  .title-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+  }
+
+
+  .title-input {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-text h4{
     font-size: 16px;
     margin-left: 23px;
     padding-top: 20px;
     padding-bottom: 10px;
-    width: 15%;
+    width:400px;
     font-weight: bold;
     letter-spacing: 0.5px;
+    text-align: start;
   }
-  .title-input input {
+  .title-inputs input {
     border-radius: 40px ;
     border: none;
     padding: 5px; 
     margin-left: 10px;
     margin-right: 0px;
     height: 40px;
-    width: 15%;
+    width: 300px;
     box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     
   }
 
 
   .title-input input:hover {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(243, 243, 243);
   }
 
   input::placeholder {
-    color: #bbbbbb;
+    color: #cfcfcf;
     padding-left: 10px  ;
   }
 
@@ -58,11 +82,17 @@ body {
 
 #btn:hover {
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .title-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px 0px 0px;
   text-align: center;
+
+
 }
 
 .title-end h5 {
@@ -70,16 +100,17 @@ body {
   font-weight: bold;
   letter-spacing: 0.5px;
 
-
 }
+
 
 .icons {
-  position: absolute;
-  display: inline-block;
-  display: flex;
-  left: 90%;
-  top: 160px;
+  padding-top: 3em;
 
-  gap: 30px;
-  
 }
+
+
+.icons img {
+
+  margin: 15px;
+}
+
