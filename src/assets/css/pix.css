@@ -1,0 +1,47 @@
+.container {
+    margin-top:200px;
+}
+
+
+.vr {
+    color: black;
+    margin: 2em auto 0; 
+    height: 320px;
+    margin-top: 10px;
+}
+
+.wrapper {
+    background-color: #F5F5F7;
+    width: 100%;
+    height: min-content;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 60px;
+}
+
+
+.qr-code p {
+    justify-content: center;
+}
+
+.form-group input {
+    border-radius: 60px;
+}
+
+.qr-img {
+    padding-bottom: 70px;
+}
+
+.btn {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255) !important;
+    margin-right: 100px;
+}
+
+.div-btn {
+    position: relative;
+    display: flex; 
+   justify-content: end;
+}
