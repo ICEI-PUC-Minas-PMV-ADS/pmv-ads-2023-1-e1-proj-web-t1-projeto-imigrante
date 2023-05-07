@@ -1,11 +1,11 @@
 .container {
-    margin-top:200px;
+    margin-top: 200px;
 }
 
 
 .vr {
     color: black;
-    margin: 2em auto 0; 
+    margin: 2em auto 0;
     height: 320px;
     margin-top: 10px;
 }
@@ -19,6 +19,7 @@
     border-radius: 60px;
 }
 
+
 .qr-code p {
     justify-content: center;
 }
@@ -31,8 +32,33 @@
     outline: 0;
 }
 
-.form-group.has-error input {
-    border: 1px solid red;
+#emailError {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+}
+
+#emailError input[type=text] {
+    border: 1px solid #cc0033;
+    outline: none;
+}
+
+#cpfError {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+}
+
+#usernameError {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
 }
 
 .qr-img {
@@ -44,11 +70,53 @@
     width: 100px;
     height: 40px;
     color: rgb(255, 255, 255) !important;
-    margin-right: 100px;
+    padding-right: 600px;
 }
 
 .div-btn {
-    position: relative;
-    display: flex; 
-   justify-content: end;
+    justify-content: center;
+    display: flex;
 }
+
+
+
+@media screen and  (max-width: 770px) {
+
+    div.vr {
+        display: none;
+    }
+
+    .btn {
+        margin-bottom: 0;
+    }
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 50px;
+        padding-right:70px;
+
+    }
+
+    div.qr-code {
+        margin-top: -135px;
+    }
+
+    .qr-code h3, p{
+        text-align: center;
+    }
+
+    .qr-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -100px;
+        margin-top: 30px;
+    }
+
+    div.qr-code h3 {
+        font-size:20px;
+    }
+}
+
+
