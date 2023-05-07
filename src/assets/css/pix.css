@@ -19,13 +19,20 @@
     border-radius: 60px;
 }
 
-
 .qr-code p {
     justify-content: center;
 }
 
 .form-group input {
     border-radius: 60px;
+}
+
+.form-group input:focus {
+    outline: 0;
+}
+
+.form-group.has-error input {
+    border: 1px solid red;
 }
 
 .qr-img {
