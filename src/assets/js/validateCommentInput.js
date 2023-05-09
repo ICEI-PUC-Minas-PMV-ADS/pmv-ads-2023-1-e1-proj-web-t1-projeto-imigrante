@@ -11,7 +11,12 @@ const emailIsValid = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
+    //Limpa os campos depois de enviar o formulário
+    setTimeout(function() {
+        window.location.reload();
+   },0);
 });
+
 
 
 nomeInput.addEventListener('change', (event) => {

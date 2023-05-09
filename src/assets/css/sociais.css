@@ -188,6 +188,7 @@ input::placeholder {
 }
 
 
+
 .icons {
     padding-top: 3em;
 
@@ -201,3 +202,11 @@ input::placeholder {
 }
 
 
+@media screen and  (max-width: 800px) {
+    .c-img {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        /*remove a distorçao da img*/
+    }
+}
