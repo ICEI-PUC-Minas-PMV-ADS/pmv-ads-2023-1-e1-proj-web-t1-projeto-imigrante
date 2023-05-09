@@ -6,31 +6,30 @@
 .vr {
     color: black;
     margin: 2em auto 0;
-    height: 320px;
+    height: 330px;
     margin-top: 10px;
 }
 
-.wrapper {
+.container {
     background-color: #F5F5F7;
-    width: 100%;
-    height: min-content;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 70px;
+    padding-bottom: 40px;
     border-radius: 60px;
+    margin-left: 500px;
 }
 
+
+
+.p-div{
+    color: #0035A0;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
 
 .qr-code p {
     justify-content: center;
 }
 
-.form-group input {
-    border-radius: 60px;
-}
-
-.form-group input:focus {
-    outline: 0;
-}
 
 #emailError {
     color: #cc0033;
@@ -38,11 +37,6 @@
     font-size: 12px;
     line-height: 15px;
     margin: 5px 0 0;
-}
-
-#emailError input[type=text] {
-    border: 1px solid #cc0033;
-    outline: none;
 }
 
 #cpfError {
@@ -63,6 +57,11 @@
 
 .qr-img {
     padding-bottom: 70px;
+    display: flex;
+}
+
+.qr-code h3 {
+    color: #0035A0;
 }
 
 .btn {
@@ -70,12 +69,11 @@
     width: 100px;
     height: 40px;
     color: rgb(255, 255, 255) !important;
-    padding-right: 600px;
 }
 
-.div-btn {
+ .div-btn{
+    display: flex !important;
     justify-content: center;
-    display: flex;
 }
 
 
@@ -84,10 +82,6 @@
 
     div.vr {
         display: none;
-    }
-
-    .btn {
-        margin-bottom: 0;
     }
 
     .wrapper {

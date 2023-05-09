@@ -14,7 +14,6 @@ const emailIsValid = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    form.reset();
 });
 
 
@@ -22,9 +21,9 @@ nomeInput.addEventListener('change', (event) => {
     const value = event.target.value;
     let errorMessage = '';
     // Valida o tamanho do nome
-    if (value && value.length < 3) {
+    if (value && value.length < 4) {
         errorMessage = 'Digite seu nome completo.';
-    }
+    } 
     // Mostra a mensagem 
     nomeError.innerHTML = errorMessage;
 });
@@ -46,7 +45,7 @@ cpfInput.addEventListener('change', (event) => {
     const value = event.target.value;
     let errorMessage = "";
     //Verficia se o cpf tem 11 caracteres
-    if (value.length < 11) {
+    if (value.length < 11 || value.length > 11) {
         errorMessage = "Cpf inválido.";
     } 
     cpfError.innerHTML = errorMessage;
