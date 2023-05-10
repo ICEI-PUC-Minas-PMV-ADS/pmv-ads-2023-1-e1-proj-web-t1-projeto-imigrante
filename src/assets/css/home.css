@@ -27,6 +27,7 @@ color: #fff;
 text-decoration: none;  
 }
 
+/*
 a:before {
 content: "";
 position: absolute;
@@ -40,7 +41,8 @@ visibility: hidden;
 transform: scaleX(0);
 -webkit-transition: all 0.3s ease-in-out 0s;
 transition: all 0.3s ease-in-out 0s;
-}
+} */
+
 
 a:hover:before {
 visibility: visible;

@@ -25,12 +25,30 @@
 }
 
 
-.text-container {
-    margin-right: 200px;
-    margin-left: 200px;
-    margin-top: 80px;
-    margin-bottom: 100px;
+.container {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  font: rawline;
 }
+
+
+.text-container h2 {
+    color: #0035A0;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.text-container h3 {
+font-size: 22px;
+}
+
+.text-container p {
+    font: rawline;
+    color: #555555;
+}
+
 
 .p2 {
     color: #0035A0;
@@ -38,10 +56,8 @@
 
 }
 
-.comments-section {
-    margin-right: 200px;
-    margin-left: 200px;
-}
+
+
 
 .form-control {
     background-color: #F5F5F7;
@@ -50,10 +66,13 @@
 
 
 .line {
-    border-bottom: solid #D9D9D9;
-    border-bottom-width: thin;
+    border-bottom: 1px solid #F5F5F7;
     display: block;
     margin-bottom: 40px;
+}
+
+p a {
+    text-decoration: none;
 }
 
 .p3 {
