@@ -70,7 +70,7 @@ a:hover:before {
 }
 
 .h1-text {
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 100px;
 }
 
@@ -99,6 +99,11 @@ ol,
 li {
     color: #555555;
 }
+
+.text-container h3 {
+    color: #333;
+}
+
 
 /*COMENTÁRIO*/
 
@@ -271,4 +276,13 @@ input::placeholder {
     margin: 15px;
     width: 25px;
     height: 25px;
+}
+
+
+@media screen and  (max-width: 9000px) {
+
+   .navbar-nav a {
+   text-align: center;
+  
+   }
 }
