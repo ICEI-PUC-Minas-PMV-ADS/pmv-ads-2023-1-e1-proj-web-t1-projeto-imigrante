@@ -128,7 +128,6 @@ li {
 }
 
 
-
 .p2 {
     color: #0035A0;
     margin-top: 50px;
@@ -173,7 +172,9 @@ p a {
 }
 
 
+
 /*Mensagem de erro*/
+
 #emailError {
     color: #cc0033;
     display: inline-block;
@@ -197,6 +198,7 @@ p a {
     line-height: 15px;
     margin: 5px 0 0;
 }
+
 
 
 
@@ -306,6 +308,7 @@ input::placeholder {
     height: 25px;
 
 }
+
 
 
 /*Media query para centralizar links no togller*/
