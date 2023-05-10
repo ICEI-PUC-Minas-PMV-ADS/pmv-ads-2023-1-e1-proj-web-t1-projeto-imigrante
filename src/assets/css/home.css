@@ -51,6 +51,9 @@ transform: scaleX(1);
 }
 
 
+
+
+
 /* MAIN- DESTACADOS */
 
 .destacados-title {
@@ -95,6 +98,7 @@ transform: scaleX(1);
 .img-fluid {
   border-radius: 20px;
 }
+
 
   /* Footer start */
   footer {
