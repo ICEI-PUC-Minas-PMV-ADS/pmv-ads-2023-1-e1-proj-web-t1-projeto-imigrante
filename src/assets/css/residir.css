@@ -3,6 +3,7 @@ body {
 }
 
 
+
 /* HEADER 2*/
 
 .navbar-nav a {
@@ -50,6 +51,8 @@ a:hover:before {
 /*TEXTO*/
 .c-item {
     height: 250px;
+
+
 }
 
 .c-img {
@@ -71,7 +74,9 @@ a:hover:before {
 
 .h1-text {
 
+
     font-size: 25px;
+
 
     margin-top: 100px;
 }
@@ -89,16 +94,19 @@ a:hover:before {
     color: #0035A0;
     margin-bottom: 30px;
 
+
     font-size: 33px;
 
 
     font-size: 33px;
+
 
 }
 
 .text-container h3 {
     font-size: 22px;
 }
+
 
 .text-container p,
 ul,
@@ -114,11 +122,19 @@ li {
 
 /*COMENTÁRIO*/
 
+.text-container p {
+    font: rawline;
+    color: #555555;
+}
+
+
+
 .p2 {
     color: #0035A0;
     margin-top: 50px;
 
 }
+
 
 
 .form-control {
@@ -128,8 +144,10 @@ li {
 
 
 .line {
+
     border-bottom: solid #D9D9D9;
     border-bottom-width: thin;
+    border-bottom: 1px solid #F5F5F7;
     display: block;
     margin-bottom: 40px;
 }
@@ -138,6 +156,7 @@ p a {
     text-decoration: none;
     color: #0035A0 !important;
 }
+
 
 
 .p3 {
@@ -180,7 +199,9 @@ p a {
 }
 
 
+
 /*FOOTER*/
+
 footer {
     height: 10em;
     width: 100vw;
@@ -283,6 +304,7 @@ input::placeholder {
     margin: 15px;
     width: 25px;
     height: 25px;
+
 }
 
 
@@ -292,4 +314,5 @@ input::placeholder {
         text-align: center;
 
     }
+
 }

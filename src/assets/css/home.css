@@ -62,6 +62,8 @@ a:hover:before {
 }
 
 
+=======
+
 /* MAIN- DESTACADOS */
 
 .destacados-title {
@@ -72,6 +74,7 @@ a:hover:before {
 }
 
 
+
 #h3-destacados::after {
   content: "";
   display: block;
@@ -80,6 +83,7 @@ a:hover:before {
   border-bottom: 0.3em solid #D9D9D9;
   margin-top: 5px;
 }
+
 
 
 
@@ -131,9 +135,37 @@ a:hover:before {
   margin-bottom: 40px;
 }
 
+
 .div-saude {
   margin-top: 40px;
 }
+
+  .title-input {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-text h4{
+    font-size: 14px;
+    margin-left: 23px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width:400px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: start;
+  }
+  .title-inputs input {
+    border-radius: 40px ;
+    border: none;
+    padding: 5px; 
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 40px;
+    width: 300px;
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
+  }
+
 
 .img-fluid {
   border-radius: 20px;

@@ -1,3 +1,4 @@
+
 body {
     letter-spacing: normal;
 }
@@ -846,6 +847,7 @@ input::placeholder {
 
 
 
+
 /*Media query para centralizar links no togller*/
 @media screen and (max-width: 9000px) {
     .navbar-nav a {
@@ -853,4 +855,5 @@ input::placeholder {
 
     }
 }
+
 
