@@ -1,0 +1,116 @@
+.container {
+    margin-top: 200px;
+}
+
+
+.vr {
+    color: black;
+    margin: 2em auto 0;
+    height: 330px;
+    margin-top: 10px;
+}
+
+.container {
+    background-color: #F5F5F7;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    border-radius: 60px;
+    margin-left: 500px;
+}
+
+
+
+.p-div{
+    color: #0035A0;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.qr-code p {
+    justify-content: center;
+}
+
+
+#emailError {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+}
+
+#cpfError {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+}
+
+#usernameError {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+}
+
+.qr-img {
+    padding-bottom: 70px;
+    display: flex;
+}
+
+.qr-code h3 {
+    color: #0035A0;
+}
+
+.btn {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255) !important;
+}
+
+ .div-btn{
+    display: flex !important;
+    justify-content: center;
+}
+
+
+
+@media screen and  (max-width: 770px) {
+
+    div.vr {
+        display: none;
+    }
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 50px;
+        padding-right:70px;
+
+    }
+
+    div.qr-code {
+        margin-top: -135px;
+    }
+
+    .qr-code h3, p{
+        text-align: center;
+    }
+
+    .qr-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -100px;
+        margin-top: 30px;
+    }
+
+    div.qr-code h3 {
+        font-size:20px;
+    }
+}
+
+
