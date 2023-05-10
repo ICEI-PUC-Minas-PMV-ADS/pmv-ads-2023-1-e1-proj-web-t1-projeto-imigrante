@@ -1,3 +1,4 @@
+
 body {
     letter-spacing: normal;
 }
@@ -70,9 +71,12 @@ a:hover:before {
 }
 
 .h1-text {
+
     font-size: 25px;
+
     margin-top: 100px;
 }
+
 
 
 .container {
@@ -107,10 +111,25 @@ li {
 
 /*COMENTÁRIO*/
 
+
+.text-container {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+
 .p2 {
     color: #0035A0;
     margin-top: 50px;
 
+}
+
+
+.comments-section {
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 
@@ -127,6 +146,7 @@ li {
     margin-bottom: 40px;
 }
 
+
 p a {
     text-decoration: none;
     color: #0035A0 !important;
@@ -135,6 +155,7 @@ p a {
 
 .p3 {
     color: #0035A0;
+
 }
 
 .btn {
@@ -147,7 +168,9 @@ p a {
 }
 
 
+
 /*Mensagem de erro*/
+
 #emailError {
     color: #cc0033;
     display: inline-block;
@@ -173,7 +196,10 @@ p a {
 }
 
 
+
 /*FOOTER*/
+
+
 footer {
     height: 10em;
     width: 100vw;
@@ -279,10 +305,12 @@ input::placeholder {
 }
 
 
+
 /*Media query para centralizar links no togller*/
 @media screen and (max-width: 9000px) {
     .navbar-nav a {
         text-align: center;
+
 
     }
 }

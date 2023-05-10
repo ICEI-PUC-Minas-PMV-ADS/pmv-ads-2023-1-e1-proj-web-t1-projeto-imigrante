@@ -1,3 +1,4 @@
+
 body {
     letter-spacing: normal;
 }
@@ -113,9 +114,11 @@ a:hover:before {
     color: #0035A0;
 }
 
+
 .qr-code p {
     color: #555555;
 }
+
 
 .btn {
     background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
@@ -128,6 +131,7 @@ a:hover:before {
     display: flex !important;
     justify-content: center;
 }
+
 
 
 
@@ -237,6 +241,7 @@ input::placeholder {
 }
 
 
+
 @media screen and  (max-width: 770px) {
 
     div.vr {
@@ -273,6 +278,7 @@ input::placeholder {
 }
 
 
+
 /*Media query para centralizar links no togller*/
 @media screen and (max-width: 9000px) {
     .navbar-nav a {
@@ -280,3 +286,4 @@ input::placeholder {
 
     }
 }
+
