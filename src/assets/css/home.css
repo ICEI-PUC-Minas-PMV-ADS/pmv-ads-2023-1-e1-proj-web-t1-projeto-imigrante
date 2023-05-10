@@ -5,9 +5,51 @@
 }
 
 body {
+  font-family: "Helvetica", Sans-Serif;
 
-    font-family: "Helvetica", Sans-Serif;
-  }
+}
+
+/* HEADER 2*/
+
+.navbar-nav a {
+  color: #fff;
+  font-family: 'Open sans', sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+  transition: 0.2ms;
+}
+
+a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+a:before {
+content: "";
+position: absolute;
+width: 100%;
+height: 3px;
+bottom: 0;
+left: 0;
+background-color: #fff;
+visibility: hidden;
+-webkit-transform: scaleX(0);
+transform: scaleX(0);
+-webkit-transition: all 0.3s ease-in-out 0s;
+transition: all 0.3s ease-in-out 0s;
+} */
+
+
+a:hover:before {
+  visibility: visible;
+  color: #fff;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 
 /* HEADER 2*/ 
 
@@ -61,6 +103,20 @@ transform: scaleX(1);
   text-decoration: none;
 }
 
+
+=======
+
+/* MAIN- DESTACADOS */
+
+.destacados-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #0035A0;
+  text-decoration: none;
+}
+
+
+
 #h3-destacados::after {
   content: "";
   display: block;
@@ -69,6 +125,8 @@ transform: scaleX(1);
   border-bottom: 0.3em solid #D9D9D9;
   margin-top: 5px;
 }
+
+
 
 
 .title-dest a{
@@ -98,41 +156,38 @@ transform: scaleX(1);
 }
 
 
+.title-dest a {
+  color: #0035A0;
+  text-decoration: none;
+}
+
+.dest-card {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.container p{
+  color: #555555;
+}
+
+.line {
+  border-bottom: solid #D9D9D9;
+  border-bottom-width: thin;
+  display: block;
+  margin-bottom: 40px;
+}
 
 
-
-
-  /* Footer start */
-  footer {
-    height: 10em;
-    width: 100vw;
-    background-color: #F5F5F7;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  /* Envolvendo cadastro newsletter + icons numa tag pai */
-
-  .title-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-
-  .title-input {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-
-  }
-
+.div-saude {
+  margin-top: 40px;
+}
 
   .title-input {
     display: flex;
     flex-direction: column;
   }
   .title-text h4{
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 23px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -154,16 +209,145 @@ transform: scaleX(1);
   }
 
 
-  .title-input input:hover {
-    background-color: rgb(243, 243, 243);
+.img-fluid {
+  border-radius: 20px;
+}
+
+/* Footer start */
+footer {
+  position: absolute;
+  display: block;
+  height: 10em;
+  width: 100%;
+  background-color: #F5F5F7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.title-dest a {
+  color: #0035A0;
+  text-decoration: none;
+}
+
+.dest-card {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.container p{
+  color: #555555;
+}
+
+.line {
+  border-bottom: solid #D9D9D9;
+  border-bottom-width: thin;
+  display: block;
+  margin-bottom: 40px;
+}
+
+
+.div-saude {
+  margin-top: 40px;
+}
+
+  .title-input {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-text h4{
+    font-size: 14px;
+    margin-left: 23px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width:400px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: start;
+  }
+  .title-inputs input {
+    border-radius: 40px ;
+    border: none;
+    padding: 5px; 
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 40px;
+    width: 300px;
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
   }
 
-  input::placeholder {
-    color: #cfcfcf;
-    padding-left: 10px  ;
-  }
 
-#btn  {
+.img-fluid {
+  border-radius: 20px;
+}
+
+/* Footer start */
+footer {
+  position: absolute;
+  display: block;
+  height: 10em;
+  width: 100%;
+  background-color: #F5F5F7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Envolvendo cadastro newsletter + icons numa tag pai */
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+
+.title-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-text h4 {
+  font-size: 14px;
+  margin-left: 23px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 400px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: start;
+}
+
+.title-inputs input {
+  border-radius: 40px;
+  border: none;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 0px;
+  height: 40px;
+  width: 300px;
+  box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+
+.title-input input:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+input::placeholder {
+  color: #cfcfcf;
+  padding-left: 10px;
+}
+
+#btn {
   background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
   width: 100px;
   height: 40px;
@@ -195,13 +379,23 @@ transform: scaleX(1);
 
 .icons {
   padding-top: 3em;
+  margin-right: 20px;
+
 
 }
 
 
 .icons img {
-
   margin: 15px;
+  width: 25px;
+  height: 25px;
 }
 
 
+/*Media query para centralizar links no togller*/
+@media screen and (max-width: 9000px) {
+  .navbar-nav a {
+      text-align: center;
+
+  }
+}
