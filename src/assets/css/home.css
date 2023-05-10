@@ -208,3 +208,12 @@ input::placeholder {
   width: 25px;
   height: 25px;
 }
+
+
+/*Media query para centralizar links no togller*/
+@media screen and (max-width: 9000px) {
+  .navbar-nav a {
+      text-align: center;
+
+  }
+}
