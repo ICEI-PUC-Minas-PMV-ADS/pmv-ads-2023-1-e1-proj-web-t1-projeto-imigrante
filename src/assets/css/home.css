@@ -51,7 +51,50 @@ transform: scaleX(1);
 }
 
 
+/* MAIN- DESTACADOS */
 
+.destacados-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #0035A0;
+  text-decoration: none;
+}
+
+#h3-destacados::after {
+  content: "";
+  display: block;
+  width: 2em;
+  max-width: 60%;
+  border-bottom: 0.3em solid #D9D9D9;
+  margin-top: 5px;
+}
+
+
+.title-dest a{
+  color: #0035A0;
+  text-decoration: none;
+}
+
+.dest-card {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+
+.line {
+  border-bottom: solid #D9D9D9;
+  border-bottom-width: thin;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.div-saude {
+  margin-top: 40px;
+}
+
+.img-fluid {
+  border-radius: 20px;
+}
 
   /* Footer start */
   footer {

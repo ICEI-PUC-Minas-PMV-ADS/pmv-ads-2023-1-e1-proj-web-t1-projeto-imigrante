@@ -1,3 +1,7 @@
+body {
+    letter-spacing: normal;
+}
+
 .c-item {
     height: 300px;
 }
@@ -26,11 +30,10 @@
 
 
 .container {
-  display: flex;
-  justify-content: center;
-  padding-left: 100px;
-  padding-right: 100px;
-  font: rawline;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
@@ -41,7 +44,7 @@
 }
 
 .text-container h3 {
-font-size: 22px;
+    font-size: 22px;
 }
 
 .text-container p {
@@ -219,5 +222,3 @@ input::placeholder {
     width: 25px;
     height: 25px;
 }
-
-
