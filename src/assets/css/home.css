@@ -403,10 +403,7 @@ input::placeholder {
   height: 25px;
 }
 
-<<<<<<< HEAD
-/*Cards-Portal do imigrnate*/
- 
-=======
+
 
 /*Media query para centralizar links no togller*/
 @media screen and (max-width: 9000px) {
@@ -415,4 +412,3 @@ input::placeholder {
 
   }
 }
->>>>>>> f38e3fd437ac50d8bbfd837eb278b4bcc9329c7d
