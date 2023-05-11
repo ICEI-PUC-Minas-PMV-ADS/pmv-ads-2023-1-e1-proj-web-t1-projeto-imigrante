@@ -11,13 +11,10 @@ O template criado está disponível no [Figma](https://www.figma.com/file/vMgPjo
 - **Conteúdo**-  Apresentará, para cada tela, seu conteúdo personalizado;
 - **Rodapé** -  Contém informações sobre direitos autorais, newsletter e social media.
 
-A indentidade visual terá um design simples, e iremos utilizar a paleta de cores apresentada na figura abaixo.
-<img width="397" alt="image" src="https://user-images.githubusercontent.com/93337008/235809082-26cf39de-00a2-440c-92d0-adfa4cfa42ff.png">
-
-*Figura 14 - Paleta de cores*
-
-
 ### Tela- Home-Page
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/341ae2ea-40f1-4f34-8149-b6031393e3ff)
+*Figura 14 - Home page*
+
 
 ### Tela- Leitura da informação
 
