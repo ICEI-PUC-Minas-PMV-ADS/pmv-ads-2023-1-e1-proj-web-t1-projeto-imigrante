@@ -408,6 +408,7 @@ input::placeholder {
  
 =======
 
+
 /*Media query para centralizar links no togller*/
 @media screen and (max-width: 9000px) {
   .navbar-nav a {
@@ -415,4 +416,7 @@ input::placeholder {
 
   }
 }
+<<<<<<< HEAD
 >>>>>>> f38e3fd437ac50d8bbfd837eb278b4bcc9329c7d
+=======
+>>>>>>> d9cb5422cddae3c0533986d13102a6065cd37b33
