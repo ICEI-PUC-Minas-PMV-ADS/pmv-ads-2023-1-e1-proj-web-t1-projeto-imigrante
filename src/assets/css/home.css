@@ -156,6 +156,18 @@ transform: scaleX(1);
 }
 
 
+
+  /* Footer start */
+  footer {
+    position: absolute;
+    display: block;
+    height: 10em;
+    width: 100%;
+    background-color: #F5F5F7;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
 .title-dest a {
   color: #0035A0;
   text-decoration: none;
