@@ -403,6 +403,13 @@ input::placeholder {
   height: 25px;
 }
 
+/*formatação dos cards*/
+.card-group{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
 
 /*Media query para centralizar links no togller*/
 @media screen and (max-width: 9000px) {
