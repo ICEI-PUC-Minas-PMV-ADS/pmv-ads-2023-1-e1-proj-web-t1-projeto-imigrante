@@ -1,46 +1,27 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+No Brasil, a imigração ocorre desde o seu descobrimento até os dias atuais. Entre os séculos XVI e XIX os portugueses adentraram o território brasileiro, assim sendo os primeiros imigrantes do Brasil. Após esse primeiro período, em meados dos séculos XIX e XX, ocorreu a abertura dos portos às nações estrangeiras, ou seja, novos povos entraram em território brasileiro, principalmente os povos Europeus que se espalharam ao redor do País.
+Durante a segunda guerra mundial milhares de pessoas em todo mundo foram forçadas a sair de seus países em busca de refúgio, zelando pela própria vida. Já em tempos atuais o maior número de imigrantes vem da Venezuela e do continente Africano. De acordo com o relatório refúgio em números, somente no ano passado, o Brasil recebu 29.107 solicitações de refúgio.Esse fluxo imigrátorio se dá por conta de uma grande crise econômica que o país enfrenta, e muitos chegam em situação de vulnerabilidade social e econômica, com pouca qualificação profissional, além de não saber falar o idioma local. [(Referências)](https://www.acnur.org/portugues/2022/06/21/no-dia-mundial-do-refugiado-brasil-atualiza-dados-sobre-populacao-refugiada-no-pais/#:~:text=De%20acordo%20com%20o%20relat%C3%B3rio,haitianos%20(2%2C7%25).)
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+ A dificuldade que essas pessoas enfrentam para terem acesso às informações ao chegarem no país. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O projeto consiste em criar uma aplicação web que facilite o acesso às informações e serviços voltados aos estrangeiros e refugiados em situação de vulnerabilidade, que já residem no Brasil ou que  buscam informações  e pretendem viver aqui.
+Objetivos específicos:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Permitir que os usuários possam  interagir com outras pessoas que passam pela mesma situação por meio de comentários;
+- Fornecer a tradução de todo o conteúdo, tornando o site ainda mais acessível ao público que ainda não fala ou entende o português.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+De acordo com os dados fornecidos pelo Ministério da Justiça e Segurança Pública, o número de imigrantes e refugiados vem crescendo exponencialmente nos últimos anos devido às circunstâncias em seus países de origem, afetados pela crise econômica ou conflitos civis. Muitos buscam residir no Brasil por ser um país mais seguro, sem conflitos ou guerras, sendo a terceira população mais aberta do mundo a receber refugiados e imigrantes, e possui saúde e educação gratuita. Grande parte chega ao país sem acesso a nenhum tipo de informação, e essa aplicação facilitará o acesso a serviços básicos, integração cultural, oportunidades de trabalho e educação, reunindo em um único lugar todas essas informações.[(Referências)](https://www.gov.br/mj/pt-br/assuntos/noticias/brasil-recebe-1-720-refugiados-entre-janeiro-e-junho-de-2022)
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Com base nos dados do Comitê Nacional para Refugiados, nosso público alvo é composto por refugiados, imigrantes recém- chegados, os que possuem a intenção de imigrar para o Brasil e os que já residem aqui, com a idade entre 18 a 45 anos. [(Referências)](https://app.powerbi.com/view?r=eyJrIjoiZTk3OTdiZjctNGQwOC00Y2FhLTgxYTctNDNlN2ZkNjZmMWVlIiwidCI6ImU1YzM3OTgxLTY2NjQtNDEzNC04YTBjLTY1NDNkMmFmODBiZSIsImMiOjh9&pageName=ReportSection )

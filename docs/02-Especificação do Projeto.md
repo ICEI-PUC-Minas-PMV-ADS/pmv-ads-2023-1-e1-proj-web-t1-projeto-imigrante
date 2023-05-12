@@ -1,91 +1,81 @@
 # Especificações do Projeto
-
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição do problema foi consolidada por meio de pesquisas na internet acerca de imigrantes e refugiados que estão no Brasil, ou pretendem imigrar, possibilitando a criação das pessoas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+|Niara Lopes| ![Capture2](https://user-images.githubusercontent.com/93337008/231519186-f31a8044-6292-4eaa-9f56-e76b5fbd29ef.PNG) |
+|-----------------------|-|
+|Idade:|24|
+|Origem | Imigrante de Gana, África |
+|Sobre:|  Recém chegada, veio para o Brasil com o objetivo de iniciar sua graduação em design na USP (Universidade de São Paulo). |
+|Motivações: | Regularizar sua documentação e iniciar uma faculdade futuramente. |
+|História:|Niara é uma imigrante de uma região muito pobre e necessitada da de Gana, África, na qual havia uma carência de ensino e estrutura para estudo, estimulando sua vinda para o Brasil.|
+|Necessidades:|Emissão de documentos estrangeiro e canal de informações que possua tradução para o seu idioma.|
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
+|Santiago González|![santo](https://user-images.githubusercontent.com/93337008/231519473-0f1800d4-885e-4e20-8368-c4c8cb6c1c15.PNG) |
+|-----------------------|-|
+|Idade:|38|
+|Origem | Refugiado da Venezuela |
+|Sobre:| Deixou a Venezuela devido à crise econômica e falta de segurança e instabilidade do país, e veio para o Brasil à procura de oportunidades de trabalho na área da sua formação, engenharia mecânica, e dar uma melhor educação para seus filhos.|
+|Motivações: |Encontar um emprego em sua área de formação, e proporcionar uma vida boa para a sua família. |
+|História:|Santiago é pai de 3 filhos. Atualmente atua como motoboy, e buscou refúgio no Brasil sonhando em conseguir um trabalho em sua área de formação, e suporte para educação de seus filhos.|
+|Necessidades:|Validação de diploma universitário.|
+
+
+ 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                    |PARA ... `MOTIVO/VALOR`                                               |
+|--------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------- |
+|Niara Lopes         |Como imigrante quero encontrar informações de como tirar a carteira de estrangeiro.  | Para que eu possa me regularizar no país.| 
+|Niara Lopes         |Como imigrante quero poder acessar o conteúdo em um idioma do qual eu tenho fluência, como o inglês. | Conseguir acessar e entender as informações.|
+|Niara Lopes         |Como imigrante quero um botão de doação para que possa ajudar imigrantes e refugiados.  | Para ajudar as ongs que me ajudaram.|
+|Santiago González   |Como refugiado quero poder escutar os textos do site.       | Para que me ajude na compreensão e facilite a navegação.|
+|Santiago González   |Como refugiado quero poder cadastrar meu currículo.         | Para poder achar um emprego. |
+|Santiago González   |Como refugiado quero me cadastrar no site .                 | Para poder receber notícias  |   
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
+
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
+|ID    | Descrição do Requisito | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve conter informações sobre como tirar a carteira de identificação estrangeira. | MÉDIA | 
+|RF-002| O site deve permitir ao usuário trocar seu idioma para inglês.  | ALTA |
+|RF-003| O site deve conter um botão de doação.  | ALTA | 
+|RF-004| O site deve conter um sistema de transcrição de texto para áudio. |MÉDIA | 
+|RF-005| O site deve conter uma área para cadastro de currículo.   |ALTA | 
+|RF-006| O site deve permitir o usuário a se cadastrar para receber notícias.   |MÉDIA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku). | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada. | ALTA | 
+|RNF-003| O sistema deve ser multiplataforma – Windows, Linux e macOS. | ALTA | 
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
+|RNF-005| O sistema deve funcionar 24h por dia, todos os dias da semana. | ALTA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                                                                               |
+|--|-------------------------------------------------------------------------------------------------------------------------|
+|01| O projeto deve ser entregue no final do semestre letivo, não havendo possibilidade de ultrapassar a data de: 16/06/2023. |
+|02| O aplicativo deve se ater às tecnologias básicas de desenvolvimento web front-end.                                       |
+|03| A equipe não deve subcontratar o desenvolvimento do trabalho.                                                            |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
