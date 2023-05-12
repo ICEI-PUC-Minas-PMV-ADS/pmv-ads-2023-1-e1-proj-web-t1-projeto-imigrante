@@ -144,13 +144,11 @@ li {
 
 
 .line {
-
     border-bottom: solid #D9D9D9;
     border-bottom-width: thin;
-    border-bottom: 1px solid #F5F5F7;
     display: block;
     margin-bottom: 40px;
-}
+  }
 
 p a {
     text-decoration: none;
