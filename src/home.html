@@ -17,12 +17,43 @@
 <body>
     <header>
 
-        <div class="main-header" style="text-align: center;">
-            <h2>header</h2>
-        </div>
-        
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="/src/assets/images/logo-principal.png" alt="Logo" width="55" height="55"
+                            class="d-inline-block">
+                    </a>
+                    <li class="nav-text px-1 header1">
+                        <a class="nav-link" href="#">IMIGRA BRASIL</a>
+                    </li>
+                </div>
+
+                <div class="nav justify-content-end px-5" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <div class="botao-doar px-4">
+                            <input id="btn" type="submit" value="DOAR">
+                        </div>
+                        <li class="nav-item px-3 botoesZoom">
+                            <a class="nav-link" href="#">&#10010;</a>
+                        </li>
+                        <li class="nav-item px-3 botoesZoom">
+                            <a class="nav-link" href="#">&#9866;</a>
+                        </li>
+                        <li class="nav-item px-4 botoes">
+                            <a class="nav-link" href="#">EN</a>
+                        <li class="nav-item botoes">
+                            <a class="nav-link" href="#">PT</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
         <div>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class=" navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -30,7 +61,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ">
+                        <div class="navbar-nav header2">
                             <a class="nav-link px-5" href="./residir.html">Residir Legalmente</a>
                             <a class="nav-link px-5" href="#">Educação</a>
                             <a class="nav-link px-5" href="#">Trabalho</a>
@@ -43,6 +74,7 @@
     </header>
 
     <main>
+
         <!-- SECTION HORIZONTAL -->
         <div id="title-primary">
             <h4>Portal do Imigrante</h4>
@@ -65,6 +97,36 @@
         </div>
         
         <!-- SECTION VERTICAL -->
+
+
+        <div class="card-group">
+            <div class="card">
+                <img src="./assets/images/leis-img.png" class="card-img-top" alt="martelo de juíz">
+                <div class="card-body">
+                    <h5 class="card-title">Leis de imigração</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/images/dirigir-img.png" class="card-img-top" alt="pessoa dirigindo">
+                <div class="card-body">
+                    <h5 class="card-title">Carteira de motorista</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/images/subsidios-img.png" class="card-img-top" alt="pilha de moedas e calculadora">
+                <div class="card-body">
+                    <h5 class="card-title">Subsídios do governo</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/images/refugio-img.png" class="card-img-top" alt="pessoa segurando passaporte">
+                <div class="card-body">
+                    <h5 class="card-title">solicitar refúgio</h5>
+                </div>
+            </div>
+        </div>
+
+
         <div class="container">
             <div class="destacados-title text-left">
                 <h3 id="h3-destacados">Destacados</h3>
@@ -109,11 +171,10 @@
                     </div>
                 </div>
                 <span class="line"></span>
-                
 
-            
-            
-        </div>
+
+            </div>
+
         </div>
     </main>
 
