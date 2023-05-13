@@ -403,15 +403,14 @@ input::placeholder {
   height: 25px;
 }
 
-<<<<<<< HEAD
+
 /*formatação dos cards*/
 .card-group{
   margin-top: 50px;
   margin-bottom: 30px;
   padding: 30px;
 }
-=======
->>>>>>> f80dc7b7aa4704567eef73a3a12ca05b599a5f02
+
 
 
 /*Media query para centralizar links no togller*/
@@ -421,7 +420,3 @@ input::placeholder {
 
   }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> f80dc7b7aa4704567eef73a3a12ca05b599a5f02
