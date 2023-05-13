@@ -27,29 +27,10 @@ a {
   text-decoration: none;
 }
 
-/*
-a:before {
-content: "";
-position: absolute;
-width: 100%;
-height: 3px;
-bottom: 0;
-left: 0;
-background-color: #fff;
-visibility: hidden;
--webkit-transform: scaleX(0);
-transform: scaleX(0);
--webkit-transition: all 0.3s ease-in-out 0s;
-transition: all 0.3s ease-in-out 0s;
-} */
 
 
-a:hover:before {
-  visibility: visible;
-  color: #fff;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
+
+
 
 /* HEADER 2*/ 
 
@@ -69,31 +50,6 @@ color: #fff;
 text-decoration: none;  
 }
 
-a:before {
-content: "";
-position: absolute;
-width: 100%;
-height: 3px;
-bottom: 0;
-left: 0;
-background-color: #fff;
-visibility: hidden;
--webkit-transform: scaleX(0);
-transform: scaleX(0);
--webkit-transition: all 0.3s ease-in-out 0s;
-transition: all 0.3s ease-in-out 0s;
-}
-
-a:hover:before {
-visibility: visible;
-color: #fff;
--webkit-transform: scaleX(1);
-transform: scaleX(1);
-}
-
-
-
-
 /* MAIN- DESTACADOS */
 
 .destacados-title {
@@ -102,9 +58,6 @@ transform: scaleX(1);
   color: #0035A0;
   text-decoration: none;
 }
-
-
-=======
 
 /* MAIN- DESTACADOS */
 
@@ -157,7 +110,7 @@ transform: scaleX(1);
 
 
 
-  /* Footer start */
+  /* FOOTER - START */
   footer {
     position: absolute;
     display: block;
@@ -410,4 +363,67 @@ input::placeholder {
       text-align: center;
 
   }
+}
+
+/* SECTION HORIZONTAL */
+.items-main {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  position: relative;
+  max-height: 100vh;
+  margin-bottom: 60px;
+  margin-top: 50px;
+  max-width: 100vw;
+  gap: 30px;
+  margin-right: 30px;
+}
+
+.items {
+  text-align: center;
+  display:inline-block;
+  width: 15em;
+  height: 170px;
+}
+
+
+
+.items img {
+  box-shadow: 4px -1px 10px -3px rgba(0,0,0,0.48);
+  position: absolute;
+  text-align: center;
+  display:block;
+  width: 270px;
+  height: 180px;
+  border: 1px solid black;
+  border-radius: 15px;
+  border: none;
+}
+
+.items p {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 160px;
+  width: 250px;
+  text-align: center;
+  position: relative;
+  letter-spacing: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.items a {
+  text-decoration: none;
+
+}
+
+
+#title-primary {
+  margin-left: 50px;
+  margin-top: 50px;
+  color: #0035A0;
+  letter-spacing: .5px;
 }
