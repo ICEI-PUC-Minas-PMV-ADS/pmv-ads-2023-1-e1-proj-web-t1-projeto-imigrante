@@ -1,0 +1,246 @@
+
+body {
+    letter-spacing: normal;
+}
+
+/* HEADER 2*/
+
+.navbar-nav a {
+    color: #fff;
+    font-family: 'Open sans', sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    transition: 0.2ms;
+}
+
+a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/*TELA PAGAMENTO*/
+
+.container-main {
+    margin-top: 70px;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+}
+
+
+.home-text {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.home-text a {
+    text-decoration: none;
+    color: #0035A0;
+    font-size: 14px;
+}
+
+
+.btn-titulo{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.big {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title {
+    padding: 50px;
+    text-align: center;
+}
+
+.title p{
+    color: black;
+}
+
+.title h4{
+    color: #0085F8;
+}
+
+.page-image{
+    width: 25px;
+}
+
+
+.Seleção {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;    
+}
+
+.btn-next {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.Seleção{
+    background-color: #F5F5F7;
+    border-radius: 200px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 70%;
+}
+
+
+
+/*FOOTER*/
+footer {
+    height: 10em;
+    width: 100vw;
+    background-color: #F5F5F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Envolvendo cadastro newsletter + icons numa tag pai */
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+
+.title-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-text h4 {
+    font-size: 14px;
+    margin-left: 23px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 400px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: start;
+}
+
+.title-inputs input {
+    border-radius: 40px;
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 40px;
+    width: 300px;
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+
+.title-input input:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+input::placeholder {
+    color: #cfcfcf;
+    padding-left: 10px;
+}
+
+#btn {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#btn:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 0px 0px;
+    text-align: center;
+
+
+}
+
+.title-end h5 {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+
+
+.icons {
+    padding-top: 3em;
+
+}
+
+
+.icons img {
+    margin: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+
+@media screen and  (max-width: 770px) {
+
+    div.vr {
+        display: none;
+    }
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 50px;
+        padding-right:70px;
+
+    }
+
+    div.qr-code {
+        margin-top: -135px;
+    }
+
+    .qr-code h3, p{
+        text-align: center;
+    }
+
+    .qr-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -100px;
+        margin-top: 30px;
+    }
+
+    div.qr-code h3 {
+        font-size:20px;
+    }
+}
