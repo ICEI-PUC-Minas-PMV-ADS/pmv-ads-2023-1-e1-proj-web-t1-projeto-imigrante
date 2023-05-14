@@ -51,7 +51,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RF-001| O site deve conter informações sobre como tirar a carteira de identificação estrangeira. | MÉDIA | 
 |RF-002| O site deve permitir ao usuário trocar seu idioma para inglês.  | ALTA |
 |RF-003| O site deve conter um botão de doação.  | ALTA | 
-|RF-004| O site deve conter um sistema de transcrição de texto para áudio. |MÉDIA | 
+|RF-004| O site deve conter um botão de modo escuro/claro. |MÉDIA | 
 |RF-005| O site deve conter uma área para cadastro de currículo.   |ALTA | 
 |RF-006| O site deve permitir o usuário a se cadastrar para receber notícias.   |MÉDIA | 
 
