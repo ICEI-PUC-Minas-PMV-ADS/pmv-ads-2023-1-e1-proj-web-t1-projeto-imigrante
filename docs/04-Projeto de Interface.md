@@ -27,7 +27,7 @@ Com base na estrutura padrão, o bloco cabeçalho possui 3 elementos distintos:
 - **Componente de doação**- Permite doar um valor definido pelo usuário, ajudando institutos de imigrantes e refugiados;
 - **Componente de dark mode** - O dark mode é uma opção que muda a aparência de uma página para um fundo escuro, reduzindo a fadiga visual do usuário e a quantidade de luz emitida pela tela.
 - **Componente de tradução**- Proporcionará a tradução do site em inglês, facilitando o entendimento do usuário para obter as informações que necessita.
-- **Componente de dar zoom na página** - A função de zoom em uma página permite aumentar ou diminuir o tamanho do conteúdo exibido na tela para melhorar a legibilidade e a visualização, principalmente em dispositivos com telas menores.
+
 
 **Bloco conteúdo**- Mostra todas as informações (imagem e título) necessárias que um imigrante ou refugiado precisa saber ao chegar no Brasil, facilitando o acesso a serviços básicos, dicas de integração cultural, oportunidades de trabalho e educação.
 
