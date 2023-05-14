@@ -32,11 +32,11 @@ Nessa sessão da documentação, será apresentada as telas com cada funcionalid
 
 **Acesso a página**
 
-- Para acessar a página inicial, acessar atráves do link: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante
+- Para acessar a página inicial, acessar atráves do link: [Imigra Brasil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante)
 
  **Registro do comentário**
  
-![238184887-d3607471-4838-4e7e-84d9-576cc402d424](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/66147607/6e59a786-825c-45c6-b4d5-fc0916f6f9bb)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/b4c54f62-9208-4744-8c14-5c906a10b2f6)
 
 **Requisitos Funcionais aplicados**
 
@@ -75,7 +75,6 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 ![238184943-44351300-64dc-4743-b177-241316449a78](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/66147607/f0321182-b872-4b90-8f38-411a453ecd68)
 
-![238185133-ea41b26c-113b-4795-b31b-014e3d2f8079](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/66147607/d401c37f-27d7-4bdd-8c45-2ac1001f2413)
 
 ![238185182-be39837a-a56c-4fb7-88b7-b41c90e1d603](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/66147607/62ac4a19-98f1-45e0-a406-7285d39e810e)
 
@@ -93,7 +92,7 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 - boleto.css
 - pix.css
-- validatedPixInputs.js
+- -validatePixInput.js
 
 **Acesso a página**
 
