@@ -40,6 +40,19 @@ body {
     font-family: Helvetica;
     color: #0035A0;
     text-decoration: none;
+<<<<<<< HEAD
+    font-weight: bold;
+  }
+  
+  
+  .nav-text {
+    display: inline-block;
+    padding-top: 5px;
+    font-family: Helvetica;
+    color: #0035A0;
+    text-decoration: none;
+    font-weight: bold;
+=======
     font-weight: bold;
   }
   
@@ -72,6 +85,7 @@ body {
     padding-bottom: 10px;
     width: 400px;
     font-weight: bold;
+>>>>>>> 886051c2e503b5295f89c4b3f75aa2791db4d7b3
     
   }
   
@@ -98,6 +112,8 @@ body {
   #btn:hover {
     cursor: pointer;
     text-decoration: none;
+<<<<<<< HEAD
+=======
 }
 
 .title-end {
@@ -110,6 +126,7 @@ body {
 
 .title-end h5 {
     font-size: 14px;
+>>>>>>> 886051c2e503b5295f89c4b3f75aa2791db4d7b3
   }
   
   
