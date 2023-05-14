@@ -1,27 +1,11 @@
+
 body {
     letter-spacing: normal;
 }
 
+/*header1*/
 
-
-.container {
-    margin-top: 100px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Helvetica", Sans-Serif;
-  
-  }
-  
-  /*header1*/
-  
-  .navbar {
+.navbar {
     width: 100%;
     background-color: #fcfcfc !important;
     display: flex;
@@ -40,7 +24,6 @@ body {
     font-family: Helvetica;
     color: #0035A0;
     text-decoration: none;
-<<<<<<< HEAD
     font-weight: bold;
   }
   
@@ -52,40 +35,6 @@ body {
     color: #0035A0;
     text-decoration: none;
     font-weight: bold;
-=======
-    font-weight: bold;
-  }
-  
-  
-  .nav-text {
-    display: inline-block;
-    padding-top: 5px;
-    font-family: Helvetica;
-    color: #0035A0;
-    text-decoration: none;
-}
-
-.title-input {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-}
-
-
-.title-input {
-    display: flex;
-    flex-direction: column;
-}
-
-.title-text h4 {
-    font-size: 14px;
-    margin-left: 23px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    width: 400px;
-    font-weight: bold;
->>>>>>> 886051c2e503b5295f89c4b3f75aa2791db4d7b3
     
   }
   
@@ -112,21 +61,6 @@ body {
   #btn:hover {
     cursor: pointer;
     text-decoration: none;
-<<<<<<< HEAD
-=======
-}
-
-.title-end {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 10px 0px 0px;
-    text-align: center;
-}
-
-.title-end h5 {
-    font-size: 14px;
->>>>>>> 886051c2e503b5295f89c4b3f75aa2791db4d7b3
   }
   
   
@@ -188,10 +122,9 @@ body {
   }
   
   
-  
-  /* HEADER 2*/
-  
-  .header2 a {
+/* HEADER 2*/
+
+.header2 a {
     color: #fff !important;
     font-family: 'Open sans', sans-serif !important;
     font-size: 14.7px;
@@ -210,85 +143,84 @@ body {
   }
   
 
-.vr {
-    color: black;
-    margin: 2em auto 0;
-    height: 330px;
+/*TELA PAGAMENTO*/
+
+.container-main {
+    margin-top: 50px;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+}
+
+
+.home-text {
+    margin-left: 40px;
     margin-top: 10px;
 }
 
-.container {
-    background-color: #F5F5F7;
-    padding-top: 70px;
-    padding-bottom: 40px;
-    border-radius: 60px;
-    margin-left: 500px;
-}
-
-
-
-.p-div {
+.home-text a {
+    text-decoration: none;
     color: #0035A0;
-    margin-bottom: 30px;
-    margin-top: 5px;
+    font-size: 14px;
 }
 
-.qr-code p {
+
+.btn-titulo{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.big {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+}
+
+.title p{
+    color: black;
+}
+
+.title h4{
+    color: #0085F8;
+}
+
+.page-image{
+    width: 25px;
+}
+
+
+.Seleção {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;    
+}
+
+.btn-next {
+    display: flex;
+    margin-top: 50px;
     justify-content: center;
 }
-
-
-#emailError {
-    color: #cc0033;
-    display: inline-block;
-    font-size: 12px;
-    line-height: 15px;
-    margin: 5px 0 0;
-}
-
-#cpfError {
-    color: #cc0033;
-    display: inline-block;
-    font-size: 12px;
-    line-height: 15px;
-    margin: 5px 0 0;
-}
-
-#usernameError {
-    color: #cc0033;
-    display: inline-block;
-    font-size: 12px;
-    line-height: 15px;
-    margin: 5px 0 0;
-}
-
-.qr-img {
-    padding-bottom: 70px;
-    display: flex;
-}
-
-.qr-code h3 {
-    color: #0035A0;
-}
-
-
-.qr-code p {
-    color: #555555;
-}
-
 
 .btn {
-    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
-    width: 100px;
-    height: 40px;
-    color: rgb(255, 255, 255) !important;
+    margin-left: 20px;
 }
 
-.div-btn {
-    display: flex !important;
-    justify-content: center;
+.Seleção{
+    background-color: #F5F5F7;
+    border-radius: 200px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 70%;
 }
-
 
 
 
@@ -398,8 +330,7 @@ input::placeholder {
 }
 
 
-
-@media screen and (max-width: 770px) {
+@media screen and  (max-width: 770px) {
 
     div.vr {
         display: none;
@@ -410,7 +341,7 @@ input::placeholder {
         display: flex;
         justify-content: center;
         padding-left: 50px;
-        padding-right: 70px;
+        padding-right:70px;
 
     }
 
@@ -418,8 +349,7 @@ input::placeholder {
         margin-top: -135px;
     }
 
-    .qr-code h3,
-    p {
+    .qr-code h3, p{
         text-align: center;
     }
 
@@ -431,24 +361,6 @@ input::placeholder {
     }
 
     div.qr-code h3 {
-        font-size: 20px;
+        font-size:20px;
     }
 }
-
-
-
-
-/*Media query para centralizar links no togller*/
-@media screen and (max-width: 9000px) {
-    .navbar-nav a {
-        text-align: center;
-
-    }
-
-}
-
-body {
-    letter-spacing: normal;
-}
-
-

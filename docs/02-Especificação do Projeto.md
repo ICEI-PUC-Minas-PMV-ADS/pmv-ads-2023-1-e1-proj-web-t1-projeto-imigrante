@@ -34,9 +34,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Niara Lopes         |Como imigrante quero encontrar informações de como tirar a carteira de estrangeiro.  | Para que eu possa me regularizar no país.| 
 |Niara Lopes         |Como imigrante quero poder acessar o conteúdo em um idioma do qual eu tenho fluência, como o inglês. | Conseguir acessar e entender as informações.|
 |Niara Lopes         |Como imigrante quero um botão de doação para que possa ajudar imigrantes e refugiados.  | Para ajudar as ongs que me ajudaram.|
-|Santiago González   |Como refugiado quero poder escutar os textos do site.       | Para que me ajude na compreensão e facilite a navegação.|
+|Santiago González   |Como refugiado quero poder ver os textos em dark mode.       | Para que me ajude a reduzir a fadiga visual.|
 |Santiago González   |Como refugiado quero poder cadastrar meu currículo.         | Para poder achar um emprego. |
-|Santiago González   |Como refugiado quero me cadastrar no site .                 | Para poder receber notícias  |   
+|Santiago González   |Como refugiado quero me cadastrar no site .                 | Para poder receber notícias. |
+|Santiago González   |Como refugiado quero poder comentar as notícias   | expor minha opinião e responder comentários  |
 
 
 ## Requisitos
@@ -51,9 +52,10 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RF-001| O site deve conter informações sobre como tirar a carteira de identificação estrangeira. | MÉDIA | 
 |RF-002| O site deve permitir ao usuário trocar seu idioma para inglês.  | ALTA |
 |RF-003| O site deve conter um botão de doação.  | ALTA | 
-|RF-004| O site deve conter um sistema de transcrição de texto para áudio. |MÉDIA | 
+|RF-004| O site deve conter um botão de modo escuro/claro. |MÉDIA | 
 |RF-005| O site deve conter uma área para cadastro de currículo.   |ALTA | 
 |RF-006| O site deve permitir o usuário a se cadastrar para receber notícias.   |MÉDIA | 
+|RF-007| O site deve permitir o usuário a registrar um comentário.   |ALTA | 
 
 
 ### Requisitos não Funcionais
