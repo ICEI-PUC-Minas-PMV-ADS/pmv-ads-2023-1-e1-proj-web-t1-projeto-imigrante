@@ -78,5 +78,5 @@ Tela contendo a mensagem ao finalizar o pagamento , por um dos meios escolhidos 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/3df1079a-d996-47c5-bebc-21f811394f1e)
 
-*Figura 22- Tela para pagar com boleto*
+*Figura 22- Tela com mensagem de pagamento realizado*
 
