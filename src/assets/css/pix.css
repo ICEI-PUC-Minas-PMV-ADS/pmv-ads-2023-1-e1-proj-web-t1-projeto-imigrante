@@ -129,7 +129,6 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-
 }
 
 
@@ -189,8 +188,6 @@ input::placeholder {
     align-items: center;
     padding: 20px 10px 0px 0px;
     text-align: center;
-
-
 }
 
 .title-end h5 {
