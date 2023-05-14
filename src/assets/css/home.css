@@ -34,11 +34,6 @@ body {
 }
 
 
-
-
-
-
-
 .nav-text {
   display: inline-block;
   padding-top: 5px;
@@ -139,6 +134,8 @@ color: rgb(255, 255, 255);
 .header2 a {
   color: #fff !important;
   font-family: 'Open sans', sans-serif !important;
+  font-size: 14.7px;
+  letter-spacing: .09375rem;
 }
 
 .bg-body-tertiary{
@@ -182,11 +179,13 @@ a:hover:before {
 
 /* MAIN- DESTACADOS */
 
+
 .destacados-title {
   margin-top: 40px;
   margin-bottom: 40px;
   color: #0035A0;
   text-decoration: none;
+  letter-spacing: 2px;
 }
 
 
@@ -422,7 +421,7 @@ input::placeholder {
   margin-bottom: 30px;
   color: #0035A0;
   text-decoration: none;
-  letter-spacing: .5px;
+  letter-spacing: unset;
 }
  
 

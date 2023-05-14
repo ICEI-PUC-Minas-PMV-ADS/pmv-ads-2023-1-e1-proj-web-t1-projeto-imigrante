@@ -4,34 +4,146 @@ body {
 
 
 
-/* HEADER 2*/
-
-.navbar-nav a {
-    color: #fff;
-    font-family: 'Open sans', sans-serif;
-}
+/*header1*/
 
 .navbar {
+    width: 100%;
+    background-color: #fcfcfc !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .nav1{
+    height: 100px;
+  }
+  
+  .nav-text-imigra {
+    display: inline-flex;
+    padding-top: 1px;
+    font-family: Helvetica;
+    color: #0035A0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  .nav-text {
+    display: inline-block;
+    padding-top: 5px;
+    font-family: Helvetica;
+    color: #0035A0;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  .botao-doar input {
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;                   
+    
+  }
+  
+  .botao-doar {
+    display: flex;
+    
+  }
+  
+  #btn {
+  background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+  width: 100px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  }
+  
+  #btn:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  
+  
+  .botoes a{
+    font-size: 13px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #a7aba8;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .botoesZoom a{
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #a7aba8;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .header1 a{
+    display: flex;
+    font-family: Helvetica;
+    color:#0035A0 !important;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  .botao-doar input {
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;                   
+    
+  }
+  
+  .botao-doar {
+    display: flex;
+    
+  }
+  
+  #btn {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  
+  /* HEADER 2*/
+  
+  .header2 a {
+    color: #fff !important;
+    font-family: 'Open sans', sans-serif !important;
+    font-size: 14.7px;
+    letter-spacing: .09375rem;
+  }
+  
+  .bg-body-tertiary{
     background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
     transition: 0.2ms;
-}
-
-a {
+  }
+  
+  a {
     position: relative;
     color: #fff;
     text-decoration: none;
-
-}
-
-
-a:hover:before {
-    visibility: visible;
-    color: #fff;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-}
-
-
+  }
+  
 /*TEXTO*/
 .c-item {
     height: 250px;
@@ -56,15 +168,12 @@ a:hover:before {
     font-size: 14px;
 }
 
+
 .h1-text {
-
-
     font-size: 25px;
-
-
     margin-top: 100px;
+    letter-spacing: unset;
 }
-
 
 .container {
     display: flex;
