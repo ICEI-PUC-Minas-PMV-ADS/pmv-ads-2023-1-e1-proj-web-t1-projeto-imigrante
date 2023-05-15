@@ -12,52 +12,39 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: "Helvetica", Sans-Serif;
-  
-  }
-  
-  /*header1*/
-  
-  .navbar {
+
+}
+
+/*header1*/
+
+.navbar {
     width: 100%;
     background-color: #fcfcfc !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  
-  .nav1{
+}
+
+
+.nav1 {
     height: 100px;
-  }
-  
-  .nav-text-imigra {
+}
+
+.nav-text-imigra {
     display: inline-flex;
     padding-top: 1px;
     font-family: Helvetica;
     color: #0035A0;
     text-decoration: none;
-<<<<<<< HEAD
     font-weight: bold;
-  }
-  
-  
-  .nav-text {
-    display: inline-block;
-    padding-top: 5px;
-    font-family: Helvetica;
-    color: #0035A0;
-    text-decoration: none;
-    font-weight: bold;
-=======
-    font-weight: bold;
-  }
-  
-  
-  .nav-text {
+}
+
+
+.nav-text {
     display: inline-block;
     padding-top: 5px;
     font-family: Helvetica;
@@ -85,35 +72,32 @@ body {
     padding-bottom: 10px;
     width: 400px;
     font-weight: bold;
->>>>>>> 886051c2e503b5295f89c4b3f75aa2791db4d7b3
-    
-  }
-  
-  .botao-doar input {
+
+}
+
+.botao-doar input {
     border-radius: 40px;
     border: none;
     text-align: center;
-    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;                   
-    
-  }
-  
-  .botao-doar {
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+.botao-doar {
     display: flex;
-    
-  }
-  
-  #btn {
-  background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
-  width: 100px;
-  height: 40px;
-  color: rgb(255, 255, 255);
-  }
-  
-  #btn:hover {
+
+}
+
+#btn {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#btn:hover {
     cursor: pointer;
     text-decoration: none;
-<<<<<<< HEAD
-=======
 }
 
 .title-end {
@@ -126,12 +110,11 @@ body {
 
 .title-end h5 {
     font-size: 14px;
->>>>>>> 886051c2e503b5295f89c4b3f75aa2791db4d7b3
-  }
-  
-  
-  
-  .botoes a{
+}
+
+
+
+.botoes a {
     font-size: 13px;
     margin-right: 5px;
     margin-left: 5px;
@@ -139,9 +122,9 @@ body {
     color: #a7aba8;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .botoesZoom a{
+}
+
+.botoesZoom a {
     font-size: 15px;
     margin-right: 5px;
     margin-left: 5px;
@@ -149,66 +132,67 @@ body {
     color: #a7aba8;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  *{
+}
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-  
-  
-  .header1 a{
+}
+
+.header1 a {
     display: flex;
     font-family: Helvetica;
-    color:#0035A0 !important;
+    color: #0035A0 !important;
     text-decoration: none;
     font-weight: bold;
-    
-  }
-  
-  .botao-doar input {
+    margin-left: -20px;
+}
+
+.botao-doar input {
     border-radius: 40px;
     border: none;
     text-align: center;
-    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;                   
-    
-  }
-  
-  .botao-doar {
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+.botao-doar {
     display: flex;
-    
-  }
-  
-  #btn {
+
+}
+
+#btn {
     background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
     width: 100px;
     height: 40px;
     color: rgb(255, 255, 255);
-  }
-  
-  
-  
-  /* HEADER 2*/
-  
-  .header2 a {
+}
+
+
+
+/* HEADER 2*/
+
+.header2 a {
     color: #fff !important;
     font-family: 'Open sans', sans-serif !important;
     font-size: 14.7px;
     letter-spacing: .09375rem;
-  }
-  
-  .bg-body-tertiary{
+}
+
+
+
+.bg-body-tertiary {
     background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
     transition: 0.2ms;
-  }
-  
-  a {
+}
+
+a {
     position: relative;
     color: #fff;
     text-decoration: none;
-  }
-  
+}
+
 
 .vr {
     color: black;
@@ -450,5 +434,3 @@ input::placeholder {
 body {
     letter-spacing: normal;
 }
-
-
