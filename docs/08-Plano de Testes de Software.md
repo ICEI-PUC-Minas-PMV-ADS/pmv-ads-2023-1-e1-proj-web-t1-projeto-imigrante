@@ -33,7 +33,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | :-------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Requisitos Associados | RF-04 - O site permitirá ao usuário traduzir todo o conteúdo das páginas para o inglês.                                                                                                                                                           |
 |   Objetivo do Teste   | Verificar se o conteúdo está sendo traduzido para o inglês.                                                                                                                                                                                                                                                      |
-|        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Acessar a página principal <br> 4)Clicar no ícone EN que estará no canto direito da barra de navegação . |
+|        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Acessar a página principal <br> 4)Clicar no ícone EN que estará no canto direito da barra de navegação. <br> 4)E ao clicar  no ícone PT, a página voltará para o idioma original. |
 |  Critérios de Êxito   | Após os passos descritos, a página será traduzida.                                                                                                                                                                                                                    |
 
 |     Caso de teste     | CT-05 – Envio do currículo|
@@ -47,7 +47,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Requisitos Associados | RF-06 -O site contará com a funcionalidade neswletter, onde o usuário poderá cadastrar seu email para receber dicas e conteúdos novos. |
 |   Objetivo do Teste   | Verificar se o usuário consegue realizar o cadastro do seu email na newsletter.                                                                                                                                                                       |
-|        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Acessar a página principal <br> 4) No canto inferior direito do header, terá um campo para o usuário informar seu email, sendo obrigatório seu preenchimento.  <br> Clicar no botão enviar                                                       |
+|        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Acessar a página principal <br> 4) No canto inferior direito do header, terá um campo para o usuário informar seu email, sendo obrigatório seu preenchimento.  <br>5) Clicar no botão enviar                                                       |
 |  Critérios de Êxito   | Após os passos descritos, não deverá ter nenhum tipo de mensagem alertando que o campo não foi preenchido adequadamente, a aparecerá um alerta na página informando que o email foi cadastrado com sucesso.                                                                                                                                                                                 |
 
 
@@ -61,7 +61,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |     Caso de teste     | CT-08 – Ativar dark mode |
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Requisitos Associados | RF-08 -O site permitá que o usuário ative a função de dark mode da tela. |
-|   Objetivo do Teste   | Verificar se o usuário consegue ativar a funcionalidade dark mode.                                                                                                                                                                        |
+|   Objetivo do Teste   | Verificar se o usuário consegue ativar a funcionalidade dark mode                                                                                                                                                                        |
 |        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3)Acessar a página principal. <br> 4)Na barra de navegação no canto superior direito, clicar no botão switch para ativa-lo. <br> 4)Ao clicar novamento a funcionalidade é  desativada.                                                   |
 |  Critérios de Êxito   | Após os passos descritos, a tela entra em modo escuro ou é desativada.      
 
