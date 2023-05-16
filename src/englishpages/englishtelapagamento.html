@@ -5,10 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/telapagamento.css">
+    <!-- Bootstrap’s CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/residir.css">
-    <title>Imigra Brasil</title>
+    <style>
+        p.big {
+            line-height: 2.0;
+        }
+
+        h5.big {
+            line-height: 2.0;
+        }
+    </style>
+</head>
+
+<title>Imigra Brasil</title>
 </head>
 
 <body>
@@ -25,27 +38,23 @@
                     </li>
                 </div>
 
-                <div class="nav justify-content-end" id="navbarNav">
+                <div class="nav justify-content-end px-5" id="navbarNav">
                     <ul class="navbar-nav">
-                        <div class="botao-doar px-5">
+                        <div class="botao-doar px-3">
                             <a href="./englishtelapagamento.html"><input id="btn" type="submit" value="DONATE"></a>
                         </div>
-                        <div class="form-check form-switch mt-2 px-5">
-                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        </div>
+                        <li class="nav-item px-2 botoes">
+                            <a class="nav-link"
+                                href="http://127.0.0.1:5500/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishtelapagamento.html">EN</a>
                         <li class="nav-item botoes">
                             <a class="nav-link"
-                                href="">EN</a>
-                        <li class="nav-item botoes">
-                            <a class="nav-link"
-                                href="">PT</a>
+                                href="http://127.0.0.1:5500/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/telapagamento.html">PT</a>
                         </li>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
         <div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
@@ -66,13 +75,69 @@
             </nav>
         </div>
     </header>
-    <main>
-        <p class="home-text"><a href="./englishhome.html" class="">&#8592 Home</a></p>
-        <h1>integracao social ingles</h1>
-    </main>
 
-    <footer>
-        <div class="container-fluid title-container">
+    <p class="home-text"><a href="./englishhome.html" class="">&#8592 Home</a></p>
+    <div class="container-main d-flex justify-content-center ">
+        <div class="container">
+            <div class="title">
+                <h4><b>DONATE AND HELP IMMIGRANTS AND REFUGEES</b>
+                    <div>
+                        <p class="mt-4">The amount will be transferred in full to institutions that help immigrants and refugees.
+                        </p>
+                    </div>
+            </div>
+            <div class="Seleção">
+                <div class="">
+                    <h5 class="btn-titulo"><b>Select payment method:</b></h5>
+
+                    <div class="Valores">
+                        <div class="form-check form-check-inline">
+                            <img class="page-image" src="../assets/images/cartão cd.png" alt="pix-image">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Credit Card</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <img class="page-image" src="../assets/images/icon-pix.png" alt="pix-image">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Pix</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <img class="page-image" src="../assets/images/boleto banco.png" alt="pix-image">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio3">Bank Slip</label>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="big"><b>Select a value to donate:</b></p>
+                        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+                        <label class="btn btn-primary" for="option1">R$10,00</label>
+
+                        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                        <label class="btn btn-primary" for="option2">R$15,00</label>
+
+                        <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+                        <label class="btn btn-primary" for="option3">R$20,00</label>
+
+                        <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+                        <label class="btn btn-primary" for="option4">R$25,00</label>
+                    </div>
+
+                    <div class="btn-next">
+                        <a class="btn btn-secondary" id="btn-next" role="button" aria-disabled="true"
+                            href="#">Next</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="mt-auto">
+        <div class="container-fluid  title-container">
             <div class="title-input">
                 <div class="title-text">
                     <h4>Subscribe to our Newsletter</h4>
@@ -103,5 +168,6 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 </body>
+
 
 </html>
