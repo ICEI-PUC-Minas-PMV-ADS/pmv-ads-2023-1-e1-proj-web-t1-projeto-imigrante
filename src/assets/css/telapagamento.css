@@ -230,6 +230,8 @@ footer {
     width: 100vw;
     background-color: #F5F5F7;
     font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0;
 }
 
 /* Envolvendo cadastro newsletter + icons numa tag pai */
