@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/sociais.css">
+    <link rel="stylesheet" href="../assets/css/sociais.css">
     <title>Imigra Brasil</title>
 </head>
 
@@ -18,7 +18,7 @@
             <div class="container-fluid">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="./home.html">
-                        <img src="./assets/images/logo-principal.png" alt="Logo" width="55" height="55"
+                        <img src="../assets/images/logo-principal.png" alt="Logo" width="55" height="55"
                             class="d-inline-block">
                     </a>
                     <li class="nav-text px-1 header1">
@@ -36,14 +36,14 @@
                                 href="http://127.0.0.1:5500/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishsociais.html">EN</a>
                         <li class="nav-item botoes">
                             <a class="nav-link"
-                                href="http://127.0.0.1:5500/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/sociais.html">PT</a>
+                                href="http://127.0.0.1:5500/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/pages/sociais.html">PT</a>
                         </li>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
+
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -66,7 +66,7 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active c-item">
-                <img src="./assets/images/template3.jpg" class="img-fluid d-block w-100 c-img" alt="...">
+                <img src="../assets/images/template3.jpg" class="img-fluid d-block w-100 c-img" alt="...">
                 <div class="carousel-caption top-0 mt-5 d-md-block">
                     <h1 class="display-1 fw-bolder h1-text">SERVIÇO SOCIAL E MULHERES</h1>
                 </div>
@@ -84,7 +84,8 @@
                         políticas públicas voltadas para a assistência social considerem a realidade das pessoas
                         migrantes e assegurem o acesso delas aos serviços e benefícios oferecidos. Acesse o guia de
                         atendimento social cliando <a
-                            href="https://brazil.iom.int/sites/g/files/tmzbdl1496/files/documents/Guia-Atendimento-a-Migrantes-Internacionais-no-SUAS.pdf" target="_blank">aqui</a>.
+                            href="https://brazil.iom.int/sites/g/files/tmzbdl1496/files/documents/Guia-Atendimento-a-Migrantes-Internacionais-no-SUAS.pdf"
+                            target="_blank">aqui</a>.
                     </p>
                     <h3 class="mb-4 mt-5">Pessoas idosas</h3>
                     <p class="mb-4">
@@ -136,7 +137,6 @@
                     </ul>
                     </p>
                 </div>
-
                 <div class="comments-section mb-4">
                     <p class="p2 mb-3"><b>Deixe um comentário:</b></p>
                     <form class="row g-3" id="form">
@@ -161,7 +161,9 @@
                         </div>
                     </form>
                     <span class="line"></span>
-                    <p class="p3 fw-bolder">Comentários:</p>
+                    <div id="commentpost">
+                        <p class="p3 fw-bolder">Comentários:</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -178,11 +180,11 @@
                     </div>
                 </div>
                 <div class="icons">
-                    <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/insta-logo.png"
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../assets/images/insta-logo.png"
                             alt="Instagram" style: width="35px" ; height="35px"></a>
-                    <a href="https://pt-br.facebook.com/" target="_blank"><img src="./assets/images/facebook-logo.png"
+                    <a href="https://pt-br.facebook.com/" target="_blank"><img src="../assets/images/facebook-logo.png"
                             alt="Facebook" style: width="35px" ; height="35px"></a>
-                    <a href="https://www.linkedin.com/" target="_blank"><img src="./assets/images/linkedin-logo.png"
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="../assets/images/linkedin-logo.png"
                             alt="Linkedin" style: width="35px" ; height="35px"></a>
                 </div>
             </div>
@@ -193,7 +195,7 @@
         </footer>
 
 
-        <script src="./assets/js/validateCommentInput.js"></script>
+        <script src="../assets/js/comments.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

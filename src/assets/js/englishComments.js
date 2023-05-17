@@ -20,7 +20,7 @@ userName.addEventListener('change', (event) => {
   let errorMessage = '';
   // Valida o tamanho do nome
   if (value && value.length < 4) {
-      errorMessage = 'Digite seu nome completo.';
+      errorMessage = 'Type your full name.';
   } 
   // Mostra a mensagem 
   nomeError.innerHTML = errorMessage;
@@ -33,7 +33,7 @@ email.addEventListener('change', (event) => {
   let errorMessage = '';
   // Verifica se o email é válido
   if (!value.match(emailIsValid)) {
-      errorMessage = 'Email inválido.';
+      errorMessage = 'Invalid Email.';
   } 
   emailError.innerHTML = errorMessage;
 });
@@ -57,5 +57,4 @@ form.addEventListener("submit", (event) => {
   //ao comentar irá focar no input de nome
   userName.focus();
 });
-
 
