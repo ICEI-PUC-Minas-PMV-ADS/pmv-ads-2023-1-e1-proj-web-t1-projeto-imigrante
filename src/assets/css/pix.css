@@ -423,7 +423,7 @@ input::placeholder {
 
 
 /*Media query para centralizar links no togller*/
-@media screen and (max-width: 9000px) {
+@media screen and (max-width: 991px) {
     .navbar-nav a {
         text-align: center;
 
@@ -431,6 +431,3 @@ input::placeholder {
 
 }
 
-body {
-    letter-spacing: normal;
-}
