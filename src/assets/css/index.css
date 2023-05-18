@@ -457,6 +457,7 @@ input::placeholder {
 }
 
 
+
 /*Media container horizontal*/
 @media screen and (max-width: 375px) {
   .container {
@@ -550,7 +551,7 @@ input::placeholder {
     margin-top: -10px;
     font-size: 12px;
     /* Adjust the font size for smaller screens */
-    margin-left: 100px;
+    text-align: center;
   }
 
   .title-container {
