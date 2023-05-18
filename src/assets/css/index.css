@@ -177,8 +177,6 @@ a:before {
 }
 
 
-/* MAIN- DESTACADOS */
-
 
 .destacados-title {
   margin-top: 80px;
@@ -349,16 +347,6 @@ input::placeholder {
 }
 
 
-
-/*Media query para centralizar links no togller*/
-@media screen and (max-width: 900px) {
-  .navbar-nav a {
-    text-align: center;
-
-  }
-}
-
-
 /* SECTION HORIZONTAL */
 .items-main {
   display: flex;
@@ -422,4 +410,140 @@ input::placeholder {
   color: #0035A0;
   text-decoration: none;
   letter-spacing: unset;
+}
+
+
+/*Media nav-branca*/
+@media only screen and (max-width: 645px) {
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-links {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links ul li {
+    text-align: center;
+  }
+
+  .header1 a {
+    font-size: 12px;
+  }
+
+  .nav-item {
+    margin: 0 5px;
+  }
+
+  .botao-doar {
+    display: flex;
+    margin: auto;
+  }
+
+  .botoes a {
+    font-size: 11px;
+    margin-left: -20px;
+  }
+  .botao-doar input {
+    color: pink;
+  }
+
+  .form-check {
+    display: none;
+  }
+}
+
+
+/*Media query centralizar links no togller*/
+@media screen and (max-width: 375px) {
+  .container {
+   margin-bottom: 170px;
+
+  }
+}
+
+
+
+/*Media query cards horizontal*/
+@media screen and (max-width: 900px) {
+  .title-dest {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+}
+
+
+/*Media query margin-top title destacados*/
+@media screen and (max-width: 900px) {
+  .title-dest {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+}
+
+/* Media query footer */
+@media screen and (max-width: 700px) {
+  .title-container {
+    flex-direction: column;
+  }
+
+  footer {
+    background-color: #F5F5F7;
+  }
+
+  .title-inputs {
+    margin-top: -10px;
+    margin-right: 40px;
+  }
+
+  .title-inputs input {
+    width: auto;
+    margin-bottom: 10px;
+    font-size: 12px;
+    /* Adjust the font size for smaller screens */
+  }
+
+  .icons {
+    margin-top: -55px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .icons img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .title-end {
+    margin-top: -55px;
+  }
+
+  .title-end h5 {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+
+  .title-text h4 {
+    margin-top: -10px;
+    font-size: 12px;
+    /* Adjust the font size for smaller screens */
+    margin-left: 100px;
+  }
+
+  .title-container {
+    width: 100%;
+  }
 }
