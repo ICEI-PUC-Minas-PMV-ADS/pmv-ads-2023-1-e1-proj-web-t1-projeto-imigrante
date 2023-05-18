@@ -457,6 +457,7 @@ input::placeholder {
 }
 
 
+
 /*Media container horizontal*/
 @media screen and (max-width: 375px) {
   .container {
