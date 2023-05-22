@@ -1,0 +1,369 @@
+body {
+    letter-spacing: normal;
+}
+
+/*header1*/
+
+.navbar {
+    width: 100%;
+    background-color: #fcfcfc !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav1 {
+    height: 100px;
+}
+
+.nav-text-imigra {
+    display: inline-flex;
+    padding-top: 1px;
+    font-family: Helvetica;
+    color: #0035A0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.nav-text {
+    display: inline-block;
+    padding-top: 5px;
+    font-family: Helvetica;
+    color: #0035A0;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.botao-doar input {
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+.botao-doar {
+    display: flex;
+
+}
+
+#btn {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#btn:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.botoes a {
+    font-size: 13px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #a7aba8;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botoesZoom a {
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #a7aba8;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header1 a {
+    display: flex;
+    font-family: Helvetica;
+    color: #0035A0 !important;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -20px;
+
+}
+
+.botao-doar input {
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+.botao-doar {
+    display: flex;
+
+}
+
+#btn {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* HEADER 2*/
+
+.header2 a {
+    color: #fff !important;
+    font-family: 'Open sans', sans-serif !important;
+    font-size: 14.7px;
+    letter-spacing: .09375rem;
+}
+
+.bg-body-tertiary {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    transition: 0.2ms;
+}
+
+a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*TELA PAGAMENTO*/
+
+.container-main {
+    margin-top: 50px;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+}
+
+
+.home-text {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.home-text a {
+    text-decoration: none;
+    color: #0035A0;
+    font-size: 14px;
+}
+
+
+.btn-titulo {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.big {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+}
+
+.title p {
+    color: black;
+}
+
+.title h4 {
+    color: #0035A0;
+}
+
+.page-image {
+    width: 25px;
+}
+
+
+.Seleção {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.btn-next {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.Seleção {
+    background-color: #F5F5F7;
+    border-radius: 200px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 70%;
+}
+
+
+
+/*FOOTER*/
+footer {
+    height: 10em;
+    width: 100vw;
+    background-color: #F5F5F7;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Envolvendo cadastro newsletter + icons numa tag pai */
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+
+.title-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-text h4 {
+    font-size: 14px;
+    margin-left: 23px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 400px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: start;
+}
+
+.title-inputs input {
+    border-radius: 40px;
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 40px;
+    width: 300px;
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+
+.title-input input:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+input::placeholder {
+    color: #cfcfcf;
+    padding-left: 10px;
+}
+
+#btn {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#btn:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 0px 0px;
+    text-align: center;
+
+
+}
+
+.title-end h5 {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+
+
+.icons {
+    padding-top: 3em;
+
+}
+
+
+.icons img {
+    margin: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+
+@media screen and (max-width: 770px) {
+
+    div.vr {
+        display: none;
+    }
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 50px;
+        padding-right: 70px;
+
+    }
+
+    div.qr-code {
+        margin-top: -135px;
+    }
+
+    .qr-code h3,
+    p {
+        text-align: center;
+    }
+
+    .qr-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -100px;
+        margin-top: 30px;
+    }
+
+    div.qr-code h3 {
+        font-size: 20px;
+    }
+}
