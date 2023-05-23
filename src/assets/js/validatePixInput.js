@@ -3,6 +3,7 @@ let nomeInput = document.getElementById("username");
 let emailInput = document.getElementById("email");
 let cpfInput = document.getElementById("cpf");
 
+
 // Mensagem de erro HTML para cada campo de entrada
 let nomeError = document.getElementById("usernameError");
 let emailError = document.getElementById("emailError");
@@ -10,10 +11,11 @@ let cpfError = document.getElementById("cpfError");
 
 
 //Caracteres para validar se o email é válido
-const emailIsValid = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+const emailIsValid = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
+    goTomessagePage();
 });
 
 
@@ -52,4 +54,7 @@ cpfInput.addEventListener('change', (event) => {
 })
 
 
-
+//Go to message page 
+function goTomessagePage() {
+    location.href = "/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/pages/mercadoTrabalho.html";
+}
