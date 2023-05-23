@@ -9,7 +9,7 @@
 
   `1º SEMESTRE 2023 `
 
-O projeto consiste em criar uma aplicação web que facilite o acesso às informações e serviços voltados aos estrangeiros e refugiados em situação de vulnerabilidade, que já residem no Brasil ou que  buscam informações e pretendem viver aqui.
+O projeto tem como objetivo desenvolver um site estático que facilite o acesso a informações e serviços direcionados a estrangeiros e refugiados em situação de vulnerabilidade, tanto para aqueles que já residem no Brasil quanto para aqueles que buscam informações e pretendem estabelecer-se aqui.
 
 
 ## Integrantes
