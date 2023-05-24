@@ -222,7 +222,16 @@ a {
     width: 70%;
 }
 
+#inputError {
+    color: red;
+    margin: 10px;
+}
 
+#btnError {
+    color: red;
+    margin-top: 10px;
+    margin-left: 18px;
+}
 
 /*FOOTER*/
 footer {
