@@ -54,7 +54,3 @@ cpfInput.addEventListener('change', (event) => {
 })
 
 
-//Go to message page 
-function goTomessagePage() {
-    location.href = "/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/pages/mercadoTrabalho.html";
-}
