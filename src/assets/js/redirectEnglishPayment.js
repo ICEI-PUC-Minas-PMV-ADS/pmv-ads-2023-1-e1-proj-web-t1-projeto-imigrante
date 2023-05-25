@@ -49,6 +49,8 @@ function goToAnotherPage() {
             window.location.href = "/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishpix.html";
         } else if (radioBoleto.checked) {
             window.location.href = "/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishboleto.html";
+        } else {
+            window.location.href = "/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishboleto.html";
         }
     }
 }
