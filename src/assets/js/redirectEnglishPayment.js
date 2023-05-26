@@ -46,11 +46,11 @@ function isRadio2Selected() {
 function goToAnotherPage() {
     if (isRadio1Selected() && isRadio2Selected()) {
         if (radioPix.checked) {
-            window.location.href = "/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishpix.html";
+            window.location.href = "englishpix.html";
         } else if (radioBoleto.checked) {
-            window.location.href = "/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishboleto.html";
+            window.location.href = "englishboleto.html";
         } else {
-            window.location.href = "/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishcartao.html";
+            window.location.href = "englishcartao.html";
         }
     }
 }
