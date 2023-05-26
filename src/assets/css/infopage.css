@@ -2,6 +2,14 @@ body {
   letter-spacing: normal;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
 
 
 /*header1*/
@@ -84,12 +92,6 @@ body {
   color: #a7aba8;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 
@@ -266,6 +268,9 @@ p a {
   justify-content: flex-end;
 }
 
+.comments-section{
+  margin-top: 100px;
+}
 
 /*Mensagem de erro*/
 #emailError {
