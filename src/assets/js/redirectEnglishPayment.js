@@ -50,7 +50,7 @@ function goToAnotherPage() {
         } else if (radioBoleto.checked) {
             window.location.href = "/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishboleto.html";
         } else {
-            window.location.href = "/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishboleto.html";
+            window.location.href = "/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishcartao.html";
         }
     }
 }
