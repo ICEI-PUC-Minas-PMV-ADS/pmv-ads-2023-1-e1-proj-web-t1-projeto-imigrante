@@ -21,7 +21,7 @@ Tela que contém todas as informações principais do site.
 ### Tela- Leitura da informação
 Tela com a informação do conteúdo selecionado, e a seção de comentários.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/d3607471-4838-4e7e-84d9-576cc402d424)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/0397787a-fcc2-45b5-b4c1-79a98905347a)
 
 *Figura 15- Tela com informação e comentario*
 
@@ -39,14 +39,6 @@ Tela contém opções de forma de pagamento e valores que o usuário deseja doar
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/44351300-64dc-4743-b177-241316449a78)
 
 *Figura 17- Tela para selecionar valor e forma de pagamento*
-
-
-### Tela Doação- Informações pessoais
-Nessa tela o usuário informará seu dados pessoais para prosseguir com o pagamento da doação.
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/ea41b26c-113b-4795-b31b-014e3d2f8079)
-
-*Figura 18- Tela para preenecher dasdos pessoais*
 
 
 ### Tela Doação- Dados pagamento Pix

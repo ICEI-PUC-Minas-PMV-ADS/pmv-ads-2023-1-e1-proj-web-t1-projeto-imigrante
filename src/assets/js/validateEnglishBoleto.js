@@ -24,7 +24,7 @@ nomeInput.addEventListener('change', (event) => {
     let errorMessage = '';
     // Valida o tamanho do nome
     if (value && value.length < 4) {
-        errorMessage = 'Digite seu nome completo.';
+        errorMessage = 'Type your full name';
     } 
     // Mostra a mensagem 
     nomeError.innerHTML = errorMessage;
@@ -36,7 +36,7 @@ emailInput.addEventListener('change', (event) => {
     let errorMessage = '';
     // Verifica se o email é válido
     if (!value.match(emailIsValid)) {
-        errorMessage = 'Email inválido.';
+        errorMessage = 'Invalid email';
     } 
     emailError.innerHTML = errorMessage;
 });
@@ -47,8 +47,8 @@ cpfInput.addEventListener('change', (event) => {
     const value = event.target.value;
     let errorMessage = "";
     //Verficia se o cpf tem 11 caracteres
-    if (value.length < 11 || value.length > 11) {
-        errorMessage = "Cpf inválido.";
+    if (value.length === 0) {
+        errorMessage = "Type your cpf or cnpj";
     } 
     cpfError.innerHTML = errorMessage;
 })

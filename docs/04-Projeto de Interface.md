@@ -7,7 +7,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 ## User Flow
 O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente Canva do projeto](https://www.canva.com/design/DAFfUhRQzJM/slz_UaO9ao0CTZFsXiB_Bg/edit?analyticsCorrelationId=982b0837-b935-4070-9337-4f9de4c075ed).
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/f7798152-f823-425a-aeea-bcc0cc8e6f73)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/822b76bb-e54c-4e4b-96ca-2fe731589901)
 *Figura 2 - Fluxo de telas do usuário*
 
 
@@ -39,13 +39,12 @@ Com base na estrutura padrão, o bloco cabeçalho possui 3 elementos distintos:
 
 ### Tela- Leitura da informação
 A tela de leitura da informação contará com um título com uma imagem de fundo. 
-Abaixo do título, contará com um texto informativo relacionado ao título e em cada tela de informação terá um card de comentário abaixo do texto, onde irão conter os comentários das pessoas e um bloco para deixar seu comentário, e cada um acompanhará o nome e sobrenome da pessoa, e  um ícone avatar do usuário sem a foto. Após redigir o comentário, o usuário deverá clicar no botão “comentar” para postar o comentário. O usuário também poderá responder outro comentário clicando no botão “responder” a frente de cada comentário.
-
+Abaixo do título, contará com um texto informativo relacionado ao título e em cada tela de informação terá um card de comentário abaixo do texto, onde irão conter os comentários das pessoas e um bloco para deixar seu comentário, e cada um acompanhará o nome e sobrenome da pessoa, e  um ícone avatar do usuário sem a foto. Após redigir o comentário, o usuário deverá clicar no botão “comentar” para postar o comentário.
 O bloco cabeçalho apresenta o título da página, e os mesmos elementos da home page (a logo e o menu da aplicação).
 
 O bloco rodapé apresenta os mesmos elementos da home-page.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/fb380d0e-0c26-4af0-a676-0c7eba9b23de)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/1e45fff1-c93c-4e82-a064-7b109e1628c9)
 *Figura 5 - Tela de Leitura da informação*
 
 ### Tela- Envio currículo

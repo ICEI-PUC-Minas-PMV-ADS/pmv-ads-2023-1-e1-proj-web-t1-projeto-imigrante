@@ -9,7 +9,7 @@
 
   `1º SEMESTRE 2023 `
 
-O projeto consiste em criar uma aplicação web que facilite o acesso às informações e serviços voltados aos estrangeiros e refugiados em situação de vulnerabilidade, que já residem no Brasil ou que  buscam informações e pretendem viver aqui.
+O objetivo deste projeto é criar um site estático que facilite o acesso a informações e serviços específicos para estrangeiros e refugiados em situação de vulnerabilidade, abrangendo tanto aqueles que já residem no Brasil quanto os que buscam informações para se estabelecerem aqui.
 
 
 ## Integrantes
@@ -46,7 +46,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* https://pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante.pages.dev/
 
 # Armazenamento do Código-Fonte
 

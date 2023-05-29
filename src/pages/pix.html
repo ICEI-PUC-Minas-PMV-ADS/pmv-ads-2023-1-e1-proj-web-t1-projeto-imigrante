@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/pix.css">
+    <link rel="stylesheet" href="../assets/css/pix.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
@@ -18,33 +18,31 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/images/logo-principal.png" alt="Logo" width="55" height="55"
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../assets/images/logo-principal.png" alt="Logo" width="55" height="55"
                             class="d-inline-block">
                     </a>
                     <li class="nav-text px-1 header1">
-                        <a class="nav-link" href="#">IMIGRA BRASIL</a>
+                        <a class="nav-link" href="../index.html">IMIGRA BRASIL</a>
                     </li>
                 </div>
 
                 <div class="nav justify-content-end px-5" id="navbarNav">
                     <ul class="navbar-nav">
                         <div class="botao-doar px-4">
-                            <input id="btn" type="submit" value="DOAR">
+                            <a href="./telapagamento.html"><input id="btn" type="submit" value="DOAR"></a>
                         </div>
                         <li class="nav-item px-4 botoes">
-                            <a class="nav-link"
-                                href="http://127.0.0.1:5500/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/englishpages/englishpix.html">EN</a>
-                        <li class="nav-item botoes">
-                            <a class="nav-link"
-                                href="http://127.0.0.1:5500/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/src/pix.html">PT</a>
+                            <a class="nav-link" href="../englishpages/englishpix.html">EN</a>
                         </li>
+                        <li class="nav-item botoes">
+                            <a class="nav-link" href="./pix.html">PT</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
+
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -63,7 +61,7 @@
             </div>
         </nav>
     </header>
-    
+
     <div class="container">
         <div class="row justify-content-center">
             <div class="input col-md-3">
@@ -77,11 +75,11 @@
 
                     <div class="form-group  mb-2">
                         <input type="text" class="form-control" name="email" id="email" placeholder="Email*" required>
-                        <div  id="emailError"></div>
+                        <div id="emailError"></div>
                     </div>
 
                     <div class="form-group  mb-2">
-                        <input type="number" class="form-control" name="cpf" id="cpf" placeholder="Cpf*" required>
+                        <input type="text" class="form-control" name="cpf" id="cpf" placeholder="Cpf*" required>
                         <div id="cpfError"></div>
                     </div>
 
@@ -90,15 +88,13 @@
                     </div>
                 </form>
             </div>
-             <div class="d-flex col-md-3" style="height: 200px;">
+            <div class="d-flex col-md-3" style="height: 200px;">
                 <div class="vr"></div>
             </div>
             <div class="qr-code col-md-3">
                 <h3>Pague com QR Code!</h3>
-                <p>Basta aproximar a câmera do seu telefone, e será encaminhado para a tela de pagamento no seu
-                    banco.
-                </p>
-                <img class="img-fluid qr-img" src="./assets/images/QR_code_for_mobile_English_Wikipedia.svg.png"
+                <p>Basta aproximar a câmera do seu telefone, e você será redirecionado para a tela de pagamento do seu banco.</p>
+                <img class="img-fluid qr-img" src="../assets/images/QR_code_for_mobile_English_Wikipedia.svg.png"
                     alt="Imagem de um QR code" />
             </div>
         </div>
@@ -115,11 +111,11 @@
                 </div>
             </div>
             <div class="icons">
-                <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/insta-logo.png"
+                <a href="https://www.instagram.com/" target="_blank"><img src="../assets/images/insta-logo.png"
                         alt="Instagram" style: width="35px" ; height="35px"></a>
-                <a href="https://pt-br.facebook.com/" target="_blank"><img src="./assets/images/facebook-logo.png"
+                <a href="https://pt-br.facebook.com/" target="_blank"><img src="../assets/images/facebook-logo.png"
                         alt="Facebook" style: width="35px" ; height="35px"></a>
-                <a href="https://www.linkedin.com/" target="_blank"><img src="./assets/images/linkedin-logo.png"
+                <a href="https://www.linkedin.com/" target="_blank"><img src="../assets/images/linkedin-logo.png"
                         alt="Linkedin" style: width="35px" ; height="35px"></a>
             </div>
         </div>
@@ -132,7 +128,7 @@
 
 
 
-    <script src="./assets/js/validatePixInput.js"></script>
+    <script src="../assets/js/validatePixInput.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
