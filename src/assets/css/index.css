@@ -383,10 +383,12 @@ input::placeholder {
   border: none;
 }
 
+
+
 .items p {
   display: flex;
   align-items: end;
-justify-content: center;
+  justify-content: center;
   height: 160px;
   width: 250px;
   text-align: center;
