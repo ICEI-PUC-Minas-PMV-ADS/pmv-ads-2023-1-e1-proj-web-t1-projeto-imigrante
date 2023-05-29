@@ -189,18 +189,13 @@ a {
 .text-container h2 {
   color: #0035A0;
   margin-bottom: 30px;
-
-
   font-size: 33px;
-
-
   font-size: 33px;
-
-
 }
 
 .text-container h3 {
   font-size: 22px;
+  color: #555;
 }
 
 
@@ -214,7 +209,6 @@ li {
 
 .lista a  {
   color: #0035a0;
-  font-weight: bold;
 }
 
 
