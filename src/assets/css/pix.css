@@ -106,11 +106,19 @@ body {
 
 .title-end h5 {
     font-size: 14px;
+<<<<<<< HEAD
+  }
+  
+  
+  
+  .botoes a{
+=======
 }
 
 
 
 .botoes a {
+>>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     font-size: 13px;
     margin-right: 5px;
     margin-left: 5px;

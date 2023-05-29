@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
 body {
     letter-spacing: normal;
 }
+
 
 /*header1*/
 
@@ -14,7 +11,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
   }
   
   
@@ -23,40 +19,22 @@ body {
   }
   
   .nav-text-imigra {
-=======
-}
-
-
-.nav1 {
-    height: 100px;
-}
-
-.nav-text-imigra {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     display: inline-flex;
     padding-top: 1px;
     font-family: Helvetica;
     color: #0035A0;
     text-decoration: none;
     font-weight: bold;
-<<<<<<< HEAD
   }
   
   
   .nav-text {
-=======
-}
-
-
-.nav-text {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     display: inline-block;
     padding-top: 5px;
     font-family: Helvetica;
     color: #0035A0;
     text-decoration: none;
     font-weight: bold;
-<<<<<<< HEAD
     
   }
   
@@ -88,39 +66,6 @@ body {
   
   
   .botoes a{
-=======
-
-}
-
-.botao-doar input {
-    border-radius: 40px;
-    border: none;
-    text-align: center;
-    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
-}
-
-.botao-doar {
-    display: flex;
-
-}
-
-#btn {
-    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
-    width: 100px;
-    height: 40px;
-    color: rgb(255, 255, 255);
-}
-
-#btn:hover {
-    cursor: pointer;
-    text-decoration: none;
-}
-
-
-
-.botoes a {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     font-size: 13px;
     margin-right: 5px;
     margin-left: 5px;
@@ -128,15 +73,9 @@ body {
     color: #a7aba8;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
   }
   
   .botoesZoom a{
-=======
-}
-
-.botoesZoom a {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     font-size: 15px;
     margin-right: 5px;
     margin-left: 5px;
@@ -144,7 +83,6 @@ body {
     color: #a7aba8;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
   }
   
   *{
@@ -177,62 +115,21 @@ body {
   }
   
   #btn {
-=======
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
-.header1 a {
-    display: flex;
-    font-family: Helvetica;
-    color: #0035A0 !important;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: -20px;
-
-}
-
-.botao-doar input {
-    border-radius: 40px;
-    border: none;
-    text-align: center;
-    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
-}
-
-.botao-doar {
-    display: flex;
-
-}
-
-#btn {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
     width: 100px;
     height: 40px;
     color: rgb(255, 255, 255);
-<<<<<<< HEAD
   }
   
   
-=======
-}
-
-
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
-/* HEADER 2*/
-
-.header2 a {
+  
+  /* HEADER 2*/
+  
+  .header2 a {
     color: #fff !important;
     font-family: 'Open sans', sans-serif !important;
     font-size: 14.7px;
     letter-spacing: .09375rem;
-<<<<<<< HEAD
   }
   
   .bg-body-tertiary{
@@ -240,41 +137,29 @@ body {
     transition: 0.2ms;
   }
   
-  a {
+ .navbar a {
     position: relative;
     color: #fff;
     text-decoration: none;
   }
   
-=======
+
+/*TEXTO*/
+.c-item {
+    height: 250px;
+
+
 }
 
-.bg-body-tertiary {
-    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
-    transition: 0.2ms;
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    /*remove a distorçao da img*/
 }
-
-a {
-    position: relative;
-    color: #fff;
-    text-decoration: none;
-}
-
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
-
-/*TELA PAGAMENTO*/
-
-.container-main {
-    margin-top: 50px;
-    width: 100%;
-    height: 70vh;
-    justify-content: center;
-}
-
 
 .home-text {
-    margin-left: 40px;
-    margin-top: 10px;
+    margin-left: 60px;
+    margin-top: 30px;
 }
 
 .home-text a {
@@ -284,113 +169,135 @@ a {
 }
 
 
-<<<<<<< HEAD
-.btn-titulo{
-=======
-.btn-titulo {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
-    text-align: center;
-    margin-bottom: 10%;
+.h1-text {
+    font-size: 25px;
+    margin-top: 100px;
+    letter-spacing: unset;
 }
 
-.big {
-    padding-top: 40px;
-    text-align: center;
-    padding-bottom: 20px;
+.container {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.title {
-    padding: 10px;
-    text-align: center;
+
+.text-container h2 {
+    color: #0035A0;
+    margin-bottom: 30px;
+
+
+    font-size: 33px;
+
+
+    font-size: 33px;
+
+
 }
 
-<<<<<<< HEAD
-.title p{
-    color: black;
+.text-container h3 {
+    font-size: 22px;
 }
 
-.title h4{
-    color: #0085F8;
+
+.text-container p,
+ul,
+ol,
+li {
+    color: #555555;
 }
 
-.page-image{
-=======
-.title p {
-    color: black;
+.text-container h3 {
+    color: #333;
 }
 
-.title h4 {
+
+/*COMENTÁRIO*/
+
+.text-container p {
+    font: rawline;
+    color: #555555;
+}
+
+
+
+.p2 {
+    color: #0035A0;
+    margin-top: 50px;
+
+}
+
+
+
+.form-control {
+    background-color: #F5F5F7;
+
+}
+
+
+.line {
+    border-bottom: solid #D9D9D9;
+    border-bottom-width: thin;
+    display: block;
+    margin-bottom: 40px;
+  }
+
+p a {
+    text-decoration: none;
+    color: #0035A0 !important;
+}
+
+
+
+.p3 {
     color: #0035A0;
 }
 
-.page-image {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
-    width: 25px;
-}
-
-
-.Seleção {
-    display: flex;
-    margin: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-<<<<<<< HEAD
-    text-align: justify;    
-=======
-    text-align: justify;
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
-}
-
-.btn-next {
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
-}
-
 .btn {
-    margin-left: 20px;
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
 }
 
-<<<<<<< HEAD
-.Seleção{
-=======
-.Seleção {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
-    background-color: #F5F5F7;
-    border-radius: 200px;
-    margin-left: 15%;
-    margin-bottom: 20px;
-    height: 500px;
-    width: 70%;
+.btn-div {
+    display: flex;
+    justify-content: flex-end;
 }
 
-<<<<<<< HEAD
 
-=======
-#inputError {
-    color: red;
-    margin: 10px;
+/*Mensagem de erro*/
+#emailError {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
 }
 
-#btnError {
-    color: red;
-    margin-top: 10px;
-    margin-left: 18px;
+#cpfError {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
 }
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
+
+#usernameError {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+}
+
+
 
 /*FOOTER*/
+
 footer {
     height: 10em;
     width: 100vw;
     background-color: #F5F5F7;
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
-=======
-    position: fixed;
-    bottom: 0;
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
 }
 
 /* Envolvendo cadastro newsletter + icons numa tag pai */
@@ -488,57 +395,15 @@ input::placeholder {
     margin: 15px;
     width: 25px;
     height: 25px;
+
 }
 
 
-<<<<<<< HEAD
-@media screen and  (max-width: 770px) {
-=======
-@media screen and (max-width: 770px) {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
-
-    div.vr {
-        display: none;
-    }
-
-    .wrapper {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding-left: 50px;
-<<<<<<< HEAD
-        padding-right:70px;
-=======
-        padding-right: 70px;
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
-
-    }
-
-    div.qr-code {
-        margin-top: -135px;
-    }
-
-<<<<<<< HEAD
-    .qr-code h3, p{
-=======
-    .qr-code h3,
-    p {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
+/*Media query para centralizar links no togller*/
+@media screen and (max-width: 9000px) {
+    .navbar-nav a {
         text-align: center;
+
     }
 
-    .qr-img {
-        display: flex;
-        justify-content: center;
-        margin-bottom: -100px;
-        margin-top: 30px;
-    }
-
-    div.qr-code h3 {
-<<<<<<< HEAD
-        font-size:20px;
-=======
-        font-size: 20px;
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
-    }
 }
