@@ -2,6 +2,14 @@ body {
   letter-spacing: normal;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
 
 
 /*header1*/
@@ -84,12 +92,6 @@ body {
   color: #a7aba8;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 
@@ -187,18 +189,13 @@ a {
 .text-container h2 {
   color: #0035A0;
   margin-bottom: 30px;
-
-
   font-size: 33px;
-
-
   font-size: 33px;
-
-
 }
 
 .text-container h3 {
   font-size: 22px;
+  color: #555;
 }
 
 
@@ -212,7 +209,6 @@ li {
 
 .lista a  {
   color: #0035a0;
-  font-weight: bold;
 }
 
 
@@ -266,6 +262,9 @@ p a {
   justify-content: flex-end;
 }
 
+.comments-section{
+  margin-top: 100px;
+}
 
 /*Mensagem de erro*/
 #emailError {
