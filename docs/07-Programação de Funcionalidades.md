@@ -2,9 +2,9 @@
 
 Nessa sessão da documentação, será apresentada as telas com cada funcionalidade do projeto.
 
-**Página Principal**
+### Página Principal
 
-![238185052-830e95e5-00f1-4bbc-b20c-560a55f7b6a2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/66147607/11d97510-accd-4763-ac63-e0030662e98c)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/1ce0dbbe-f66a-44cc-9ac6-ed0c3879f3af)
 
 **Requisitos Funcionais aplicados**
 
@@ -12,29 +12,43 @@ Nessa sessão da documentação, será apresentada as telas com cada funcionalid
 - RF-002
 - RF-003
 - RF-004
+- RF-006
 
 **Artefatos** 
 
- - home.html;
- - home.css; 
+ - index.html;
+ - index.css; 
  - logo-principal.png;
- - subsidios-img.png;
- - dirigir-img.png;
+ - telapagemento.html;
+ - englishhome.html;
+ - residir.hmtl;
+ - mercadoTrabalho.html;
  - leis-img.png;
+ - leisImigracao.hmtl;
+ - dirigir-img.png;
+ - carteiraMotorista.html;
+ - kelly-sikkema-4le7k9XVYjE-unsplash.jpg;
+ - ajuda.html;
  - refugio-img.png;
- - saude-mental.png
+ - refugio.html;
+ - saude-mental.png;
+ - mental.html;
+ - sociais.html;
  - mulher.png;
- - integracao.png;
+ - mercadoTrabalho.html;
  - trabalho.png;
+ - integração.html;
+ - informe-esfuerzo365x200 2 (2).png;
  - insta-logo.png;
- - linkedin-logo.png;
- - facebook-logo-png;
+ - facebook-logo.png;
+ - linkedin-logo.png.
+
 
 **Acesso a página**
 
-- Para acessar a página inicial, acessar atráves do link: [Imigra Brasil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante)
+- Para acessar a página inicial, acessar atráves do link: [Imigra Brasil](https://pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante.pages.dev/) </br> </br>
 
- **Registro do comentário**
+### Registro do comentário
  
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/b4c54f62-9208-4744-8c14-5c906a10b2f6)
 
@@ -49,11 +63,11 @@ Nessa sessão da documentação, será apresentada as telas com cada funcionalid
 
 **Acesso a página**
 
-Para acessar a sessão do comentários, é preciso clicar em algum card ou notícia. A parte de comentários se encontrará no inferior de cada tela.
+Para acessar a sessão do comentários, é preciso clicar em algum card ou notícia. A parte de comentários se encontrará no inferior de cada tela. </br> </br>
 
-**Página de envio do currículo**
+### Página de envio do currículo
 
-- Tela que irá permitir que o usuário registre o seu currículo.
+- Tela que irá permitir que o usuário envie o seu currículo.
 
 ![238185102-3f26b099-bc9a-4dee-9f0b-8c74f688eb56](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/66147607/2129665d-e2c7-49cb-a90a-03bdb05a72e7)
 
@@ -67,9 +81,9 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Acesso a página**
 
-- Para acessar a página de envio de currículo, é necessário acessar o card de mercado de trabalho e logo abaixo da tela se encontrará os inputs para envio do currículo.
+- Para acessar a página de envio de currículo, é necessário acessar o card de mercado de trabalho e logo abaixo da tela se encontrará os inputs para envio do currículo. </br> </br>
 
-**Página de doação**
+### Página de doação
 
 - Página que irá permitir o usuário a doar para uma instituição de apoio á imigrantes e refugiados
 
