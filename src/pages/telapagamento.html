@@ -121,6 +121,7 @@
                                 value="option3">
                             <label class="form-check-label" for="inlineRadio3">Boleto Bancário</label>
                         </div>
+                        <div id="inputError"></div>
                     </div>
                     <div>
                         <p class="big"><b>Selecione qual valor deseja doar:</b></p>
@@ -135,11 +136,11 @@
 
                         <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
                         <label class="btn btn-primary" for="option4">R$25,00</label>
+                        <div id="btnError"></div>
                     </div>
 
                     <div class="btn-next">
-                        <a class="btn btn-secondary" id="btn-next" role="button" aria-disabled="true"
-                            href="#">Próximo</a>
+                        <a class="btn btn-secondary" id="btn-next" role="button" aria-disabled="true" href="#" onclick=" return proximaPagina()">Próximo</a>
                     </div>
 
                 </div>
