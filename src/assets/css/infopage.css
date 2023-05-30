@@ -1,13 +1,16 @@
+body {
+  letter-spacing: normal;
+}
+
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Helvetica", Sans-Serif;
 
-}
+
+
 
 /*header1*/
 
@@ -57,14 +60,12 @@ body {
 
 }
 
-
 #btn {
   background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
   width: 100px;
   height: 40px;
   color: rgb(255, 255, 255);
 }
-
 
 #btn:hover {
   cursor: pointer;
@@ -91,12 +92,6 @@ body {
   color: #a7aba8;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 
@@ -131,6 +126,7 @@ body {
 }
 
 
+
 /* HEADER 2*/
 
 .header2 a {
@@ -151,60 +147,91 @@ a {
   text-decoration: none;
 }
 
+/*TEXTO*/
+.c-item {
+  height: 250px;
 
-/* MAIN- DESTACADOS */
 
-a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
 }
 
-*/ a:hover:before {
-  visibility: visible;
-  color: #fff;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  /*remove a distorçao da img*/
 }
 
+.home-text {
+  margin-left: 60px;
+  margin-top: 30px;
+}
 
-
-.destacados-title {
-  margin-top: 80px;
-  margin-bottom: 40px;
-  color: #0035A0;
+.home-text a {
   text-decoration: none;
-  letter-spacing: 2px;
-}
-
-
-#h3-destacados::after {
-  content: "";
-  display: block;
-  width: 2em;
-  max-width: 60%;
-  border-bottom: 0.3em solid #D9D9D9;
-  margin-top: 5px;
-}
-
-
-.title-dest a {
   color: #0035A0;
-  text-decoration: none;
+  font-size: 14px;
 }
 
-.dest-card {
-  margin-bottom: 40px;
-  margin-top: 20px;
+
+.h1-text {
+  font-size: 25px;
+  margin-top: 100px;
+  letter-spacing: unset;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.text-container h2 {
+  color: #0035A0;
+  margin-bottom: 30px;
+  font-size: 33px;
+  font-size: 33px;
+}
+
+.text-container h3 {
+  font-size: 22px;
+  color: #555;
+}
+
+
+.text-container p,
+ul,
+ol,
+li {
+  color: #555555;
+}
+
+
+.lista a  {
+  color: #0035a0;
+}
+
+
+/*COMENTÁRIO*/
+
+.text-container p {
+  font: rawline;
+  color: #555555;
+}
+
+
+
+.p2 {
+  color: #0035A0;
+  margin-top: 50px;
+
+}
+
+
+
+.form-control {
+  background-color: #F5F5F7;
+
 }
 
 
@@ -215,26 +242,62 @@ a:before {
   margin-bottom: 40px;
 }
 
-.div-saude {
-  margin-top: 40px;
-}
-
-.img-fluid {
-  border-radius: 20px;
-}
-
-.div-integracao {
-  margin-bottom: 100px;
+p a {
+  text-decoration: none;
+  color: #0035A0 !important;
 }
 
 
 
-/* Footer start */
+.p3 {
+  color: #0035A0;
+}
+
+.btn {
+  background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+}
+
+.btn-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comments-section{
+  margin-top: 100px;
+}
+
+/*Mensagem de erro*/
+#emailError {
+  color: #cc0033;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 0;
+}
+
+#cpfError {
+  color: #cc0033;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 0;
+}
+
+#usernameError {
+  color: #cc0033;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 0;
+}
+
+
+
+/*FOOTER*/
+
 footer {
-  position: absolute;
-  display: block;
   height: 10em;
-  width: 100%;
+  width: 100vw;
   background-color: #F5F5F7;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -320,14 +383,12 @@ input::placeholder {
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.5px;
-
 }
+
 
 
 .icons {
   padding-top: 3em;
-  margin-right: 20px;
-
 
 }
 
@@ -336,170 +397,17 @@ input::placeholder {
   margin: 15px;
   width: 25px;
   height: 25px;
-}
-
-
-/* formatação dos cards*/
-.card-group {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  padding: 30px;
-}
-
-
-/* SECTION HORIZONTAL */
-.items-main {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  position: relative;
-  max-height: 100vh;
-  margin-bottom: 60px;
-  margin-top: 50px;
-  max-width: 100vw;
-  gap: 30px;
-  margin-right: 30px;
-  margin-left: -30px;
-}
-
-.items {
-  text-align: center;
-  display: inline-block;
-  width: 15em;
-  height: 170px;
-}
-
-
-
-.items img {
-  box-shadow: 4px -1px 10px -3px rgba(0, 0, 0, 0.48);
-  position: absolute;
-  text-align: center;
-  display: block;
-  width: 270px;
-  height: 180px;
-  border: 1px solid black;
-  border-radius: 15px;
-  border: none;
-}
-
-
-
-.items p {
-  display: flex;
-  align-items: end;
-  justify-content: center;
-  height: 160px;
-  width: 250px;
-  text-align: center;
-  position: relative;
-  letter-spacing: 3px;
-  font-size: 14px;
-  font-weight: bold;
-  color: white;
 
 }
-
-.items a {
-  text-decoration: none;
-
-}
-
-
-#title-primary {
-  margin-top: 40px;
-  margin-bottom: 30px;
-  color: #0035A0;
-  text-decoration: none;
-  letter-spacing: unset;
-}
-
-
-/*Media nav-branca*/
-@media only screen and (max-width: 645px) {
-  .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .nav-links {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .nav-links ul li {
-    text-align: center;
-  }
-
-  .header1 a {
-    font-size: 12px;
-  }
-
-  .nav-item {
-    margin: 0 5px;
-  }
-
-  .botao-doar {
-    display: flex;
-    margin: auto;
-  }
-
-  .botoes a {
-    font-size: 11px;
-    margin-left: -20px;
-  }
-
-  .botao-doar input {
-    color: pink;
-  }
-
-  .form-check {
-    display: none;
-  }
-}
-
-
-
-/*Media container horizontal*/
-@media screen and (max-width: 375px) {
-  .container {
-    margin-bottom: 250px;
-
-  }
-}
-
 
 
 /*Media query para centralizar links no togller*/
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 9000px) {
   .navbar-nav a {
     text-align: center;
 
   }
-}
 
-
-
-/*Media query cards horizontal*/
-@media screen and (max-width: 900px) {
-  .title-dest {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-  }
-}
-
-
-/*Media query margin-top title destacados*/
-@media screen and (max-width: 900px) {
-  .title-dest {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-  }
 }
 
 /* Media query footer */
@@ -554,7 +462,7 @@ input::placeholder {
     margin-top: -10px;
     font-size: 12px;
     /* Adjust the font size for smaller screens */
-    text-align: center;
+    margin-left: 100px;
   }
 
   .title-container {
