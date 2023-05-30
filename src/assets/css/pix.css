@@ -106,11 +106,11 @@ body {
 
 .title-end h5 {
     font-size: 14px;
-}
-
-
-
-.botoes a {
+  }
+  
+  
+  
+  .botoes a{
     font-size: 13px;
     margin-right: 5px;
     margin-left: 5px;
@@ -189,7 +189,7 @@ a {
 .vr {
     color: black;
     margin: 2em auto 0;
-    height: 330px;
+    height: 350px;
     margin-top: 10px;
 }
 
@@ -246,6 +246,7 @@ a {
 
 .qr-code h3 {
     color: #0035A0;
+    font-size: 23px;
 }
 
 

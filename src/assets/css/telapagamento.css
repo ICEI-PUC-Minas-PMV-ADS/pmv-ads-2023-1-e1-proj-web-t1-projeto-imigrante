@@ -97,7 +97,6 @@ body {
     color: #0035A0 !important;
     text-decoration: none;
     font-weight: bold;
-    margin-left: -20px;
 
 }
 
@@ -186,7 +185,7 @@ a {
 }
 
 .title h4 {
-    color: #0035A0;
+    color: #0085F8;
 }
 
 .page-image {
@@ -223,15 +222,12 @@ a {
 }
 
 
-
 /*FOOTER*/
 footer {
     height: 10em;
     width: 100vw;
     background-color: #F5F5F7;
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
-    bottom: 0;
 }
 
 /* Envolvendo cadastro newsletter + icons numa tag pai */
@@ -331,6 +327,13 @@ input::placeholder {
     height: 25px;
 }
 
+#inputError {
+    color: #cc0033;
+}
+
+#btnError {
+    color: #cc0033;
+}
 
 @media screen and (max-width: 770px) {
 

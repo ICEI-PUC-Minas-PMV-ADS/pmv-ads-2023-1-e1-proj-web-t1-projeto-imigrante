@@ -3,7 +3,6 @@ body {
 }
 
 
-
 /*header1*/
 
 .navbar {
@@ -93,14 +92,13 @@ body {
   }
   
   
-  .header1 a {
+  .header1 a{
     display: flex;
     font-family: Helvetica;
-    color: #0035A0 !important;
+    color:#0035A0 !important;
     text-decoration: none;
     font-weight: bold;
-    margin-left: -20px;
-  
+    
   }
   
   .botao-doar input {
@@ -123,7 +121,9 @@ body {
     color: rgb(255, 255, 255);
   }
   
-  
+.botoes a {
+    color: #a7aba8 !important;
+}
   
   /* HEADER 2*/
   
@@ -139,12 +139,13 @@ body {
     transition: 0.2ms;
   }
   
-  a {
+ .navbar a {
     position: relative;
     color: #fff;
     text-decoration: none;
   }
   
+
 /*TEXTO*/
 .c-item {
     height: 250px;
@@ -408,63 +409,3 @@ input::placeholder {
     }
 
 }
-
-/* Media query footer */
-@media screen and (max-width: 700px) {
-    .title-container {
-      flex-direction: column;
-    }
-  
-    footer {
-      background-color: #F5F5F7;
-    }
-  
-    .title-inputs {
-      margin-top: -10px;
-      margin-right: 40px;
-    }
-  
-    .title-inputs input {
-      width: auto;
-      margin-bottom: 10px;
-      font-size: 12px;
-      /* Adjust the font size for smaller screens */
-    }
-  
-    .icons {
-      margin-top: -55px;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-  
-    .icons a {
-      display: inline-block;
-      margin-right: 10px;
-    }
-  
-    .icons img {
-      width: 20px;
-      height: 20px;
-      margin-bottom: 30px;
-    }
-  
-    .title-end {
-      margin-top: -55px;
-    }
-  
-    .title-end h5 {
-      font-size: 12px;
-      margin-top: 12px;
-    }
-  
-    .title-text h4 {
-      margin-top: -10px;
-      font-size: 12px;
-      /* Adjust the font size for smaller screens */
-      margin-left: 100px;
-    }
-  
-    .title-container {
-      width: 100%;
-    }
-  }

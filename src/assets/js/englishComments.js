@@ -11,7 +11,7 @@ let nomeError = document.getElementById("usernameError");
 let emailError = document.getElementById("emailError");
 
 //Caracteres para validar se o email é válido
-const emailIsValid = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+const emailIsValid = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
 
 //Funçao para validar campo nome
