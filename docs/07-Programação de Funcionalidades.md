@@ -81,7 +81,7 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Acesso a página**
 
-- Para acessar a página de envio de currículo, é necessário acessar o card de mercado de trabalho e logo abaixo da tela se encontrará os inputs para envio do currículo. </br> </br>
+-  
 
 ### Página de doação
 
