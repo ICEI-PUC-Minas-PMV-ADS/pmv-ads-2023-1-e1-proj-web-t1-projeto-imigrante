@@ -160,14 +160,6 @@ a {
 }
 
 
-.container-main {
-  margin-left: 750px;
-  margin-right: 700px;
-  height: 80vh;
-  padding-right: 30px;
-  padding-bottom: 70px;
-}
-
 
 .page-image {
   width: 40px;
@@ -192,7 +184,9 @@ a {
   border-radius: 150px;
   justify-content: center;
   box-sizing: border-box;
-  padding-bottom: 80px;
+  margin-bottom: 120px;
+  padding-bottom: 40px;
+  
 }
 
 .form-control {
@@ -203,7 +197,7 @@ a {
 
 .form-group2 input {
   width: 120px;
-  border-radius: 150px;
+  border-radius: 60px;
 }
 
 .form-check-label {
@@ -216,6 +210,9 @@ a {
   color: #4169E1;
 }
 
+.form-check {
+  color: #555555;
+}
 
 /*FOOTER*/
 footer {
@@ -280,12 +277,13 @@ input::placeholder {
   padding-left: 10px;
 }
 
-#btn {
+.btn {
   background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
   width: 100px;
   height: 40px;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
 }
+
 
 #btn:hover {
   cursor: pointer;
@@ -320,4 +318,79 @@ input::placeholder {
   margin: 15px;
   width: 25px;
   height: 25px;
+}
+
+
+/*Media query container*/
+@media screen and (min-width: 900px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 503px) {
+  .container {
+   border-radius: 80px;
+  }
+}
+
+
+/* Media query footer */
+@media screen and (max-width: 700px) {
+  .title-container {
+    flex-direction: column;
+  }
+
+  footer {
+    background-color: #F5F5F7;
+  }
+
+  .title-inputs {
+    margin-top: -10px;
+    margin-right: 40px;
+  }
+
+  .title-inputs input {
+    width: auto;
+    margin-bottom: 10px;
+    font-size: 12px;
+    /* Adjust the font size for smaller screens */
+  }
+
+  .icons {
+    margin-top: -55px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .icons img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .title-end {
+    margin-top: -55px;
+  }
+
+  .title-end h5 {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+
+  .title-text h4 {
+    margin-top: -10px;
+    font-size: 12px;
+    /* Adjust the font size for smaller screens */
+    text-align: center;
+  }
+
+  .title-container {
+    width: 100%;
+  }
 }
