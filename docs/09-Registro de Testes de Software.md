@@ -1,12 +1,51 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
-
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
-## Avaliação
+### Caso de teste CT-01 - Visualizar detalhes das informações
+Ao clicar na página de apoio e ajuda, as  informações foram apresentadas corretamente. <br /> 
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/72573c95-c499-413a-9cb1-edcbed42892b)  <br /> <br />
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+
+### Caso de teste CT-02 – Tradução das páginas para o inglês.
+Após clicar no icone "EN", a pagína foi traduzida para o inglês. <br /> 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/bd5ef7eb-2526-40b5-960a-87b66c7c2887) <br /> <br /> 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/dd0609de-11b2-414a-9971-11919a749a37)  <br /> <br /> 
+
+
+
+### Caso de teste CT-03 – Realizar doação (CASO DE SUCESSO) 
+
+
+### Caso de teste CT-03 – Realizar doação (CASO DE INSUCESSO)
+
+
+
+### Caso de teste CT-04 – Ativar dark mode
+
+
+
+### Caso de teste  CT-05 – Envio do currículo (CASO DE SUCESSO)
+
+
+
+### Caso de teste  CT-05 – Envio do currículo (CASO DE INSUCESSO)
+
+
+
+### Caso de teste CT-06 – Cadastro na Newsletter (CASO DE SUCESSO)
+
+
+
+### Caso de teste CT-06 – Cadastro na Newsletter (CASO DE INSUCESSO)
+
+
+
+### Caso de teste CT-07 – Realizar e visualizar comentários (CASO DE SUCESSO)
+
+
+
+### Caso de teste CT-07 – Realizar e visualizar comentários (CASO DE INSUCESSO)
