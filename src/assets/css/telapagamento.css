@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
 body {
     letter-spacing: normal;
 }
@@ -14,50 +10,29 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
-  }
-  
-  
-  .nav1{
-    height: 100px;
-  }
-  
-  .nav-text-imigra {
-=======
 }
-
+  
 
 .nav1 {
     height: 100px;
 }
 
 .nav-text-imigra {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     display: inline-flex;
     padding-top: 1px;
     font-family: Helvetica;
     color: #0035A0;
     text-decoration: none;
     font-weight: bold;
-<<<<<<< HEAD
-  }
-  
-  
-  .nav-text {
-=======
 }
 
-
 .nav-text {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     display: inline-block;
     padding-top: 5px;
     font-family: Helvetica;
     color: #0035A0;
     text-decoration: none;
     font-weight: bold;
-<<<<<<< HEAD
-    
   }
   
   .botao-doar input {
@@ -85,12 +60,6 @@ body {
     text-decoration: none;
   }
   
-  
-  
-  .botoes a{
-=======
-
-}
 
 .botao-doar input {
     border-radius: 40px;
@@ -120,7 +89,6 @@ body {
 
 
 .botoes a {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     font-size: 13px;
     margin-right: 5px;
     margin-left: 5px;
@@ -128,15 +96,9 @@ body {
     color: #a7aba8;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
-  }
-  
-  .botoesZoom a{
-=======
 }
 
 .botoesZoom a {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     font-size: 15px;
     margin-right: 5px;
     margin-left: 5px;
@@ -144,10 +106,9 @@ body {
     color: #a7aba8;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
-  }
-  
-  *{
+}
+
+  {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -177,8 +138,7 @@ body {
   }
   
   #btn {
-=======
-}
+
 
 * {
     padding: 0;
@@ -211,20 +171,13 @@ body {
 }
 
 #btn {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
     width: 100px;
     height: 40px;
     color: rgb(255, 255, 255);
-<<<<<<< HEAD
-  }
-  
-  
-=======
 }
 
 
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
 /* HEADER 2*/
 
 .header2 a {
@@ -232,7 +185,6 @@ body {
     font-family: 'Open sans', sans-serif !important;
     font-size: 14.7px;
     letter-spacing: .09375rem;
-<<<<<<< HEAD
   }
   
   .bg-body-tertiary{
@@ -246,21 +198,6 @@ body {
     text-decoration: none;
   }
   
-=======
-}
-
-.bg-body-tertiary {
-    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
-    transition: 0.2ms;
-}
-
-a {
-    position: relative;
-    color: #fff;
-    text-decoration: none;
-}
-
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
 
 /*TELA PAGAMENTO*/
 
@@ -284,11 +221,7 @@ a {
 }
 
 
-<<<<<<< HEAD
 .btn-titulo{
-=======
-.btn-titulo {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     text-align: center;
     margin-bottom: 10%;
 }
@@ -304,7 +237,6 @@ a {
     text-align: center;
 }
 
-<<<<<<< HEAD
 .title p{
     color: black;
 }
@@ -314,17 +246,6 @@ a {
 }
 
 .page-image{
-=======
-.title p {
-    color: black;
-}
-
-.title h4 {
-    color: #0035A0;
-}
-
-.page-image {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     width: 25px;
 }
 
@@ -335,11 +256,7 @@ a {
     text-align: center;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     text-align: justify;    
-=======
-    text-align: justify;
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
 }
 
 .btn-next {
@@ -352,11 +269,7 @@ a {
     margin-left: 20px;
 }
 
-<<<<<<< HEAD
 .Seleção{
-=======
-.Seleção {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     background-color: #F5F5F7;
     border-radius: 200px;
     margin-left: 15%;
@@ -365,20 +278,6 @@ a {
     width: 70%;
 }
 
-<<<<<<< HEAD
-
-=======
-#inputError {
-    color: red;
-    margin: 10px;
-}
-
-#btnError {
-    color: red;
-    margin-top: 10px;
-    margin-left: 18px;
-}
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
 
 /*FOOTER*/
 footer {
@@ -386,11 +285,6 @@ footer {
     width: 100vw;
     background-color: #F5F5F7;
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
-=======
-    position: fixed;
-    bottom: 0;
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
 }
 
 /* Envolvendo cadastro newsletter + icons numa tag pai */
@@ -491,11 +385,7 @@ input::placeholder {
 }
 
 
-<<<<<<< HEAD
 @media screen and  (max-width: 770px) {
-=======
-@media screen and (max-width: 770px) {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
 
     div.vr {
         display: none;
@@ -506,11 +396,7 @@ input::placeholder {
         display: flex;
         justify-content: center;
         padding-left: 50px;
-<<<<<<< HEAD
         padding-right:70px;
-=======
-        padding-right: 70px;
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
 
     }
 
@@ -518,12 +404,8 @@ input::placeholder {
         margin-top: -135px;
     }
 
-<<<<<<< HEAD
-    .qr-code h3, p{
-=======
     .qr-code h3,
     p {
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
         text-align: center;
     }
 
@@ -535,10 +417,6 @@ input::placeholder {
     }
 
     div.qr-code h3 {
-<<<<<<< HEAD
-        font-size:20px;
-=======
         font-size: 20px;
->>>>>>> bce8c9536618a23a4c7e782e0919a80bfb44f638
     }
 }
