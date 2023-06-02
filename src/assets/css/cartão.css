@@ -96,7 +96,7 @@ body {
   font-family: Helvetica;
   color: #0035A0 !important;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
 
 }
 
@@ -105,7 +105,7 @@ body {
   border: none;
   text-align: center;
   box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
+  font-weight: 600;
 }
 
 .botao-doar {
@@ -145,7 +145,7 @@ a {
 /*Tela pagamento cartão*/
 
 .section2 p {
-  color: #0085F8;
+  color: #0035A0;
 }
 
 .home-text {
@@ -186,7 +186,7 @@ a {
   box-sizing: border-box;
   margin-bottom: 120px;
   padding-bottom: 40px;
-  
+
 }
 
 .form-control {
@@ -207,11 +207,12 @@ a {
 .container p {
   text-align: left;
   margin-top: 5px;
-  color: #4169E1;
+  color: #0035A0;
 }
 
 .form-check {
   color: #555555;
+
 }
 
 /*FOOTER*/
@@ -296,17 +297,18 @@ input::placeholder {
   align-items: center;
   padding: 20px 10px 0px 0px;
   text-align: center;
-
-
 }
 
 .title-end h5 {
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.5px;
+  color: #0035A0;
 }
 
-
+.title-text h4 {
+  color: #0035A0;
+}
 
 .icons {
   padding-top: 3em;
@@ -316,8 +318,9 @@ input::placeholder {
 
 .icons img {
   margin: 15px;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
+
 }
 
 
@@ -330,7 +333,7 @@ input::placeholder {
 
 @media screen and (max-width: 503px) {
   .container {
-   border-radius: 80px;
+    border-radius: 80px;
   }
 }
 

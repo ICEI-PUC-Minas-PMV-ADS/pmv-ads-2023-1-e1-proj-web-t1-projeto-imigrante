@@ -33,7 +33,7 @@ body {
     font-family: Helvetica;
     color: #0035A0;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
 
 }
 
@@ -42,7 +42,7 @@ body {
     border: none;
     text-align: center;
     box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
+    font-weight: 600;
 }
 
 .botao-doar {
@@ -180,12 +180,13 @@ a {
     text-align: center;
 }
 
-.title p {
-    color: black;
+#subtitle {
+    color: #555555;
+    font-weight: normal;
 }
 
 .title h4 {
-    color: #0085F8;
+    color: #0035A0;
 }
 
 .page-image {
@@ -221,6 +222,10 @@ a {
     width: 70%;
 }
 
+.Seleção h5,
+p {
+    color: #0035A0;
+}
 
 /*FOOTER*/
 footer {
@@ -311,9 +316,12 @@ input::placeholder {
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 0.5px;
+    color: #0035A0;
 }
 
-
+.title-text h4 {
+    color: #0035A0;
+}
 
 .icons {
     padding-top: 3em;
@@ -323,8 +331,9 @@ input::placeholder {
 
 .icons img {
     margin: 15px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
+
 }
 
 #inputError {
@@ -373,60 +382,60 @@ input::placeholder {
 
 /* Media query footer */
 @media screen and (max-width: 700px) {
-  .title-container {
-    flex-direction: column;
-  }
+    .title-container {
+        flex-direction: column;
+    }
 
-  footer {
-    background-color: #F5F5F7;
-  }
+    footer {
+        background-color: #F5F5F7;
+    }
 
-  .title-inputs {
-    margin-top: -10px;
-    margin-right: 40px;
-  }
+    .title-inputs {
+        margin-top: -10px;
+        margin-right: 40px;
+    }
 
-  .title-inputs input {
-    width: auto;
-    margin-bottom: 10px;
-    font-size: 12px;
-    /* Adjust the font size for smaller screens */
-  }
+    .title-inputs input {
+        width: auto;
+        margin-bottom: 10px;
+        font-size: 12px;
+        /* Adjust the font size for smaller screens */
+    }
 
-  .icons {
-    margin-top: -55px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+    .icons {
+        margin-top: -55px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 
-  .icons a {
-    display: inline-block;
-    margin-right: 10px;
-  }
+    .icons a {
+        display: inline-block;
+        margin-right: 10px;
+    }
 
-  .icons img {
-    width: 20px;
-    height: 20px;
-    margin-bottom: 30px;
-  }
+    .icons img {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 30px;
+    }
 
-  .title-end {
-    margin-top: -55px;
-  }
+    .title-end {
+        margin-top: -55px;
+    }
 
-  .title-end h5 {
-    font-size: 12px;
-    margin-top: 12px;
-  }
+    .title-end h5 {
+        font-size: 12px;
+        margin-top: 12px;
+    }
 
-  .title-text h4 {
-    margin-top: -10px;
-    font-size: 12px;
-    /* Adjust the font size for smaller screens */
-    text-align: center;
-  }
+    .title-text h4 {
+        margin-top: -10px;
+        font-size: 12px;
+        /* Adjust the font size for smaller screens */
+        text-align: center;
+    }
 
-  .title-container {
-    width: 100%;
-  }
+    .title-container {
+        width: 100%;
+    }
 }

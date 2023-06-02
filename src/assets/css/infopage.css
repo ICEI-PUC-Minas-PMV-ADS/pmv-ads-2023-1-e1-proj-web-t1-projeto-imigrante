@@ -9,9 +9,6 @@ body {
 }
 
 
-
-
-
 /*header1*/
 
 .navbar {
@@ -33,7 +30,7 @@ body {
   font-family: Helvetica;
   color: #0035A0;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 
@@ -43,29 +40,11 @@ body {
   font-family: Helvetica;
   color: #0035A0;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
 
 }
 
-.botao-doar input {
-  border-radius: 40px;
-  border: none;
-  text-align: center;
-  box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
-}
-
-.botao-doar {
-  display: flex;
-
-}
-
-#btn {
-  background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
-  width: 100px;
-  height: 40px;
-  color: rgb(255, 255, 255);
-}
 
 #btn:hover {
   cursor: pointer;
@@ -110,7 +89,7 @@ body {
   border: none;
   text-align: center;
   box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
+  font-weight: 600 !important;
 }
 
 .botao-doar {
@@ -118,17 +97,22 @@ body {
 
 }
 
-#btn {
-  background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
-  width: 100px;
-  height: 40px;
-  color: rgb(255, 255, 255);
+
+.custom-margin {
+  margin-left: -130px;
+  margin-bottom: -2px;
+}
+
+.line {
+  border-bottom: solid #D9D9D9;
+  border-bottom-width: thin;
+  display: block;
+  margin-bottom: 40px;
 }
 
 
 
 /* HEADER 2*/
-
 .header2 a {
   color: #fff !important;
   font-family: 'Open sans', sans-serif !important;
@@ -183,7 +167,10 @@ a {
   justify-content: center;
   padding-left: 100px;
   padding-right: 100px;
+  margin-bottom: 200px;
 }
+
+
 
 
 .text-container h2 {
@@ -207,7 +194,7 @@ li {
 }
 
 
-.lista a  {
+.lista a {
   color: #0035a0;
 }
 
@@ -255,6 +242,7 @@ p a {
 
 .btn {
   background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+  font-weight: 600 !important;
 }
 
 .btn-div {
@@ -262,11 +250,69 @@ p a {
   justify-content: flex-end;
 }
 
-.comments-section{
+.comments-section {
   margin-top: 100px;
 }
 
-/*Mensagem de erro*/
+
+
+/*Css dos comentarios gerados no js*/
+
+/*Nome*/
+.custom-margin {
+  margin-left: -130px;
+  margin-top: -30px;
+  display: block;
+  letter-spacing: 2px;
+  color: #0035A0;
+}
+
+/*Comentário*/
+.p2-comment {
+  display: flex !important;
+  color: #555555 !important;
+  margin-top: 100px;
+ 
+}
+
+
+/*Data e horário*/
+.p3-comment {
+  margin-top: 40px;
+  font-size: 11px;
+  color: #999;
+  font-style: italic;
+  display: block;
+}
+
+
+.avatar {
+  margin-left: -150px;
+  margin-top: -30px;
+}
+
+
+/*divisao comentario js*/
+.line-js {
+  border-bottom: 1px dotted #eee;
+}
+
+
+/*botao de responder*/
+.js-btn {
+  font-size: 10px;
+ background-color: #aaa;
+  color: #FFF;
+  padding: 4px 6px 6px 7px;
+  border: none;
+  font-weight: 600 !important;
+  border-radius: 2px;
+  margin-left: auto;
+}
+
+
+
+/*Mensagem de erro comentário*/
 #emailError {
   color: #cc0033;
   display: inline-block;
@@ -362,6 +408,7 @@ input::placeholder {
   width: 100px;
   height: 40px;
   color: rgb(255, 255, 255);
+  font-weight: 600 !important;
 }
 
 #btn:hover {
@@ -383,8 +430,13 @@ input::placeholder {
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.5px;
+  color: #0035A0;
 }
 
+.title-text h4 {
+  color: #0035A0;
+}
+ 
 
 
 .icons {
@@ -395,8 +447,8 @@ input::placeholder {
 
 .icons img {
   margin: 15px;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 
 }
 

@@ -40,7 +40,7 @@ body {
   font-family: Helvetica;
   color: #0035A0;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
 
 }
 
@@ -49,7 +49,7 @@ body {
   border: none;
   text-align: center;
   box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
+  font-weight: 600;
 }
 
 .botao-doar {
@@ -103,11 +103,15 @@ body {
 .header1 a {
   display: flex;
   font-family: Helvetica;
-  color: #0035A0 !important;
+  color: #006AC6;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
   margin-left: -20px;
 
+}
+
+.navbar-brand img {
+  margin-left: 30px;
 }
 
 .botao-doar input {
@@ -115,6 +119,7 @@ body {
   border: none;
   text-align: center;
   box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  font-weight: 600;
 
 }
 
@@ -320,9 +325,12 @@ input::placeholder {
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.5px;
-
+  color: #0035A0;
 }
 
+.title-text h4 {
+  color: #0035A0;
+}
 
 .icons {
   padding-top: 3em;
@@ -334,10 +342,10 @@ input::placeholder {
 
 .icons img {
   margin: 15px;
-  width: 25px;
-  height: 25px;
-}
+  width: 20px;
+  height: 20px;
 
+}
 
 /* formatação dos cards*/
 .card-group {
@@ -391,13 +399,11 @@ input::placeholder {
   justify-content: center;
   height: 160px;
   width: 250px;
-  text-align: center;
-  position: relative;
-  letter-spacing: 3px;
+  padding-left: 21px;
+  letter-spacing: 2px;
   font-size: 14px;
   font-weight: bold;
   color: white;
-
 }
 
 .items a {
@@ -450,9 +456,6 @@ input::placeholder {
     margin-left: -20px;
   }
 
-  .botao-doar input {
-    color: pink;
-  }
 
   .form-check {
     display: none;
