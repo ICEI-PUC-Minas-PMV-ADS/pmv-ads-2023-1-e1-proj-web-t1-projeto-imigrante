@@ -404,6 +404,11 @@ input::placeholder {
 
 }
 
+.title-inputs #btn {
+  font-weight: 600;
+}
+
+
 /*Media query para centralizar links no togller*/
 @media screen and (max-width: 9000px) {
     .navbar-nav a {

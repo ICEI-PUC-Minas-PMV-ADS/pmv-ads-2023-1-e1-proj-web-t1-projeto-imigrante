@@ -339,6 +339,10 @@ input::placeholder {
 
 }
 
+.title-inputs #btn {
+  font-weight: 600;
+}
+
 
 .icons img {
   margin: 15px;

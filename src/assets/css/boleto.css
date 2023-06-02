@@ -215,6 +215,9 @@ a {
     justify-content: center;
 }
 
+.div-btn button {
+    font-weight: 600;
+}
 
 #emailError {
     color: #cc0033;
@@ -263,6 +266,7 @@ a {
     width: 100px;
     height: 40px;
     color: rgb(255, 255, 255) !important;
+    font-weight: 600;
 }
 
 .div-btn {
@@ -381,7 +385,9 @@ input::placeholder {
 
 }
 
-
+.title-inputs #btn {
+    font-weight: 600;
+}
 
 @media screen and (max-width: 770px) {
 

@@ -336,6 +336,11 @@ input::placeholder {
 
 }
 
+.title-inputs #btn {
+    font-weight: 600;
+}
+
+
 #inputError {
     color: #cc0033;
 }

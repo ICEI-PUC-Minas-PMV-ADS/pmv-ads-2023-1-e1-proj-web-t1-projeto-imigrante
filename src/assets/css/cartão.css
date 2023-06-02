@@ -215,6 +215,10 @@ a {
 
 }
 
+.btn {
+  font-weight: 600;
+}
+
 /*FOOTER*/
 footer {
   height: 10em;
@@ -313,6 +317,10 @@ input::placeholder {
 .icons {
   padding-top: 3em;
 
+}
+
+.title-inputs #btn {
+  font-weight: 600;
 }
 
 
