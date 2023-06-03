@@ -50,8 +50,79 @@ body {
 
 }
 
+
+
+
+/*DARK MODE INGLÊS*/
+.dark#body {
+    background-color: #303030;
+    color: white;
+}
+
+.dark#body p a {
+    color: white;
+}
+
+.dark#body p {
+    color: white;
+
+}
+
+.dark#body #white-header {
+    background-color: #121212 !important;
+    color: white;
+}
+
+
+.dark#body #div-selecao{
+    background-color: #424242;
+}
+
+.dark#body #div-selecao h5 {
+    color: white;
+}
+
+.dark#body footer {
+    background-color: #121212;
+    color: white;
+}
+
+.dark#body #imigra-text {
+    color: white !important;
+}
+
+.dark#body #title-inputs input {
+    background-color: #5d5a5a;
+}
+
+.dark#body #title-end h5 {
+    color: white;
+}
+
+.dark#body #title-text h4 {
+    color: white;
+}
+
+.dark#body #donate-title h4 {
+    color: white;
+}
+
+.dark#body .qr-code h3 {
+    color: white;
+}
+
+.dark#body .form-group input {
+    background-color: #5d5a5a;
+}
+
+/* BOTÃO DARKMODE*/
+
+.mode #mode_icon {
+    margin-top: 10px;
+}
+
 #btn {
-    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    background: #0035A0;
     width: 100px;
     height: 40px;
     color: rgb(255, 255, 255);
@@ -129,6 +200,7 @@ body {
     font-size: 14.7px;
     letter-spacing: .09375rem;
 }
+
 
 .bg-body-tertiary {
     background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
@@ -316,12 +388,9 @@ input::placeholder {
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 0.5px;
-    color: #0035A0;
 }
 
-.title-text h4 {
-    color: #0035A0;
-}
+
 
 .icons {
     padding-top: 3em;

@@ -49,8 +49,8 @@ form.addEventListener("submit", (event) => {
   const month = `${today.getMonth() + 1}`.padStart(2, "0");
   const day = `${today.getDate()}`.padStart(2, "0");
   const stringDate = [day, month, year].join("/");
-  const time = today.getHours() + ":" + today.getMinutes();
-  time.padStart(2, "0");
+  let time = today.getHours() + ":" + today.getMinutes();
+  time = time.padStart(2, "0");
 
   const dateTime = stringDate + " " + 'às' + " " + time;
 
@@ -63,7 +63,7 @@ form.addEventListener("submit", (event) => {
 
   // Criando um contêiner div para envolver o avatar, o nome e o comentário
   let container = document.createElement("div");
-  container.classList = "d-flex align-items-center line-js";
+  container.classList = " line-js";
 
 
 
@@ -78,17 +78,12 @@ form.addEventListener("submit", (event) => {
   let p3 = document.createElement("p");
 
   
-  
-  //Create the button
-  let button = document.createElement("button");
-  button.innerHTML = "Answer";
-
 
   //Add classes no css
   p.classList = "custom-margin";
-  p2.classList = "p2-comment"
-  p3.classList = "p3-comment";
-  button.classList = "js-btn"
+  p2.classList = "d-flex p2-comment"
+  p3.classList = "d-flex p3-comment";
+  
 
   p2.innerHTML = `${textarea.value}`;
   p.innerHTML = `<strong>${userName.value}</strong>`;
@@ -102,7 +97,7 @@ form.addEventListener("submit", (event) => {
   container.appendChild(p3);
   container.appendChild(p2);
   container.append(separator);
-  container.appendChild(button);
+ 
 
 
   // Adicionando o contêiner ao commentPost

@@ -111,6 +111,109 @@ body {
 }
 
 
+/*DARK MODE INGLÊS*/
+.dark#body {
+  background-color: #303030;
+  color: white;
+}
+
+.dark#body p a {
+  color: white;
+}
+
+.dark#body p {
+  color: white;
+
+}
+
+.dark#body #white-header {
+  background-color: #121212 !important;
+  color: white;
+}
+
+
+.dark#body #div-selecao {
+  background-color: #424242;
+}
+
+.dark#body #div-selecao h5 {
+  color: white;
+}
+
+.dark#body footer {
+  background-color: #121212;
+  color: white;
+}
+
+.dark#body #imigra-text {
+  color: white !important;
+}
+
+
+.dark#body #title-end h5 {
+  color: white;
+}
+
+.dark#body #title-text h4 {
+  color: white;
+}
+
+.dark#body .form-group input {
+  background-color: #5d5a5a;
+}
+
+.dark#body .text-container h2 {
+  color: white;
+}
+
+.dark#body p a {
+  color: white !important;
+}
+
+.dark#body input {
+  background-color: #5d5a5a;
+  color: white;
+}
+
+
+.dark#body input::placeholder {
+  color: white;
+}
+
+.dark#body textarea {
+  background-color: #5d5a5a;
+}
+
+.dark#body textarea::placeholder {
+  color: white;
+}
+
+.dark#body .text-container h3{
+  color: white;
+}
+
+.dark#body #list li a {
+  color: white;
+}
+
+.dark#body #list li {
+  color: white;
+}
+
+.dark#body #navbar-2 div{
+  background-color: gray !important;
+}
+
+.dark#body .bg-body-tertiary {
+  background-color: #121212 !important;
+}
+
+
+/* BOTÃO DARKMODE*/
+
+.mode #mode_icon {
+  margin-top: 10px;
+}
 
 /* HEADER 2*/
 .header2 a {
@@ -120,7 +223,7 @@ body {
   letter-spacing: .09375rem;
 }
 
-.bg-body-tertiary {
+.bg-body-tertiary{
   background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
   transition: 0.2ms;
 }
@@ -256,33 +359,39 @@ p a {
 
 
 
-/*Css dos comentarios gerados no js*/
+/*CSS DO COMENTÁRIO JS */
 
 /*Nome*/
 .custom-margin {
-  margin-left: -130px;
-  margin-top: -30px;
-  display: block;
   letter-spacing: 2px;
   color: #0035A0;
+  margin-left: 70px;
+  margin-top: -110px;
 }
 
 /*Comentário*/
 .p2-comment {
-  display: flex !important;
-  color: #555555 !important;
-  margin-top: 100px;
- 
+  display: flex;
+  color: #555555;
+  margin-left: 70px;
+
 }
+
+/*divisao comentario js*/
+.line-js {
+  border-bottom: 1px dotted #eee;
+}
+
 
 
 /*Data e horário*/
 .p3-comment {
-  margin-top: 40px;
   font-size: 11px;
   color: #999;
   font-style: italic;
-  display: block;
+  margin-left: 70px;
+  margin-top:5px;
+  margin-bottom: 5px;
 }
 
 
@@ -291,24 +400,6 @@ p a {
   margin-top: -30px;
 }
 
-
-/*divisao comentario js*/
-.line-js {
-  border-bottom: 1px dotted #eee;
-}
-
-
-/*botao de responder*/
-.js-btn {
-  font-size: 10px;
- background-color: #aaa;
-  color: #FFF;
-  padding: 4px 6px 6px 7px;
-  border: none;
-  font-weight: 600 !important;
-  border-radius: 2px;
-  margin-left: auto;
-}
 
 
 
@@ -430,13 +521,7 @@ input::placeholder {
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.5px;
-  color: #0035A0;
 }
-
-.title-text h4 {
-  color: #0035A0;
-}
- 
 
 
 .icons {
