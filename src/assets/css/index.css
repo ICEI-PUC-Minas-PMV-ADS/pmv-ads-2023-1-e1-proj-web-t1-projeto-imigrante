@@ -175,7 +175,7 @@ body {
 }
 
 .dark#body #h3-destacados{
-  color: white !important;
+  color: white ;
 }
 
 .dark#body .container h3 a{
@@ -252,7 +252,6 @@ a:before {
   color: #0035A0;
   text-decoration: none;
   letter-spacing: 2px;
-  font-weight: bold;
 }
 
 
@@ -266,14 +265,19 @@ a:before {
 }
 
 
-.title-dest a {
+.title-dest  a {
   color: #0035A0;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .dest-card {
   margin-bottom: 40px;
   margin-top: 20px;
+}
+
+#h3-destacados {
+  font-weight: bold;
 }
 
 
@@ -296,10 +300,6 @@ a:before {
   margin-bottom: 100px;
 }
 
-
-#title-primary {
-  font-weight:600;
-}
 
 
 
@@ -488,7 +488,8 @@ input::placeholder {
   margin-bottom: 30px;
   color: #0035A0;
   text-decoration: none;
-  letter-spacing: unset;
+  letter-spacing: unset; 
+  letter-spacing: 0.2px;
 }
 
 
