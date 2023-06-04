@@ -46,6 +46,10 @@ Após clicar no icone "EN", a pagína foi traduzida para o inglês. <br />
 
 ### Caso de teste CT-07 – Realizar e visualizar comentários (CASO DE SUCESSO)
 Após preencher todos o campos, e clicar no botão enviar, o comentário  apareceu na tela da informação, na seção comentários, junto com um icon user avatar,  nome do usuário e data e horário que foram feitos.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/5ef2fc44-98ab-48e9-b98b-8d3d8dc17e4a)
+
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/00e6de2f-21ac-4b9d-8841-ac965f869815)
 
 
