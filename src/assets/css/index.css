@@ -496,15 +496,6 @@ input::placeholder {
 }
 
 
-
-/*Media container horizontal*/
-@media screen and (max-width: 375px) {
-  .container {
-    margin-bottom: 250px;
-
-  }
-}
-
 /*Media nav branca para tela media*/
 @media (min-width: 730px) {
   .navbar-brand img {
@@ -540,7 +531,12 @@ input::placeholder {
 
 
   }
+
+  .botoes a{
+      margin: auto !important;
+  }
 }
+
 
 
 

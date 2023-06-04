@@ -94,8 +94,13 @@ body {
 
 .botao-doar {
   display: flex;
+  float: right;
+  margin-top: 5px;
+  margin-right: -60px;
 
 }
+
+
 
 
 .custom-margin {
@@ -539,6 +544,48 @@ input::placeholder {
 
 .title-inputs #btn {
   font-weight: 600;
+}
+
+
+/*Media nav branca para tela media*/
+@media (min-width: 730px) {
+  .navbar-brand img {
+    margin-left: -10px;
+  }
+
+}
+
+/*media nav branca tela small*/
+@media (max-width: 678px) {
+  .navbar-brand img {
+    margin-left: 2px;
+
+  }
+
+  .header1 a {
+    font-size: 12px;
+  }
+
+  .navbar-right {
+    justify-content: center;
+    margin: auto;
+  }
+
+  .mode i {
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+
+  .botao-doar {
+    float: right !important;
+    margin-right: -20px;
+
+
+  }
+
+  .botoes a{
+      margin: auto !important;
+  }
 }
 
 
