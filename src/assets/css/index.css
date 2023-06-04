@@ -14,7 +14,7 @@ body {
 .navbar {
   width: 100%;
   background-color: #fcfcfc !important;
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   align-items: center;
 }
@@ -54,6 +54,9 @@ body {
 
 .botao-doar {
   display: flex;
+  float: right;
+  margin-top: 5px;
+  margin-right: -60px;
 
 }
 
@@ -138,7 +141,7 @@ body {
   color: white;
 }
 
-.dark#body p a{
+.dark#body p a {
   color: white;
 }
 
@@ -152,12 +155,12 @@ body {
   color: white;
 }
 
-.dark#body footer{
+.dark#body footer {
   color: #000;
 }
 
 
-.dark#body div#div-selecao{
+.dark#body div#div-selecao {
   background-color: gray;
 }
 
@@ -170,15 +173,15 @@ body {
   color: white;
 }
 
-.dark#body .container h2{
+.dark#body .container h2 {
   color: white;
 }
 
-.dark#body #h3-destacados{
-  color: white ;
+.dark#body #h3-destacados {
+  color: white;
 }
 
-.dark#body .container h3 a{
+.dark#body .container h3 a {
   color: white;
 }
 
@@ -265,7 +268,7 @@ a:before {
 }
 
 
-.title-dest  a {
+.title-dest a {
   color: #0035A0;
   text-decoration: none;
   font-weight: 600;
@@ -488,50 +491,8 @@ input::placeholder {
   margin-bottom: 30px;
   color: #0035A0;
   text-decoration: none;
-  letter-spacing: unset; 
+  letter-spacing: unset;
   letter-spacing: 0.2px;
-}
-
-
-/*Media nav-branca*/
-@media only screen and (max-width: 645px) {
-  .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .nav-links {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .nav-links ul li {
-    text-align: center;
-  }
-
-  .header1 a {
-    font-size: 12px;
-  }
-
-  .nav-item {
-    margin: 0 5px;
-  }
-
-  .botao-doar {
-    display: flex;
-    margin: auto;
-  }
-
-  .botoes a {
-    font-size: 11px;
-    margin-left: -20px;
-  }
-
-
-  .form-check {
-    display: none;
-  }
 }
 
 
@@ -540,6 +501,43 @@ input::placeholder {
 @media screen and (max-width: 375px) {
   .container {
     margin-bottom: 250px;
+
+  }
+}
+
+/*Media nav branca para tela media*/
+@media (min-width: 730px) {
+  .navbar-brand img {
+    margin-left: -10px;
+  }
+
+}
+
+/*media nav branca tela small*/
+@media (max-width: 678px) {
+  .navbar-brand img {
+    margin-left: 2px;
+
+  }
+
+  .header1 a {
+    font-size: 12px;
+  }
+
+  .navbar-right {
+    justify-content: center;
+    margin: auto;
+  }
+
+  .mode i {
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+
+  .botao-doar {
+    float: right !important;
+    margin-right: -20px;
+
 
   }
 }
