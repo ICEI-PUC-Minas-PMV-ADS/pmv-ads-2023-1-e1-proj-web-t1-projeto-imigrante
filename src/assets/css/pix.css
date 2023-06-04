@@ -4,10 +4,6 @@ body {
 
 
 
-.container {
-    margin-top: 100px;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -134,11 +130,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 .header1 a {
     display: flex;
@@ -194,22 +185,27 @@ a {
 }
 
 
+/*Main*/
 .vr {
     color: black;
     margin: 2em auto 0;
-    height: 330px;
+    height: 350px;
     margin-top: 10px;
 }
 
 .container {
+    margin-top: 100px;
     background-color: #F5F5F7;
     padding-top: 70px;
-    padding-bottom: 40px;
     border-radius: 60px;
-    margin-left: 500px;
 }
 
-
+/*Media query container*/
+@media screen and (min-width: 900px) {
+    .container {
+      max-width: 80%;
+    }
+  }
 
 .p-div {
     color: #0035A0;
@@ -253,6 +249,7 @@ a {
 
 .qr-code h3 {
     color: #0035A0;
+    font-size: 23px;
 }
 
 
@@ -272,8 +269,6 @@ a {
     display: flex !important;
     justify-content: center;
 }
-
-
 
 
 /*FOOTER*/
@@ -398,6 +393,11 @@ input::placeholder {
 
     }
 
+    .container {
+        margin-bottom: 100px;
+        padding-bottom: 80px;
+    }
+
     div.qr-code {
         margin-top: -135px;
     }
@@ -409,7 +409,7 @@ input::placeholder {
 
     .qr-img {
         display: flex;
-        justify-content: center;
+        margin: auto;
         margin-bottom: -100px;
         margin-top: 30px;
     }
@@ -423,7 +423,7 @@ input::placeholder {
 
 
 /*Media query para centralizar links no togller*/
-@media screen and (max-width: 9000px) {
+@media screen and (max-width: 991px) {
     .navbar-nav a {
         text-align: center;
 
@@ -431,6 +431,62 @@ input::placeholder {
 
 }
 
-body {
-    letter-spacing: normal;
+/* Media query footer */
+@media screen and (max-width: 700px) {
+    .title-container {
+        flex-direction: column;
+    }
+
+    footer {
+        background-color: #F5F5F7;
+    }
+
+    .title-inputs {
+        margin-top: -10px;
+        margin-right: 40px;
+    }
+
+    .title-inputs input {
+        width: auto;
+        margin-bottom: 10px;
+        font-size: 12px;
+        /* Adjust the font size for smaller screens */
+    }
+
+    .icons {
+        margin-top: -55px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .icons a {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .icons img {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .title-end {
+        margin-top: -55px;
+    }
+
+    .title-end h5 {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+
+    .title-text h4 {
+        margin-top: -10px;
+        font-size: 12px;
+        /* Adjust the font size for smaller screens */
+        margin-left: 100px;
+    }
+
+    .title-container {
+        width: 100%;
+    }
 }
