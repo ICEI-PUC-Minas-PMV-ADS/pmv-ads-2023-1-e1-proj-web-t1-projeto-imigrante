@@ -13,9 +13,9 @@ const emailIsValid = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    
+
     goToMessagePage();
-    
+
 });
 
 
@@ -24,47 +24,56 @@ form.addEventListener('submit', (event) => {
 function validateNomeInput() {
     const value = nomeInput.value.trim();
     let errorMessage = '';
+    let isValid = true;
+
     // Valida o tamanho do nome
     if (value.length < 4) {
         errorMessage = 'Type your full name';
+        isValid = false;
     }
     // Mostra a mensagem
     nomeError.innerHTML = errorMessage;
-
-    return value;
+   
+    return isValid;
 }
 
 // Function to validate the email input
 function validateEmailInput() {
     const value = emailInput.value.trim();
     let errorMessage = '';
+    let isValid = true;
+
     // Verifica se o email é válido
     if (!value.match(emailIsValid)) {
         errorMessage = 'Invalid email';
+        isValid = false;
     }
     emailError.innerHTML = errorMessage;
 
-    return value;
+    return isValid;
 }
 
 // Function to validate the cpf input
 function validateCpfInput() {
     const value = cpfInput.value.trim();
     let errorMessage = '';
-    // Verifica se o cpf tem 11 caracteres
+    let isValid = true;
+
+    // Verifica se o cpf está vazio
     if (value.length === 0) {
         errorMessage = 'Type your cpf or cnpj';
+        isValid = false;
     }
     cpfError.innerHTML = errorMessage;
 
-    return value;
+    return isValid;
 }
 
 
 
 // Function to redirect to another page
 function goToMessagePage() {
-    if ( validateNomeInput() && validateEmailInput() && validateCpfInput()) {
+    if (validateNomeInput() && validateEmailInput() && validateCpfInput()) {
         window.location.href = 'englishmsgpago.html';
     }
 }
