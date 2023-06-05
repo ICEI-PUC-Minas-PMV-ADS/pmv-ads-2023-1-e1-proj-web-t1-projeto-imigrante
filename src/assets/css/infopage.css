@@ -193,7 +193,7 @@ body {
   color: white;
 }
 
-.dark#body .text-container h3{
+.dark#body .text-container h3 {
   color: white;
 }
 
@@ -205,7 +205,7 @@ body {
   color: white;
 }
 
-.dark#body #navbar-2 div{
+.dark#body #navbar-2 div {
   background-color: gray !important;
 }
 
@@ -228,7 +228,7 @@ body {
   letter-spacing: .09375rem;
 }
 
-.bg-body-tertiary{
+.bg-body-tertiary {
   background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
   transition: 0.2ms;
 }
@@ -244,6 +244,13 @@ a {
   height: 250px;
 
 
+}
+
+.h1-about-us {
+  font-size: 25px;
+  margin-top: 100px;
+  letter-spacing: unset;
+  color: #0035A0;
 }
 
 .c-img {
@@ -395,7 +402,7 @@ p a {
   color: #999;
   font-style: italic;
   margin-left: 70px;
-  margin-top:5px;
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 
@@ -583,8 +590,8 @@ input::placeholder {
 
   }
 
-  .botoes a{
-      margin: auto !important;
+  .botoes a {
+    margin: auto !important;
   }
 }
 
