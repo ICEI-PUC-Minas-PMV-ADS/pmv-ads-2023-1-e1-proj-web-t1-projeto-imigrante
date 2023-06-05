@@ -569,7 +569,7 @@ input::placeholder {
 }
 
 /*media nav branca tela small*/
-@media (max-width: 678px) {
+@media (max-width: 302px) {
     .navbar-brand img {
         margin-left: 2px;
 
@@ -598,5 +598,9 @@ input::placeholder {
 
     .botoes a {
         margin: auto !important;
+    }
+
+    .container-fluid {
+        margin-bottom: 50px;
     }
 }
