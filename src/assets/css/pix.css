@@ -67,7 +67,7 @@ body {
     padding-top: 20px;
     padding-bottom: 10px;
     width: 400px;
-    font-weight: bold;
+    font-weight: 600;
 
 }
 
@@ -76,11 +76,14 @@ body {
     border: none;
     text-align: center;
     box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
+    font-weight: 600;
 }
 
 .botao-doar {
     display: flex;
+    float: right;
+    margin-top: 5px;
+    margin-right: -60px;
 
 }
 
@@ -106,11 +109,11 @@ body {
 
 .title-end h5 {
     font-size: 14px;
-  }
-  
-  
-  
-  .botoes a{
+}
+
+
+
+.botoes a {
     font-size: 13px;
     margin-right: 5px;
     margin-left: 5px;
@@ -161,6 +164,64 @@ body {
 }
 
 
+/*DARK MODE INGLÊS*/
+.dark#body {
+    background-color: #303030;
+    ;
+    color: white;
+}
+
+.dark#body p a {
+    color: white;
+}
+
+.dark#body p {
+    color: white;
+
+}
+
+.dark#body #white-header {
+    background-color: #000 !important;
+    color: white;
+}
+
+.dark#body footer {
+    background-color: #000;
+    color: white;
+}
+
+.dark#body #title-end h5 {
+    color: white;
+}
+
+.dark#body #title-text h4 {
+    color: white;
+}
+
+
+.dark#body .qr-code h3 {
+    color: white !important;
+}
+
+.dark#body .container {
+    background-color: #424242;
+}
+
+.dark#body input {
+    background-color: #5d5a5a;
+    color: white;
+}
+
+.dark#body .form-group input::placeholder {
+    color: white;
+}
+
+/* BOTÃO DARKMODE*/
+
+.mode #mode_icon {
+    margin-top: 10px;
+}
+
 
 /* HEADER 2*/
 
@@ -197,12 +258,23 @@ a {
     margin-top: 100px;
     background-color: #F5F5F7;
     padding-top: 70px;
-    padding-bottom: 10px;
     border-radius: 60px;
-    margin-left: 500px;
 }
 
+.div-btn button {
+    font-weight: 600;
+}
 
+.title-inputs #btn {
+    font-weight: 600;
+}
+
+/*Media query container*/
+@media screen and (min-width: 900px) {
+    .container {
+        max-width: 80%;
+    }
+}
 
 .p-div {
     color: #0035A0;
@@ -266,8 +338,6 @@ a {
     display: flex !important;
     justify-content: center;
 }
-
-
 
 
 /*FOOTER*/
@@ -371,11 +441,53 @@ input::placeholder {
 
 .icons img {
     margin: 15px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
+
 }
 
 
+
+/*Media nav branca para tela media*/
+@media (min-width: 730px) {
+    .navbar-brand img {
+        margin-left: -10px;
+    }
+
+}
+
+/*media nav branca tela small*/
+@media (max-width: 678px) {
+    .navbar-brand img {
+        margin-left: 2px;
+
+    }
+
+    .header1 a {
+        font-size: 12px;
+    }
+
+    .navbar-right {
+        justify-content: center;
+        margin: auto;
+    }
+
+    .mode i {
+        margin-left: 8px;
+        margin-bottom: 10px;
+    }
+
+    .botao-doar {
+        float: right !important;
+        margin-right: -20px;
+
+
+    }
+
+    .botoes a {
+        margin: auto !important;
+    }
+}
 
 @media screen and (max-width: 770px) {
 
@@ -393,7 +505,7 @@ input::placeholder {
     }
 
     .container {
-        margin-bottom:100px;
+        margin-bottom: 100px;
         padding-bottom: 80px;
     }
 
@@ -433,59 +545,59 @@ input::placeholder {
 /* Media query footer */
 @media screen and (max-width: 700px) {
     .title-container {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
+
     footer {
-      background-color: #F5F5F7;
+        background-color: #F5F5F7;
     }
-  
+
     .title-inputs {
-      margin-top: -10px;
-      margin-right: 40px;
+        margin-top: -10px;
+        margin-right: 40px;
     }
-  
+
     .title-inputs input {
-      width: auto;
-      margin-bottom: 10px;
-      font-size: 12px;
-      /* Adjust the font size for smaller screens */
+        width: auto;
+        margin-bottom: 10px;
+        font-size: 12px;
+        /* Adjust the font size for smaller screens */
     }
-  
+
     .icons {
-      margin-top: -55px;
-      text-align: center;
-      margin-bottom: 20px;
+        margin-top: -55px;
+        text-align: center;
+        margin-bottom: 20px;
     }
-  
+
     .icons a {
-      display: inline-block;
-      margin-right: 10px;
+        display: inline-block;
+        margin-right: 10px;
     }
-  
+
     .icons img {
-      width: 20px;
-      height: 20px;
-      margin-bottom: 30px;
+        width: 20px;
+        height: 20px;
+        margin-bottom: 30px;
     }
-  
+
     .title-end {
-      margin-top: -55px;
+        margin-top: -55px;
     }
-  
+
     .title-end h5 {
-      font-size: 12px;
-      margin-top: 12px;
+        font-size: 12px;
+        margin-top: 12px;
     }
-  
+
     .title-text h4 {
-      margin-top: -10px;
-      font-size: 12px;
-      /* Adjust the font size for smaller screens */
-      margin-left: 100px;
+        margin-top: -10px;
+        font-size: 12px;
+        /* Adjust the font size for smaller screens */
+        margin-left: 100px;
     }
-  
+
     .title-container {
-      width: 100%;
+        width: 100%;
     }
-  }
+}

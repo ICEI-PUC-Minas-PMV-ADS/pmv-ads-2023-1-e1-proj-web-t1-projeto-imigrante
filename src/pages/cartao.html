@@ -6,56 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../assets/images/logo-principal.png">
-    <link rel="stylesheet" href="../assets/css/cartão.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <style>
-        p.big {
-            line-height: 2.0;
-        }
-
-        h5.big {
-            line-height: 2.0;
-        }
-    </style>
-</head>
-
-<title>Imigra Brasil</title>
+    <link rel="stylesheet" href="../assets/css/cartão.css">
+    <title>Imigra Brasil</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-md" id="white-header">
             <div class="container-fluid">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="../assets/images/logo-principal.png" alt="Logo" width="55" height="55"
                             class="d-inline-block">
                     </a>
-                    <li class="nav-text px-1 header1">
-                        <a class="nav-link" href="#">IMIGRA BRASIL</a>
+                    <li class="nav-text  header1">
+                        <a class="nav-link" href="#" id="imigra-text">IMIGRA BRASIL</a>
                     </li>
+                    <div class="botao-doar px-3">
+                        <a href="./englishtelapagamento.html"><input id="btn" type="submit"
+                                value="&#9825 DONATE"></a>
+                    </div>
                 </div>
 
-                <div class="nav justify-content-end px-5" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <div class="botao-doar px-5">
-                            <form action=" ./telapagamento.html">
-                                <input id="btn" type="submit" value="DOAR">
-                            </form>
+                <div class="nav justify-content-end px-5 d-flex navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav  navbar-right">
+                        <div class="mode px-5">
+                            <i id="mode_icon" class="fa-solid fa-moon"></i>
                         </div>
-                        <div class="mode">
-                            <i class="fa-solid fa-moon"></i>
-                        </div>
-                        <li class="nav-item px-1 botoes">
+                        <li class="nav-item  botoes">
                             <a class="nav-link" href="../englishpages/englishcartao.html">EN</a>
-                        <li class="nav-item botoes px-1">
-                            <a class="nav-link" href="./cartao.html">PT</a>
                         </li>
+                        <li class="nav-item botoes">
+                            <a class="nav-link" href="../pages/cartao.html">PT</a>
                         </li>
                     </ul>
                 </div>
@@ -72,10 +59,10 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-center header2" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
+                        <div class="navbar-nav links-nav2">
+                            <a class="nav-link px-5" href="./quemsomos.html"><b>QUEM SOMOS</b></a>
                             <a class="nav-link px-5" href="./residir.html"><b>RESIDIR LEGALMENTE</b></a>
                             <a class="nav-link px-5" href="#"><b>EDUCAÇÃO</b></a>
-                            <a class="nav-link px-5" href="./mercadoTrabalho.html"><b>TRABALHO</b></a>
                             <a class="nav-link px-5" href="#"><b>SAÚDE</b></a>
                         </div>
                     </div>
@@ -84,16 +71,12 @@
         </div>
     </header>
 
-
-    <p class="home-text"><a href="../index.html" class="">&#8592 Home</a></p>
-
-
+    <p class="home-text"><a href="./englishhome.html" class="">&#8592 Home</a></p>
     <div class="container-main">
         <div class="container">
             <form class="mt-5">
-
                 <div class="section2">
-                    <p><b>Selecione bandeira do cartão:</b></p>
+                    <p><b>Selecione a bandeira do cartão:</b></p>
                     <br>
                     <div class="form-check form-check-inline">
                         <img class="page-image" src="../assets/images/visa.png" alt="pix-image">
@@ -118,7 +101,7 @@
 
                     <div class="form-check form-check-inline">
                         <img class="page-image" src="../assets/images/elo.png" alt="pix-image">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
                             value="option3">
                         <label class="form-check-label" for="inlineRadio3"></label>
                     </div>
@@ -132,7 +115,7 @@
                 <div class="form-group mb-3">
                     <p><b>Número do cartão:</b></p>
                     <input type="number" class="form-control" id="formGroupExampleInput2"
-                        placeholder="*Número do Cartão" required>
+                        placeholder="*Número do cartão" required>
                 </div>
 
                 <div class="row">
@@ -169,11 +152,11 @@
                             <option>2031</option>
                             <option>2032</option>
                         </select>
-
                     </div>
                 </div>
-                <div class="form-group2 mb-3">
-                    <p><b>Código de segurança:</b></p>
+
+                <div class="form-group2 mb-5">
+                    <p><b>Código de segurança</b></p>
                     <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="*CVV" required>
                 </div>
                 <div class="form-check">
@@ -182,21 +165,19 @@
                         <b>Cpf do titular do cartão é igual do cadastro.</b>
                     </label>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
+                <div class="form-check mb-5">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="" for="flexCheckDefault">
                         <b> Guardar informações para futuras compras.</b>
                     </label>
                 </div>
-                <button type="submit" class="btn btn-primary"><B>DOAR</B></button>
+                <button type="submit" class="btn btn-primary">DOAR</button>
             </form>
-
-
         </div>
     </div>
 
-    <footer class="fixed-bottom">
-        <!-- Cadastro da newsletter -->
+
+    <footer>
         <div class="container-fluid title-container">
             <div class="title-input">
                 <div class="title-text">
@@ -223,7 +204,6 @@
     </footer>
 
 
-    <!-- To link js in Bootstrap  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>

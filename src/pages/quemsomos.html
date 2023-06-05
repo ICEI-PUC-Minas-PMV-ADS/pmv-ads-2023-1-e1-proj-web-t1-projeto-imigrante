@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../assets/images/logo-principal.png">
-    <link rel="stylesheet" href="../assets/css/boleto.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Link imagem lua-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/css/infopage.css">
     <title>Imigra Brasil</title>
 </head>
 
-
-<body class="d-flex flex-column min-vh-100">
+<body id="body">
     <header>
         <nav class="navbar navbar-expand-md" id="white-header">
             <div class="container-fluid">
@@ -40,15 +40,16 @@
                             <i id="mode_icon" class="fa-solid fa-moon"></i>
                         </div>
                         <li class="nav-item  botoes">
-                            <a class="nav-link" href="../englishpages/englishboleto.html">EN</a>
+                            <a class="nav-link" href="../englishpages/englishquemsomos.html">EN</a>
                         </li>
                         <li class="nav-item botoes">
-                            <a class="nav-link" href="../pages/boleto.html">PT</a>
+                            <a class="nav-link" href="./quemsomos.html">PT</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
 
         <div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -59,7 +60,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-center header2" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ">
+                        <div class="navbar-nav links-nav2">
                             <a class="nav-link px-5" href="./quemsomos.html"><b>QUEM SOMOS</b></a>
                             <a class="nav-link px-5" href="./residir.html"><b>RESIDIR LEGALMENTE</b></a>
                             <a class="nav-link px-5" href="#"><b>EDUCAÇÃO</b></a>
@@ -70,56 +71,71 @@
             </nav>
         </div>
     </header>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="input col-md-3">
-                <p class="p-div"><b>Preencha sua informação:</b></p>
-                <form id="form" class="form w-100">
-                    <div class=" form-group mb-2">
-                        <input type="text" class="form-control" name="username" id="username" placeholder="Nome*"
-                            required>
-                        <div id="usernameError"></div>
-                    </div>
 
-                    <div class="form-group  mb-2">
-                        <input type="text" class="form-control" name="email" id="email" placeholder="Email*" required>
-                        <div id="emailError"></div>
+    <main>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <img src="../assets/images/refresh22-who-we-are-header-3010x1020.jpg" class="img-fluid d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption top-0 mt-5 d-md-block">
+                        <h1 class="display-1 fw-bolder h1-about-us">SEU GUIA PARA UMA VIDA NOVA</h1>
                     </div>
-
-                    <div class="form-group  mb-2">
-                        <input type="number" class="form-control" name="cpf" id="cpf" placeholder="Cpf/Cnpj*" required>
-                        <div id="cpfError"></div>
-                    </div>
-
-                    <div class="div-btn ">
-                        <button type="submit" value="Submit" id="btn" class="btn">DOAR</button>
-                    </div>
-                </form>
+                </div>
             </div>
+            <p class="home-text"><a href="../index.html" class="">&#8592 Home</a></p>
+            <div class="container-fluid container">
+                <div class="justify-content-center">
+                    <div class="text-container">
+                        <p class="mb-4">
+                            Somos um site dedicado a fornecer informações e orientações sobre os processos e
+                            procedimentos necessários para que imigrantes e refugiados possam residir no Brasil. Nosso
+                            objetivo é facilitar a integração desses indivíduos, oferecendo um guia abrangente e
+                            confiável para que possam entender e cumprir todas as exigências legais.
+                        <p class="mb-4">
+                            Entendemos que o processo de imigração e busca por refúgio pode ser complexo e desafiador.
+                            Por isso, reunimos aqui todas as informações relevantes sobre vistos, autorizações de
+                            residência, documentação necessária e outros aspectos legais que os imigrantes e refugiados
+                            devem conhecer.
+                        </p>
 
-            <div class="d-flex col-md-3" style="height: 200px;">
-                <div class="vr"></div>
-            </div>
-            <div class="qr-code col-md-3">
-                <h3 class="mb-3">Pague com Boleto!</h3>
-                <p id="p1">Copie e cole o código fornecido no campo de pagamento do seu banco, ou aponte para a sua
-                    câmera.
-                </p>
-                <img class="img-fluid qr-img" src="../assets/images/Sem nome [Tamanho original] (5).png"
-                    alt="Imagem de um QR code" />
-            </div>
-        </div>
-    </div>
+                        <p class="mb-4">
+                            Nossa equipe é composta por profissionais especializados no campo da imigração,
+                            familiarizados com as leis e regulamentos vigentes no Brasil. Trabalhamos para garantir que
+                            todas as informações fornecidas em nosso site sejam atualizadas e precisas, de modo a ajudar
+                            os imigrantes e refugiados a tomar decisões informadas e a navegar com sucesso pelos
+                            processos burocráticos.
+                        </p>
 
-    <footer class="mt-auto">
-        <div class="container-fluid  title-container">
+                        <p class="mb-4">
+                            Além de fornecer informações detalhadas, também estamos comprometidos em promover a inclusão
+                            e o respeito mútuo. Acreditamos na diversidade e na importância de acolher os imigrantes e
+                            refugiados em nossa sociedade. Por meio deste site, esperamos contribuir para a construção
+                            de um ambiente acolhedor e inclusivo para todas as pessoas que desejam recomeçar suas vidas
+                            no Brasil.
+                        </p>
+                        <p class="mb-4">
+                            Encorajamos você a explorar nosso site e utilizar as informações disponíveis para obter o
+                            suporte necessário em sua jornada de imigração ou refúgio. Esteja ciente de que as
+                            informações aqui fornecidas são de caráter geral e podem variar de acordo com cada caso
+                            específico. Recomendamos sempre buscar aconselhamento profissional especializado para lidar
+                            com suas necessidades individuais.
+                        </p>
+                        <p class="mb-4">
+                            Seja bem-vindo ao nosso site e estamos aqui para ajudá-lo em sua jornada rumo a uma nova
+                            vida no Brasil!
+                        </p>
+                    </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid title-container">
             <div class="title-input">
                 <div class="title-text">
                     <h4>Inscreva-se na nossa Newsletter</h4>
                 </div>
                 <div class="title-inputs">
                     <input type="email" name="email" id="email" placeholder="Email" required>
-                    <input id="btn" type="submit" value="Send">
+                    <input id="btn" type="submit" value="Enviar">
                 </div>
             </div>
             <div class="icons">
@@ -138,9 +154,6 @@
     </footer>
 
 
-
-
-    <script src="../assets/js/validateBoleto.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

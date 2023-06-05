@@ -14,7 +14,7 @@ O template criado está disponível no [Figma](https://www.figma.com/file/vMgPjo
 ### Tela- Home-Page
 Tela que contém todas as informações principais do site.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/830e95e5-00f1-4bbc-b20c-560a55f7b6a2)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/e1db676a-3796-41f4-a69f-a5b07f7fd6e6)
 
 *Figura 14 - Home page*
 
@@ -60,7 +60,7 @@ Tela com campos para realizar o pagamento com o cartão de crédito.
 ### Tela Doação- Dados pagamento boleto
 Tela que contém campos para realizar o pagamento da doação por meio do boleto bancário.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/de81a3e6-701b-4194-8d3b-5977abaec985)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/ce2efa5a-7491-49f1-8f07-a5847c9cafaf)
 
 *Figura 21- Tela para pagar com boleto*
 

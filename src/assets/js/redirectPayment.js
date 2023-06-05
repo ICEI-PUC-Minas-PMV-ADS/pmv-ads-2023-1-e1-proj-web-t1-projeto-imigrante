@@ -9,7 +9,7 @@ const inputError = document.getElementById('inputError');
 
 
 //Função que valida o primeiro campo de seleção
-function radio1Selecionada() {
+function isRadio1Selected() {
     let errorMessage = '';
     
     const radios1 = document.querySelectorAll('input[name="inlineRadioOptions"]');
@@ -26,7 +26,7 @@ function radio1Selecionada() {
 
 
 //Função que valida o segundo grupo de seleção
-function radio2Selecionada() {
+function isRadio2Selected() {
     let errorMessage = '';
 
     const radios2 = document.querySelectorAll('input[name="options"]');
@@ -43,7 +43,7 @@ function radio2Selecionada() {
 
 
 //Função que redireciona para outra pagina
-function proximaPagina() {
+function goToAnotherPage() {
     if (isRadio1Selected() && isRadio2Selected()) {
         if (radioPix.checked) {
             window.location.href = "pix.html";
