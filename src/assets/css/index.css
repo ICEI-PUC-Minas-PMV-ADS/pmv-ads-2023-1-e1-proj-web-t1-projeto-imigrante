@@ -14,7 +14,7 @@ body {
 .navbar {
   width: 100%;
   background-color: #fcfcfc !important;
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   align-items: center;
 }
@@ -40,7 +40,7 @@ body {
   font-family: Helvetica;
   color: #0035A0;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
 
 }
 
@@ -49,11 +49,14 @@ body {
   border: none;
   text-align: center;
   box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
+  font-weight: 600;
 }
 
 .botao-doar {
   display: flex;
+  float: right;
+  margin-top: 5px;
+  margin-right: -60px;
 
 }
 
@@ -93,21 +96,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 
 .header1 a {
   display: flex;
   font-family: Helvetica;
-  color: #0035A0 !important;
+  color: #006AC6;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
   margin-left: -20px;
 
+}
+
+.navbar-brand img {
+  margin-left: 30px;
 }
 
 .botao-doar input {
@@ -115,6 +116,7 @@ body {
   border: none;
   text-align: center;
   box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  font-weight: 600;
 
 }
 
@@ -129,6 +131,75 @@ body {
   height: 40px;
   color: rgb(255, 255, 255);
 }
+
+
+
+
+/*DARK MODE INGLÊS*/
+.dark#body {
+  background-color: black;
+  color: white;
+}
+
+.dark#body p a {
+  color: white;
+}
+
+.dark#body p {
+  color: white;
+
+}
+
+.dark#body #white-header {
+  background-color: gray !important;
+  color: white;
+}
+
+.dark#body footer {
+  color: #000;
+}
+
+
+.dark#body div#div-selecao {
+  background-color: gray;
+}
+
+.dark#body footer {
+  background-color: gray;
+  color: white;
+}
+
+.dark#body #imigra-text {
+  color: white;
+}
+
+.dark#body .container h2 {
+  color: white;
+}
+
+.dark#body #h3-destacados {
+  color: white;
+}
+
+.dark#body .container h3 a {
+  color: white;
+}
+
+.dark#body #title-end h5 {
+  color: white;
+}
+
+.dark#body #title-text h4 {
+  color: white;
+}
+
+
+/* BOTÃO DARKMODE*/
+
+.mode #mode_icon {
+  margin-top: 10px;
+}
+
 
 
 /* HEADER 2*/
@@ -200,11 +271,16 @@ a:before {
 .title-dest a {
   color: #0035A0;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .dest-card {
   margin-bottom: 40px;
   margin-top: 20px;
+}
+
+#h3-destacados {
+  font-weight: bold;
 }
 
 
@@ -226,6 +302,8 @@ a:before {
 .div-integracao {
   margin-bottom: 100px;
 }
+
+
 
 
 
@@ -331,13 +409,17 @@ input::placeholder {
 
 }
 
+.title-inputs #btn {
+  font-weight: 600;
+}
+
 
 .icons img {
   margin: 15px;
-  width: 25px;
-  height: 25px;
-}
+  width: 20px;
+  height: 20px;
 
+}
 
 /* formatação dos cards*/
 .card-group {
@@ -391,13 +473,11 @@ input::placeholder {
   justify-content: center;
   height: 160px;
   width: 250px;
-  text-align: center;
-  position: relative;
-  letter-spacing: 3px;
+  padding-left: 21px;
+  letter-spacing: 2px;
   font-size: 14px;
   font-weight: bold;
   color: white;
-
 }
 
 .items a {
@@ -412,62 +492,51 @@ input::placeholder {
   color: #0035A0;
   text-decoration: none;
   letter-spacing: unset;
+  letter-spacing: 0.2px;
 }
 
 
-/*Media nav-branca*/
-@media only screen and (max-width: 645px) {
-  .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/*Media nav branca para tela media*/
+@media (min-width: 730px) {
+  .navbar-brand img {
+    margin-left: -10px;
   }
 
-  .nav-links {
-    width: 100%;
-    margin-top: 10px;
-  }
+}
 
-  .nav-links ul li {
-    text-align: center;
+/*media nav branca tela small*/
+@media (max-width: 678px) {
+  .navbar-brand img {
+    margin-left: 2px;
+
   }
 
   .header1 a {
     font-size: 12px;
   }
 
-  .nav-item {
-    margin: 0 5px;
-  }
-
-  .botao-doar {
-    display: flex;
+  .navbar-right {
+    justify-content: center;
     margin: auto;
   }
 
-  .botoes a {
-    font-size: 11px;
-    margin-left: -20px;
+  .mode i {
+    margin-left: 8px;
+    margin-bottom: 10px;
   }
 
-  .botao-doar input {
-    color: pink;
+  .botao-doar {
+    float: right !important;
+    margin-right: -20px;
+
+
   }
 
-  .form-check {
-    display: none;
-  }
-}
-
-
-
-/*Media container horizontal*/
-@media screen and (max-width: 375px) {
-  .container {
-    margin-bottom: 250px;
-
+  .botoes a{
+      margin: auto !important;
   }
 }
+
 
 
 

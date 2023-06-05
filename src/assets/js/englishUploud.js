@@ -18,7 +18,7 @@ nomeInput.addEventListener('change', (event) => {
     let errorMessage = '';
     // Valida o tamanho do nome
     if (value && value.length < 4) {
-        errorMessage = 'Digite seu nome completo.';
+        errorMessage = 'Type your full name.';
     }
     // Mostra a mensagem 
     nomeError.innerHTML = errorMessage;
@@ -30,7 +30,7 @@ emailInput.addEventListener('change', (event) => {
     let errorMessage = '';
     // Verifica se o email é válido
     if (!value.match(emailIsValid)) {
-        errorMessage = 'Email inválido.';
+        errorMessage = 'Invalid email.';
     }
     emailError.innerHTML = errorMessage;
 });
@@ -42,7 +42,7 @@ var fileUpload = document.getElementById("fileUpload");
 var enviar = document.getElementById("enviar");
 enviar.addEventListener("click", function (event) {
     if (fileUpload.files.length == 0) {
-        alert("Nenhum Arquivo Selecionado");
+        alert("No file selected");
         return;
     }
 })
@@ -59,5 +59,5 @@ form.addEventListener("submit", (event) => {
     nomeInput.value = "";
     emailInput.value = "";
     arquivoInput.value = "";
-    alert("Obrigado! Recebemos suas informações. Em breve entraremos em contato");
+    alert("Thanks! We have received your information. Soon we will be in touch with you.");
 });
