@@ -519,6 +519,11 @@ input::placeholder {
   .botoes a{
       margin: auto !important;
   }
+
+  
+  .botao-doar a{
+    font-size: 12px;
+}
 }
 
 

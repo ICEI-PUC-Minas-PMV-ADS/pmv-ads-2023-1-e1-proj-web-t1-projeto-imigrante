@@ -13,7 +13,7 @@ body {
 }
 
 .header1 img {
-  width:110px;
+  width: 110px;
   margin-left: -20px;
 }
 
@@ -132,11 +132,12 @@ body {
 
 /*DARK MODE INGLÊS*/
 .dark#body {
-  background-color: #303030;;
+  background-color: #303030;
+  ;
   color: white;
 }
 
-.dark#body p a{
+.dark#body p a {
   color: white;
 }
 
@@ -150,7 +151,7 @@ body {
   color: white;
 }
 
-.dark#body footer{
+.dark#body footer {
   background-color: #000;
   color: white;
 }
@@ -177,8 +178,8 @@ body {
   color: white;
 }
 
-.dark#body #inputState{
-  background-color:  #5d5a5a;
+.dark#body #inputState {
+  background-color: #5d5a5a;
   color: white;
 }
 
@@ -187,11 +188,11 @@ body {
 }
 
 .dark#body .form-group input::placeholder {
-  color:white;
+  color: white;
 }
 
 .dark#body .form-check label {
-  color:white;
+  color: white;
 }
 
 /* BOTÃO DARKMODE*/
@@ -481,8 +482,13 @@ input::placeholder {
 
   }
 
-  .botoes a{
-      margin: auto !important;
+  .botoes a {
+    margin: auto !important;
+  }
+
+
+  .botao-doar a {
+    font-size: 12px;
   }
 }
 

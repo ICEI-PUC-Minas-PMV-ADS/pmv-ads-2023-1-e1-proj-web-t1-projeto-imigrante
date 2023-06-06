@@ -24,6 +24,7 @@ body {
   height: 100px;
 }
 
+
 .nav-text-imigra {
   display: inline-flex;
   padding-top: 1px;
@@ -34,7 +35,7 @@ body {
 }
 
 .header1 img {
-  width:110px;
+  width: 110px;
   margin-left: -20px;
 }
 
@@ -49,8 +50,8 @@ body {
 
 }
 
-.navbar-brand img{
-margin-left: 200px;
+.navbar-brand img {
+  margin-left: 200px;
 }
 
 #btn:hover {
@@ -232,6 +233,8 @@ margin-left: 200px;
   font-size: 14.7px;
   letter-spacing: .09375rem;
 }
+
+
 
 .bg-body-tertiary {
   background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
@@ -591,13 +594,16 @@ input::placeholder {
   .botao-doar {
     float: right !important;
     margin-right: -20px;
-
-
   }
 
   .botoes a {
     margin: auto !important;
   }
+
+  .botao-doar a {
+    font-size: 12px;
+  }
+
 }
 
 
