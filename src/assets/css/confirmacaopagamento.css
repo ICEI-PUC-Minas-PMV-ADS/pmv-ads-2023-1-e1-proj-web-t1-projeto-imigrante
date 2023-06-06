@@ -17,6 +17,7 @@ body {
     margin-left: -20px;
 }
 
+
 .nav1 {
     height: 100px;
 }
@@ -29,6 +30,10 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+
+.mode #mode_icon {
+    margin-top: 9px;
+  }
 
 
 .nav-text {
