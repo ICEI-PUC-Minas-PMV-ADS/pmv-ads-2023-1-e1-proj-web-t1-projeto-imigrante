@@ -59,7 +59,7 @@ Nessa sessão da documentação, será apresentada as telas com cada funcionalid
 **Artefatos** 
 
 - comments.js
-- validatedCommentsInputs
+
 
 **Acesso a página**
 
