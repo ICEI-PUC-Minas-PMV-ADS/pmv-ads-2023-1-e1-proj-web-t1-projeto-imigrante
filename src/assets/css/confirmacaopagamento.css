@@ -12,6 +12,10 @@ body {
     align-items: center;
 }
 
+.header1 img {
+    width: 110px;
+    margin-left: -20px;
+}
 
 .nav1 {
     height: 100px;

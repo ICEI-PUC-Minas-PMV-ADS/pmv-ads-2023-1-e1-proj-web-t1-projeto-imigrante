@@ -33,6 +33,11 @@ body {
   font-weight: 600;
 }
 
+.header1 img {
+  width:110px;
+  margin-left: -20px;
+}
+
 
 .nav-text {
   display: inline-block;

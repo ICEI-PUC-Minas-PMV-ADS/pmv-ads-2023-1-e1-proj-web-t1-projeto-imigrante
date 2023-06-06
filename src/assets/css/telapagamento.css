@@ -26,6 +26,10 @@ body {
     font-weight: bold;
 }
 
+.header1 img {
+    width: 110px;
+    margin-left: -20px;
+}
 
 .nav-text {
     display: inline-block;
@@ -459,7 +463,7 @@ input::placeholder {
     }
 
     .botoes {
-        margin: auto ;
+        margin: auto;
     }
 }
 
