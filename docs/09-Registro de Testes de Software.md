@@ -5,15 +5,15 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 ### Caso de teste CT-01 - Visualizar detalhes das informações
 Ao clicar na página de apoio e ajuda, as  informações foram apresentadas corretamente. <br /> 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/72573c95-c499-413a-9cb1-edcbed42892b)  <br /> <br />
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/321b6d6e-7247-4b5d-8d23-31adc3f85532)  <br /> <br />
 
 
 ### Caso de teste CT-02 – Tradução das páginas para o inglês.
 Após clicar no icone "EN", a pagína foi traduzida para o inglês. <br /> 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/bd5ef7eb-2526-40b5-960a-87b66c7c2887) <br /> <br /> 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/9c5740c2-7b4f-4ec5-9092-843c66b2c4e0)  <br /> <br /> 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/dd0609de-11b2-414a-9971-11919a749a37)  <br /> <br /> 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/a3bcc999-d3dd-448d-b1cf-e54c3cf216cd) <br /> <br /> 
 
 
 
