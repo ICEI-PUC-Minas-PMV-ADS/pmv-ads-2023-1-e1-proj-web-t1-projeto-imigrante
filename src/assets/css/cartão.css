@@ -12,6 +12,10 @@ body {
   align-items: center;
 }
 
+.header1 img {
+  width:110px;
+  margin-left: -20px;
+}
 
 .nav1 {
   height: 100px;
@@ -193,9 +197,8 @@ body {
 /* BOTÃO DARKMODE*/
 
 .mode #mode_icon {
-  margin-top: 10px;
+  margin-top: 9px;
 }
-
 
 /* HEADER 2*/
 
@@ -496,7 +499,6 @@ input::placeholder {
   }
 }
 
-
 /* Media query footer */
 @media screen and (max-width: 700px) {
   .title-container {
@@ -509,20 +511,22 @@ input::placeholder {
 
   .title-inputs {
     margin-top: -10px;
-    margin-right: 40px;
   }
 
   .title-inputs input {
-    width: auto;
     margin-bottom: 10px;
     font-size: 12px;
-    /* Adjust the font size for smaller screens */
+    width: 210px;
   }
 
   .icons {
     margin-top: -55px;
     text-align: center;
     margin-bottom: 20px;
+  }
+
+  input#btn {
+    width: 70px;
   }
 
   .icons a {
@@ -549,7 +553,7 @@ input::placeholder {
     margin-top: -10px;
     font-size: 12px;
     /* Adjust the font size for smaller screens */
-    text-align: center;
+    margin-left: 130px;
   }
 
   .title-container {
