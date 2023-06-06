@@ -11,9 +11,9 @@ Ao clicar na página de apoio e ajuda, as  informações foram apresentadas corr
 ### Caso de teste CT-02 – Tradução das páginas para o inglês.
 Após clicar no icone "EN", a pagína foi traduzida para o inglês. <br /> 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/9c5740c2-7b4f-4ec5-9092-843c66b2c4e0)  <br /> <br /> 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/90449be8-81df-4f80-abab-447c5bee94d3)  <br /> <br /> 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/a3bcc999-d3dd-448d-b1cf-e54c3cf216cd) <br /> <br /> 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/4bf70599-442c-4a23-8f94-f7e3389e0957) <br /> <br /> 
 
 
 
