@@ -622,11 +622,9 @@ input::placeholder {
 
   .title-inputs {
     margin-top: -10px;
-    margin-right: 40px;
   }
 
   .title-inputs input {
-    width: auto;
     margin-bottom: 10px;
     font-size: 12px;
     /* Adjust the font size for smaller screens */
@@ -662,7 +660,7 @@ input::placeholder {
     margin-top: -10px;
     font-size: 12px;
     /* Adjust the font size for smaller screens */
-    margin-left: 100px;
+    margin-left: 30px;
   }
 
   .title-container {

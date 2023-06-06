@@ -546,62 +546,61 @@ input::placeholder {
 
 }
 
+
 /* Media query footer */
 @media screen and (max-width: 700px) {
     .title-container {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     footer {
-        background-color: #F5F5F7;
+      background-color: #F5F5F7;
     }
-
+  
     .title-inputs {
-        margin-top: -10px;
-        margin-right: 40px;
+      margin-top: -10px;
     }
-
+  
     .title-inputs input {
-        width: auto;
-        margin-bottom: 10px;
-        font-size: 12px;
-        /* Adjust the font size for smaller screens */
+      margin-bottom: 10px;
+      font-size: 12px;
+      /* Adjust the font size for smaller screens */
     }
-
+  
     .icons {
-        margin-top: -55px;
-        text-align: center;
-        margin-bottom: 20px;
+      margin-top: -55px;
+      text-align: center;
+      margin-bottom: 20px;
     }
-
+  
     .icons a {
-        display: inline-block;
-        margin-right: 10px;
+      display: inline-block;
+      margin-right: 10px;
     }
-
+  
     .icons img {
-        width: 20px;
-        height: 20px;
-        margin-bottom: 30px;
+      width: 20px;
+      height: 20px;
+      margin-bottom: 30px;
     }
-
+  
     .title-end {
-        margin-top: -55px;
+      margin-top: -55px;
     }
-
+  
     .title-end h5 {
-        font-size: 12px;
-        margin-top: 12px;
+      font-size: 12px;
+      margin-top: 12px;
     }
-
+  
     .title-text h4 {
-        margin-top: -10px;
-        font-size: 12px;
-        /* Adjust the font size for smaller screens */
-        margin-left: 100px;
+      margin-top: -10px;
+      font-size: 12px;
+      /* Adjust the font size for smaller screens */
+      margin-left: 30px;
     }
-
+  
     .title-container {
-        width: 100%;
+      width: 100%;
     }
-}
+  }
