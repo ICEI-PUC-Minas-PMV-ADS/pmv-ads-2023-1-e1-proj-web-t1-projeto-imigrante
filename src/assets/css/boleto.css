@@ -468,6 +468,18 @@ input::placeholder {
     font-weight: 600;
 }
 
+#emailError {
+    color: #cc0033;
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: flex;
+  }
+  
+
 @media screen and (max-width: 770px) {
 
     div.vr {

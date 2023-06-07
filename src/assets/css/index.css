@@ -84,7 +84,7 @@ body {
   margin-top: 6px;
   margin-left: 20px;
   color: #555555;
-} 
+}
 
 
 .header1 a {
@@ -410,6 +410,17 @@ input::placeholder {
   width: 20px;
   height: 20px;
 
+}
+
+#emailError {
+  color: #cc0033;
+  display: flex;
+  margin: auto;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 5px;
+  margin-left: 20px;
+  display: flex;
 }
 
 /* formatação dos cards*/
