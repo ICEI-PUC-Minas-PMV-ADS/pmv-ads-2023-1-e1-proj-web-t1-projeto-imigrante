@@ -110,8 +110,9 @@ body {
 
 
 .mode {
-  margin-top: 8px;
+  margin-top: 7px;
   margin-left: 20px;
+  color: #555555;
 } 
 
 
@@ -636,7 +637,7 @@ input::placeholder {
 
 
   .fa-solid {
-    margin-left: -50px;
+    margin-left: -60px;
   }
 
 }
