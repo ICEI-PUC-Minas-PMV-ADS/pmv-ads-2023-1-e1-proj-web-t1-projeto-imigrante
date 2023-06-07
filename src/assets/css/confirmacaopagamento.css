@@ -17,7 +17,6 @@ body {
   margin-left: -20px;
 }
 
-
 .nav1 {
   height: 100px;
 }
@@ -31,10 +30,6 @@ body {
   font-weight: bold;
 }
 
-.mode #mode_icon {
-  margin-top: 9px;
-}
-
 
 .nav-text {
   display: inline-block;
@@ -42,7 +37,28 @@ body {
   font-family: Helvetica;
   color: #0035A0;
   text-decoration: none;
-  font-weight: bold;
+}
+
+.title-input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.title-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-text h4 {
+  font-size: 14px;
+  margin-left: 23px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 400px;
+  font-weight: 600;
 
 }
 
@@ -52,6 +68,7 @@ body {
   text-align: center;
   box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   font-weight: 600;
+
 }
 
 .botao-doar {
@@ -59,6 +76,7 @@ body {
   float: right;
   margin-top: 5px;
   margin-right: -60px;
+
 }
 
 #btn {
@@ -73,17 +91,46 @@ body {
   text-decoration: none;
 }
 
+.title-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px 0px 0px;
+  text-align: center;
+}
+
+.title-end h5 {
+  font-size: 14px;
+}
+
 
 
 .botoes a {
   font-size: 13px;
   margin-right: 5px;
-  margin-left: 5px;
   font-weight: bold;
   color: #a7aba8;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 7px;
 }
+
+.botao-doar {
+  display: flex;
+  float: right;
+  margin-top: 5px;
+}
+
+
+
+
+.mode {
+  margin-top:11px;
+  margin-left: 20px;
+} 
+
+
+
 
 .botoesZoom a {
   font-size: 15px;
@@ -95,12 +142,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 
 .header1 a {
   display: flex;
@@ -108,7 +149,7 @@ body {
   color: #0035A0 !important;
   text-decoration: none;
   font-weight: bold;
-
+  margin-left: -20px;
 }
 
 .botao-doar input {
@@ -312,8 +353,8 @@ input::placeholder {
 
 }
 
-/*media nav branca tela small*/
-@media (max-width: 678px) {
+/*media nav branca tela media*/
+@media (max-width: 766px) {
   .navbar-brand img {
     margin-left: 2px;
 
@@ -328,29 +369,53 @@ input::placeholder {
     margin: auto;
   }
 
-  .mode i {
-    margin-left: 8px;
-    margin-bottom: 10px;
-  }
-
-  .botao-doar {
-    float: right !important;
-    margin-right: -20px;
-
-
-  }
-
-  .botoes a {
-    margin: auto !important;
-  }
-
 
   .botao-doar a {
     font-size: 12px;
   }
+
 }
 
+/*media nav branca tela small-tablets*/
+@media (max-width: 613px) {
+  .navbar-brand img {
+    margin-left: 2px;
 
+  }
+
+  .header1 img {
+    display: none;
+  }
+
+  .botao-doar a {
+    font-size: 12px;
+  }
+
+}
+
+/*media nav branca tela small-celular*/
+@media (max-width: 441px) {
+
+
+  .header1 img {
+    display: none;
+  }
+
+  .botao-doar a {
+    font-size: 12px;
+    margin-left: -180px;
+  }
+
+
+  .fa-solid {
+    margin-left: -50px;
+  }
+
+  #white-header div{
+      height: 50px !important;
+  }
+
+}
 
 
 /*Media query para centralizar links no togller*/

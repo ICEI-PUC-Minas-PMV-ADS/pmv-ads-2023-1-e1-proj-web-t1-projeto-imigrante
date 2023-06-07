@@ -34,7 +34,7 @@ body {
 }
 
 .header1 img {
-  width:110px;
+  width: 110px;
   margin-left: -20px;
 }
 
@@ -60,12 +60,13 @@ body {
 .botoes a {
   font-size: 13px;
   margin-right: 5px;
-  margin-left: 5px;
   font-weight: bold;
   color: #a7aba8;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 7px;
 }
+
 
 .botoesZoom a {
   font-size: 15px;
@@ -76,6 +77,13 @@ body {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+.mode {
+  margin-top:11px;
+  margin-left: 20px;
+} 
 
 
 .header1 a {
@@ -100,8 +108,6 @@ body {
   display: flex;
   float: right;
   margin-top: 5px;
-  margin-right: -60px;
-
 }
 
 
@@ -488,8 +494,8 @@ input::placeholder {
 
 }
 
-/*media nav branca tela small*/
-@media (max-width: 678px) {
+/*media nav branca tela media*/
+@media (max-width: 766px) {
   .navbar-brand img {
     margin-left: 2px;
 
@@ -504,29 +510,54 @@ input::placeholder {
     margin: auto;
   }
 
-  .mode i {
-    margin-left: 8px;
-    margin-bottom: 10px;
-  }
 
-  .botao-doar {
-    float: right !important;
-    margin-right: -20px;
-
-
-  }
-
-  .botoes a{
-      margin: auto !important;
-  }
-
-  
-  .botao-doar a{
+  .botao-doar a {
     font-size: 12px;
-}
+  }
+
 }
 
+/*media nav branca tela small-tablets*/
+@media (max-width: 613px) {
+  .navbar-brand img {
+    margin-left: 2px;
 
+  }
+
+  .header1 img {
+    display: none;
+  }
+
+  .botao-doar a {
+    font-size: 12px;
+  }
+
+}
+
+/*media nav branca tela small-celular*/
+@media (max-width: 441px) {
+  .navbar-brand img {
+    display: none !important;
+    width: 50px;
+    height: 50px;
+
+  }
+
+  .header1 img {
+    display: none;
+  }
+
+  .botao-doar a {
+    font-size: 12px;
+    margin-left: -180px;
+  }
+
+
+  .fa-solid {
+    margin-left: -50px;
+  }
+
+}
 
 
 /*Media query para centralizar links no togller*/

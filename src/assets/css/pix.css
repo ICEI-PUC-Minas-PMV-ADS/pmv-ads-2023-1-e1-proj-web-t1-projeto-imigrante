@@ -81,6 +81,7 @@ body {
     text-align: center;
     box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     font-weight: 600;
+
 }
 
 .botao-doar {
@@ -120,12 +121,28 @@ body {
 .botoes a {
     font-size: 13px;
     margin-right: 5px;
-    margin-left: 5px;
     font-weight: bold;
     color: #a7aba8;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
 }
+
+.botao-doar {
+    display: flex;
+    float: right;
+    margin-top: 5px;
+  }
+  
+  
+
+
+  .mode {
+    margin-top:11px;
+    margin-left: 20px;
+  } 
+  
+  
 
 .botoesZoom a {
     font-size: 15px;
@@ -168,63 +185,6 @@ body {
 }
 
 
-/*DARK MODE INGLÊS*/
-.dark#body {
-    background-color: #303030;
-    ;
-    color: white;
-}
-
-.dark#body p a {
-    color: white;
-}
-
-.dark#body p {
-    color: white;
-
-}
-
-.dark#body #white-header {
-    background-color: #000 !important;
-    color: white;
-}
-
-.dark#body footer {
-    background-color: #000;
-    color: white;
-}
-
-.dark#body #title-end h5 {
-    color: white;
-}
-
-.dark#body #title-text h4 {
-    color: white;
-}
-
-
-.dark#body .qr-code h3 {
-    color: white !important;
-}
-
-.dark#body .container {
-    background-color: #424242;
-}
-
-.dark#body input {
-    background-color: #5d5a5a;
-    color: white;
-}
-
-.dark#body .form-group input::placeholder {
-    color: white;
-}
-
-/* BOTÃO DARKMODE*/
-
-.mode #mode_icon {
-    margin-top: 9px;
-}
 
 
 /* HEADER 2*/
@@ -451,52 +411,78 @@ input::placeholder {
 }
 
 
-
 /*Media nav branca para tela media*/
 @media (min-width: 730px) {
     .navbar-brand img {
-        margin-left: -10px;
+      margin-left: -10px;
     }
-
-}
-
-/*media nav branca tela small*/
-@media (max-width: 678px) {
+  
+  }
+  
+  /*media nav branca tela media*/
+  @media (max-width: 766px) {
     .navbar-brand img {
-        margin-left: 2px;
-
+      margin-left: 2px;
+  
     }
-
+  
     .header1 a {
-        font-size: 12px;
+      font-size: 12px;
     }
-
+  
     .navbar-right {
-        justify-content: center;
-        margin: auto;
+      justify-content: center;
+      margin: auto;
     }
-
-    .mode i {
-        margin-left: 8px;
-        margin-bottom: 10px;
-    }
-
-    .botao-doar {
-        float: right !important;
-        margin-right: -20px;
-
-
-    }
-
-    .botoes a {
-        margin: auto !important;
-    }
-
-
+  
+  
     .botao-doar a {
-        font-size: 12px;
+      font-size: 12px;
     }
-}
+  
+  }
+  
+  /*media nav branca tela small-tablets*/
+  @media (max-width: 613px) {
+    .navbar-brand img {
+      margin-left: 2px;
+  
+    }
+  
+    .header1 img {
+      display: none;
+    }
+  
+    .botao-doar a {
+      font-size: 12px;
+    }
+  
+  }
+  
+  /*media nav branca tela small-celular*/
+  @media (max-width: 441px) {
+  
+  
+    .header1 img {
+      display: none;
+    }
+  
+    .botao-doar a {
+      font-size: 12px;
+      margin-left: -180px;
+    }
+  
+  
+    .fa-solid {
+      margin-left: -50px;
+    }
+  
+    #white-header div{
+        height: 50px !important;
+    }
+  
+  }
+
 
 @media screen and (max-width: 770px) {
 
