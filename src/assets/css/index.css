@@ -583,6 +583,18 @@ input::placeholder {
 
 }
 
+/*media nav branca tela small-375*/
+@media (max-width: 375px) {
+ .botao-doar a{
+  margin-left: -155px;
+ }
+
+.destacados-title h3 {
+  margin-top: 230px;
+}
+
+}
+
 
 /*Media query para centralizar links no togller*/
 @media screen and (max-width: 990px) {
