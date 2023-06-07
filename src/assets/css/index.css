@@ -503,7 +503,7 @@ input::placeholder {
   .navbar-brand img {
     margin-left: -10px;
   }
-
+  
 }
 
 /*media nav branca tela media*/
@@ -544,6 +544,12 @@ input::placeholder {
     font-size: 12px;
   }
 
+  
+ 
+  #title-primary h2 {
+    text-align: center;
+  }
+
 }
 
 /*media nav branca tela small-celular*/
@@ -570,7 +576,7 @@ input::placeholder {
   }
 
   .items {
-    margin-left:15px;
+    margin-left: 15px;
   }
 
   .items {
@@ -579,19 +585,19 @@ input::placeholder {
 
   #title-primary h2 {
     text-align: center;
-   }
+  }
 
 }
 
 /*media nav branca tela small-375*/
 @media (max-width: 375px) {
- .botao-doar a{
-  margin-left: -155px;
- }
+  .botao-doar a {
+    margin-left: -155px;
+  }
 
-.destacados-title h3 {
-  margin-top: 230px;
-}
+  .destacados-title h3 {
+    margin-top: 230px;
+  }
 
 }
 

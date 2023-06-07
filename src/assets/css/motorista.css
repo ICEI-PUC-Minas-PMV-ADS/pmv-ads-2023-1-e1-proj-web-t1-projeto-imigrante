@@ -671,7 +671,13 @@ body {
     }
   }
   
-  
+  /*media nav branca tela small-375*/
+@media (max-width: 375px) {
+  .botao-doar a {
+    margin-left: -90px;
+  }
+}
+
   
   /*Media query para centralizar links no togller*/
   @media screen and (max-width: 9000px) {

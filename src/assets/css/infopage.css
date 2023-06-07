@@ -649,7 +649,7 @@ input::placeholder {
 
   .botao-doar a {
     font-size: 12px;
-    margin-left: -155px;
+    margin-left: -150px;
   }
 
 
@@ -672,6 +672,12 @@ input::placeholder {
 }
 
 
+/*media nav branca tela small-375*/
+@media (max-width: 375px) {
+  .botao-doar a {
+    margin-left: -140px;
+  }
+}
 
 /*Media query para centralizar links no togller*/
 @media screen and (max-width: 9000px) {
