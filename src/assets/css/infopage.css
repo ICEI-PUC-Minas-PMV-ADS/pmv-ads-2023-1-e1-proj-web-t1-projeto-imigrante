@@ -649,7 +649,7 @@ input::placeholder {
 
   .botao-doar a {
     font-size: 12px;
-    margin-left: -170px;
+    margin-left: -160px;
   }
 
 
@@ -660,6 +660,15 @@ input::placeholder {
   #username {
     margin-bottom:-40px;
   }
+
+  .text-container {
+    width:100%;
+    margin-right: 180px;
+  }
+
+  .home-text{
+    margin-left: 20px;
+}
 }
 
 
