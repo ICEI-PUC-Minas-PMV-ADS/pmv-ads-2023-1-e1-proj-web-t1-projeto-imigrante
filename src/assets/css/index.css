@@ -566,8 +566,20 @@ input::placeholder {
 
 
   .fa-solid {
-    margin-left: -50px;
+    margin-left: -70px;
   }
+
+  .items {
+    margin-left:15px;
+  }
+
+  .items {
+    margin-bottom: 20px;
+  }
+
+  #title-primary h2 {
+    text-align: center;
+   }
 
 }
 
