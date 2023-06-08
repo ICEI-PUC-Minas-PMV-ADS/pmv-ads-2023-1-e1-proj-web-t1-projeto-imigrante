@@ -67,7 +67,7 @@
         </div>
     </header>
 
-    <p class="home-text"><a href="./englishhome.html" class="">&#8592 Home</a></p>
+    <p class="home-text"><a href="../index.html" class="">&#8592 Home</a></p>
     <div class="container-main">
         <div class="container">
             <form class="mt-5">
@@ -115,39 +115,21 @@
                 </div>
 
                 <div class="row">
-                    <p><b>Validade:</b></p>
-                    <div class="col mb-3" required>
-                        <select id="inputState" class="form-control">
-                            <option selected disabled>Mês</option>
-                            <option>Janeiro</option>
-                            <option>Fevereiro</option>
-                            <option>Março</option>
-                            <option>Abril</option>
-                            <option>Maio</option>
-                            <option>Junho</option>
-                            <option>Julho</option>
-                            <option>Agosto</option>
-                            <option>Setembro</option>
-                            <option>Outubro</option>
-                            <option>Novembro</option>
-                            <option>Dezembro</option>
-                        </select>
+                    <p><b>Validate:</b></p>
+                    <div class="col mb-3">
+                        <div class="col mb-3 month-input">
+                            <input type="number" class="form-control" id="input-month" placeholder="*Mês" required>
+                            <div id="monthError" class="error"></div>
+                        </div>
+    
+                        <div id="selectMonthError"></div>
                     </div>
 
-                    <div class="col mb-3" required>
-                        <select id="inputState" class="form-control">
-                            <option selected disabled>Ano</option>
-                            <option>2023</option>
-                            <option>2024</option>
-                            <option>2025</option>
-                            <option>2026</option>
-                            <option>2027</option>
-                            <option>2028</option>
-                            <option>2029</option>
-                            <option>2030</option>
-                            <option>2031</option>
-                            <option>2032</option>
-                        </select>
+                    <div class="col mb-3">
+                        <div class="col mb-3 year-input">
+                            <input type="number" class="form-control" id="input-year" placeholder="*Ano" required>
+                            <div id="yearError" class="error"></div>
+                        </div>
                     </div>
                 </div>
 
