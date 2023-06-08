@@ -2,6 +2,7 @@ body {
     letter-spacing: normal;
 }
 
+
 /*header1*/
 
 .navbar {
@@ -12,6 +13,10 @@ body {
     align-items: center;
 }
 
+.header1 img {
+    width: 110px;
+    margin-left: -20px;
+}
 
 .nav1 {
     height: 100px;
@@ -27,13 +32,33 @@ body {
 }
 
 
-
 .nav-text {
     display: inline-block;
     padding-top: 5px;
     font-family: Helvetica;
     color: #0035A0;
     text-decoration: none;
+}
+
+.title-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.title-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-text h4 {
+    font-size: 14px;
+    margin-left: 23px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 400px;
     font-weight: 600;
 
 }
@@ -44,6 +69,7 @@ body {
     text-align: center;
     box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     font-weight: 600;
+
 }
 
 .botao-doar {
@@ -54,7 +80,98 @@ body {
 
 }
 
+#btn {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
 
+#btn:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 0px 0px;
+    text-align: center;
+}
+
+.title-end h5 {
+    font-size: 14px;
+}
+
+
+
+.botoes a {
+    font-size: 13px;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #a7aba8;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
+}
+
+.botao-doar {
+    display: flex;
+    float: right;
+    margin-top: 5px;
+  }
+  
+  
+
+ 
+  .mode {
+    margin-top: 7px;
+    margin-left: 20px;
+    color: #555555;
+  } 
+  
+  
+
+.botoesZoom a {
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #a7aba8;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header1 a {
+    display: flex;
+    font-family: Helvetica;
+    color: #0035A0 !important;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -20px;
+}
+
+.botao-doar input {
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+.botao-doar {
+    display: flex;
+
+}
+
+#btn {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
 
 
 /*DARK MODE INGLÊS*/
@@ -419,6 +536,19 @@ input::placeholder {
 }
 
 
+/*Mensagem de erro no input da newsletter*/
+#emailError {
+    color: #cc0033;
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: flex;
+  }
+  
+
 /*Media nav branca para tela media*/
 @media (min-width: 730px) {
     .navbar-brand img {
@@ -443,11 +573,7 @@ input::placeholder {
         margin: auto;
     }
 
-    .mode i {
-        margin-left: 8px;
-        margin-bottom: 10px;
-    }
-
+  
     .botao-doar {
         float: right !important;
         margin-right: -20px;
@@ -457,6 +583,10 @@ input::placeholder {
 
     .botoes {
         margin: auto;
+    }
+
+    .botoes a {
+        margin-top: -8px;
     }
 
 
@@ -563,47 +693,118 @@ input::placeholder {
     }
 }
 
+
 /*Media nav branca para tela media*/
 @media (min-width: 730px) {
     .navbar-brand img {
-        margin-left: -10px;
+      margin-left: -10px;
     }
-
-}
-
-/*media nav branca tela small*/
-@media (max-width: 302px) {
+  
+  }
+  
+  /*media nav branca tela media*/
+  @media (max-width: 766px) {
     .navbar-brand img {
-        margin-left: 2px;
-
+      margin-left: 2px;
+  
     }
-
+  
     .header1 a {
-        font-size: 12px;
+      font-size: 12px;
     }
-
+  
     .navbar-right {
+      justify-content: center;
+      margin: auto;
+    }
+  
+  
+    .botao-doar a {
+      font-size: 12px;
+    }
+  
+  }
+  
+  /*media nav branca tela small-tablets*/
+  @media (max-width: 613px) {
+    .navbar-brand img {
+      margin-left: 2px;
+  
+    }
+  
+    .header1 img {
+      display: none;
+    }
+  
+    .botao-doar a {
+      font-size: 12px;
+    }
+  
+  }
+  
+  /*media nav branca tela small-celular*/
+  @media (max-width: 441px) {
+  
+  
+    .header1 img {
+      display: none;
+    }
+  
+    .botao-doar a {
+      font-size: 12px;
+      margin-left: -180px;
+    }
+  
+  
+    .fa-solid {
+      margin-left: -50px;
+    }
+  
+    #white-header div{
+        height: 50px !important;
+    }
+  
+  }
+
+@media screen and (max-width: 770px) {
+
+    div.vr {
+        display: none;
+    }
+
+    .wrapper {
+        width: 100%;
+        display: flex;
         justify-content: center;
+        padding-left: 50px;
+        padding-right: 70px;
+
+    }
+
+    .container {
+        margin-bottom: 100px;
+        padding-bottom: 80px;
+    }
+
+    div.qr-code {
+        margin-top: -135px;
+    }
+
+    .qr-code h3,
+    p {
+        text-align: center;
+    }
+
+    .qr-img {
+        display: flex;
         margin: auto;
+        margin-bottom: -100px;
+        margin-top: 30px;
     }
 
-    .mode i {
-        margin-left: 8px;
-        margin-bottom: 10px;
-    }
-
-    .botao-doar {
-        float: right !important;
-        margin-right: -20px;
-
-
-    }
-
-    .botoes a {
-        margin: auto !important;
-    }
-
-    .container-fluid {
-        margin-bottom: 50px;
+    div.qr-code h3 {
+        font-size: 20px;
     }
 }
+
+
