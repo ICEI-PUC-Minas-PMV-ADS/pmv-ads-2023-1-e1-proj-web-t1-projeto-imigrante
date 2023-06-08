@@ -103,72 +103,52 @@
                             value="option3">
                         <label class="form-check-label" for="inlineRadio3"></label>
                     </div>
-                    <div id="cardRadioError"></div>
+                    <div id="cardRadioError" class="error"></div>
                 </div>
 
                 <div class="form-group mb-3">
                     <p><b>Cardholder Name:</b></p>
                     <input type="text" class="form-control" id="formGroupName" placeholder="*Name" required >
-                    <div id="usernameError"></div>
+                    <div id="usernameError"  class="error"></div>
                 </div>
 
                 <div class="form-group mb-3">
                     <p><b>Card Number:</b></p>
                     <input type="number" class="form-control" id="formGroupCard" placeholder="*Card number"
                        required>
-                    <div id="cardNumberError"></div>
+                    <div id="cardNumberError"  class="error"></div>
                 </div>
 
                 <div class="row">
                     <p><b>Validate:</b></p>
                     <div class="col mb-3">
-                        <select id="inputState1" class="form-control" required>
-                            <option selected disabled>Month</option>
-                            <option>January</option>
-                            <option>February</option>
-                            <option>March</option>
-                            <option>April</option>
-                            <option>May</option>
-                            <option>June</option>
-                            <option>July</option>
-                            <option>August</option>
-                            <option>September</option>
-                            <option>Octuber</option>
-                            <option>November</option>
-                            <option>December</option>
-                        </select>
+                        <div class="col mb-3 month-input">
+                            <input type="number" class="form-control" id="input-month" placeholder="*Month" required>
+                            <div id="monthError" class="error"></div>
+                        </div>
+    
                         <div id="selectMonthError"></div>
                     </div>
 
                     <div class="col mb-3">
-                        <select id="inputState2" class="form-control" required>
-                            <option selected disabled>Year</option>
-                            <option>2023</option>
-                            <option>2024</option>
-                            <option>2025</option>
-                            <option>2026</option>
-                            <option>2027</option>
-                            <option>2028</option>
-                            <option>2029</option>
-                            <option>2030</option>
-                            <option>2031</option>
-                            <option>2032</option>
-                        </select>
-                        <div id="selectYearError"></div>
+                        <div class="col mb-3 year-input">
+                            <input type="number" class="form-control" id="input-year" placeholder="*Year" required>
+                            <div id="yearError" class="error"></div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="form-group2 mb-5">
                     <p><b>Security Code</b></p>
                     <input type="number" class="form-control" id="formGroupCvv" placeholder="*CVV" required>
-                    <div id="cvvNumberError"></div>
+                    <div id="cvvNumberError"  class="error"></div>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1" required>
                     <label class="" for="flexCheckDefault">
                         <b>The cardholder's CPF is the same as in the registration.</b>
                     </label>
-                    <div id="check1Error"></div>
+                    <div id="check1Error" class="error"></div>
                 </div>
                 <div class="form-check mb-5">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2" required>

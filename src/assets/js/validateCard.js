@@ -93,48 +93,53 @@ function validateCvvInput() {
 }
 
 
-//Validate select option Month
-function validateSelectOptionMonth() {
-    const selectMonth = document.getElementById("inputState1");
-    const selectMonthError = document.getElementById("selectMonthError");
+//Validate month input
+function validateMonthInput() {
+    const monthInput = document.getElementById("input-month");
+    let monthInputError = document.getElementById("monthError");
 
-    const selectValue = selectMonth.value;
+    const inputValue = monthInput.value.trim();
     let errorMessage = "";
     let isValid = true;
 
-    if (!selectValue) {
-        errorMessage = "Please, select a month";
-        isValid = false;
-    } else {
-        errorMessage = ""; // Clear the error message
-    }
-
-    selectMonthError.innerHTML = errorMessage;
-
-    return isValid;
-}
-
-
-//Validate form checkbox 1
-function checkBox1() {
-    const check1 = document.getElementById("flexCheckDefault1");
-    let checkError = document.getElementById("check1Error");
-
-    let errorMessage = '';
-    let isValid = false;
-
-    if (!check1.checked) {
-        errorMessage = "Please, check this option";
+    if (inputValue.length !== 2) {
+        errorMessage = "Type two numbers";
         isValid = false;
     } else {
         isValid = true;
     }
 
-    checkError.innerHTML = errorMessage;
+    monthInputError.innerHTML = errorMessage;
 
     return isValid;
 
 }
+
+
+//Validate year input
+function validateYearInput() {
+    const yearInput = document.getElementById("input-year");
+    let yearInputError = document.getElementById("yearError");
+
+    const inputValue = yearInput.value.trim();
+    let errorMessage = "";
+    let isValid = true;
+
+    if (inputValue.length !== 2) {
+        errorMessage = "Type two numbers";
+        isValid = false;
+    } else {
+        isValid = true;
+    }
+
+    yearInputError.innerHTML = errorMessage;
+
+    return isValid;
+
+}
+
+
+
 
 
 // Redirect to another page
@@ -143,8 +148,10 @@ function goToMessagePage() {
         isRadioCardSelected() &&
         validateNomeInput() &&
         validateCardInput() &&
-        validateCvvInput() &&
-        checkBox1()
+        validateMonthInput() &&
+        validateYearInput() &&
+        validateCvvInput() 
+        
     ) {
         window.location.href = "englishmsgpago.html";
     }
