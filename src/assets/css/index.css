@@ -623,15 +623,7 @@ input::placeholder {
 }
 
 
-/*Media query margin-top title destacados*/
-@media screen and (max-width: 900px) {
-  .title-dest {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
 
-  }
-}
 
 /* Media query footer */
 @media screen and (max-width: 700px) {
