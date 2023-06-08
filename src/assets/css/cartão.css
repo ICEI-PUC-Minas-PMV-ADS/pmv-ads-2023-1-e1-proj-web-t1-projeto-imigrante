@@ -125,10 +125,10 @@ body {
 
 
 .mode {
-  margin-top:11px;
+  margin-top: 11px;
   margin-left: 20px;
   color: #555555;
-} 
+}
 
 
 
@@ -229,17 +229,6 @@ a {
 }
 
 
-.container {
-  display: flex;
-  text-align: center;
-  background-color: #F5F5F7;
-  border-radius: 150px;
-  justify-content: center;
-  box-sizing: border-box;
-  margin-bottom: 120px;
-  padding-bottom: 40px;
-
-}
 
 .form-control {
   border-radius: 150px;
@@ -458,8 +447,8 @@ input::placeholder {
     margin-left: -50px;
   }
 
-  #white-header div{
-      height: 50px !important;
+  #white-header div {
+    height: 50px !important;
   }
 
 }
@@ -524,4 +513,96 @@ input::placeholder {
   .title-container {
     width: 100%;
   }
+}
+
+
+
+
+
+/*Media container para tela grande*/
+@media (max-width:772px) {
+  .section2 p {
+    text-align: center;
+  }
+
+}
+
+
+/*Media container para tela grande*/
+@media (min-width:768px) {
+  .container {
+    width: 70%;
+  }
+
+
+}
+
+
+/*Media container para tela grande*/
+@media (min-width:889px) {
+  .container {
+    width: 60%;
+  }
+
+
+}
+
+/*Media container para tela grande*/
+@media (min-width:1075px) {
+  .container {
+    width: 50%;
+  }
+
+
+}
+
+
+/*Media container para tela grande*/
+@media (min-width:1317px) {
+  .container {
+    width: 40%;
+  }
+
+}
+
+
+/*Media container para tela grande*/
+@media (min-width:1599px) {
+  .container {
+    width: 35%;
+  }
+
+}
+
+
+/*Media container para tela grande*/
+@media (min-width:1851px) {
+  .container {
+    width: 30%;
+  }
+
+}
+
+
+/*Media container para tela grande*/
+@media (min-width:2167px) {
+  .container {
+    width: 25%;
+  }
+
+}
+
+
+
+
+
+.container {
+  display: flex;
+  text-align: center;
+  background-color: #F5F5F7;
+  border-radius: 150px;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 120px;
+  padding-bottom: 40px;
 }

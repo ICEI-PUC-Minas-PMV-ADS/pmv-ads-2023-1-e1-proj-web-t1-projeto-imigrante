@@ -26,7 +26,8 @@
                             class="d-inline-block">
                     </a>
                     <li class="nav-text  header1">
-                        <img class="nav-link"  src="../assets/images/imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png">
+                        <img class="nav-link"
+                            src="../assets/images/imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png">
                     </li>
                 </div>
 
@@ -71,7 +72,7 @@
     <p class="home-text"><a href="./englishhome.html" class="">&#8592 Home</a></p>
     <div class="container-main">
         <div class="container">
-            <form class="mt-5">
+            <form class="form mt-5">
                 <div class="section2">
                     <p><b>Select card flag:</b></p>
                     <br>
@@ -102,23 +103,26 @@
                             value="option3">
                         <label class="form-check-label" for="inlineRadio3"></label>
                     </div>
+                    <div id="cardRadioError"></div>
                 </div>
 
                 <div class="form-group mb-3">
                     <p><b>Cardholder Name:</b></p>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="*Name" required>
+                    <input type="text" class="form-control" id="formGroupName" placeholder="*Name" required >
+                    <div id="usernameError"></div>
                 </div>
 
                 <div class="form-group mb-3">
                     <p><b>Card Number:</b></p>
-                    <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="*Card number"
-                        required>
+                    <input type="number" class="form-control" id="formGroupCard" placeholder="*Card number"
+                       required>
+                    <div id="cardNumberError"></div>
                 </div>
 
                 <div class="row">
                     <p><b>Validate:</b></p>
-                    <div class="col mb-3" required>
-                        <select id="inputState" class="form-control">
+                    <div class="col mb-3">
+                        <select id="inputState1" class="form-control" required>
                             <option selected disabled>Month</option>
                             <option>January</option>
                             <option>February</option>
@@ -133,10 +137,11 @@
                             <option>November</option>
                             <option>December</option>
                         </select>
+                        <div id="selectMonthError"></div>
                     </div>
 
-                    <div class="col mb-3" required>
-                        <select id="inputState" class="form-control">
+                    <div class="col mb-3">
+                        <select id="inputState2" class="form-control" required>
                             <option selected disabled>Year</option>
                             <option>2023</option>
                             <option>2024</option>
@@ -149,26 +154,30 @@
                             <option>2031</option>
                             <option>2032</option>
                         </select>
+                        <div id="selectYearError"></div>
                     </div>
                 </div>
 
                 <div class="form-group2 mb-5">
                     <p><b>Security Code</b></p>
-                    <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="*CVV" required>
+                    <input type="number" class="form-control" id="formGroupCvv" placeholder="*CVV" required>
+                    <div id="cvvNumberError"></div>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1" required>
                     <label class="" for="flexCheckDefault">
                         <b>The cardholder's CPF is the same as in the registration.</b>
                     </label>
+                    <div id="check1Error"></div>
                 </div>
                 <div class="form-check mb-5">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2" required>
                     <label class="" for="flexCheckDefault">
                         <b>Save the informations for future next one purchases.</b>
                     </label>
+                    <div id="check2Error"></div>
                 </div>
-                <button type="submit" class="btn" id="donate-btn">DONATE</button>
+                <button type="submit" class="btn" id="donate-btn" onclick="return goToMessagePage()">DONATE</button>
             </form>
         </div>
     </div>
@@ -201,7 +210,7 @@
     </footer>
 
 
-
+    <script src="../assets/js/validateCard.js"></script>
     <script src="../assets/js/darkMode.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
