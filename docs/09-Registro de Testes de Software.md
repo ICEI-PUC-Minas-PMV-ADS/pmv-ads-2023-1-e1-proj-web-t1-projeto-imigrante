@@ -2,6 +2,22 @@
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
+### Responsividade
+Tela de celular 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/8d16629a-b746-44f9-a046-6bc8b2c15b7b)  <br /> <br />
+
+
+Tablet
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/68bbf11c-21bb-43e0-9ec3-be235c0d4fae)  <br /> <br />
+
+
+Tela grande
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/assets/93337008/200a9eef-a210-4adf-898f-7c481b50b697) <br /> <br />
+
+
 ### Caso de teste CT-01 - Visualizar detalhes das informações
 Ao clicar na página de apoio e ajuda, as  informações foram apresentadas corretamente. <br /> 
 
