@@ -20,8 +20,8 @@ userName.addEventListener('change', (event) => {
   let errorMessage = '';
   // Valida o tamanho do nome
   if (value && value.length < 4) {
-      errorMessage = 'Type your full name.';
-  } 
+    errorMessage = 'Type your full name.';
+  }
   // Mostra a mensagem 
   nomeError.innerHTML = errorMessage;
 });
@@ -33,28 +33,82 @@ email.addEventListener('change', (event) => {
   let errorMessage = '';
   // Verifica se o email é válido
   if (!value.match(emailIsValid)) {
-      errorMessage = 'Invalid Email.';
-  } 
+    errorMessage = 'Invalid Email.';
+  }
   emailError.innerHTML = errorMessage;
 });
 
 
 
-// arrow function do comentários
 form.addEventListener("submit", (event) => {
-  // quando clicar em submit, as informações continuarão na tela
-  event.preventDefault();
-  //variável p, referente ao comentário da submitado
+  event.preventDefault(); // quando clicar em submit, as informações continuarão na tela
+
+  //Horário e data
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = `${today.getMonth() + 1}`.padStart(2, "0");
+  const day = `${today.getDate()}`.padStart(2, "0");
+  const stringDate = [day, month, year].join("/");
+  let time = today.getHours() + ":" + today.getMinutes();
+  time = time.padStart(2, "0");
+
+  const dateTime = stringDate + " " + 'às' + " " + time;
+
+
+  // Criando elemento img no comentário e informando a URL da img.
+  const avatar = new Image(350);
+  avatar.src = 'https://i.postimg.cc/VNzG7Lt5/Sem-nome-Tamanho-original-8.png';
+  avatar.classList = 'avatar';
+
+
+  // Criando um contêiner div para envolver o avatar, o nome e o comentário
+  let container = document.createElement("div");
+  container.classList = " line-js";
+
+
+
+  //Create line to separate comments
+  const separator = document.createElement('span');
+  separator.classList = "separator";
+
+
+  // Criando um elemento p para o nome, comentário e data
   let p = document.createElement("p");
-  p.classList = "p-2 d-flex text-wrap flex-wrap";
-  //para escrever no HTML (`` interpolação)
-  p.innerHTML = `<strong>${userName.value}: </strong> &nbsp ${textarea.value}`;
-  commentPost.appendChild(p);
-  //ao comentar, deixar os inputs vazios
+  let p2 = document.createElement("p");
+  let p3 = document.createElement("p");
+
+  
+
+  //Add classes no css
+  p.classList = "custom-margin";
+  p2.classList = "d-flex p2-comment"
+  p3.classList = "d-flex p3-comment";
+  
+
+  p2.innerHTML = `${textarea.value}`;
+  p.innerHTML = `<strong>${userName.value}</strong>`;
+  p3.innerHTML = dateTime;
+
+
+
+  // Adicionando o avatar e o p ao contêiner
+  container.appendChild(avatar);
+  container.appendChild(p);
+  container.appendChild(p3);
+  container.appendChild(p2);
+  container.append(separator);
+ 
+
+
+  // Adicionando o contêiner ao commentPost
+  commentPost.appendChild(container);
+
+  // Ao comentar, deixar os inputs vazios
   userName.value = "";
   email.value = "";
   textarea.value = "";
-  //ao comentar irá focar no input de nome
+
+  // Ao comentar, irá focar no input de nome
   userName.focus();
 });
 

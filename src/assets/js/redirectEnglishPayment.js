@@ -46,7 +46,7 @@ function isRadio2Selected() {
 function goToAnotherPage() {
     if (isRadio1Selected() && isRadio2Selected()) {
         if (radioPix.checked) {
-            window.location.href = "englishcartao.html";
+            window.location.href = "englishpix.html";
         } else if (radioBoleto.checked) {
             window.location.href = "englishboleto.html";
         } else {
