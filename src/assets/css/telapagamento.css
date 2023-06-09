@@ -568,79 +568,8 @@ input::placeholder {
 
 }
 
-/*media nav branca tela small*/
-@media (max-width: 678px) {
-    .navbar-brand img {
-        margin-left: 2px;
-
-    }
-
-    .header1 a {
-        font-size: 12px;
-    }
-
-    .navbar-right {
-        justify-content: center;
-        margin: auto;
-    }
 
 
-    .botao-doar {
-        float: right !important;
-        margin-right: -20px;
-
-
-    }
-
-    .botoes {
-        margin: auto;
-    }
-
-    .botoes a {
-        margin-top: -8px;
-    }
-
-
-    .botao-doar a {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 770px) {
-
-    div.vr {
-        display: none;
-    }
-
-    .wrapper {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding-left: 50px;
-        padding-right: 70px;
-
-    }
-
-    div.qr-code {
-        margin-top: -135px;
-    }
-
-    .qr-code h3,
-    p {
-        text-align: center;
-    }
-
-    .qr-img {
-        display: flex;
-        justify-content: center;
-        margin-bottom: -100px;
-        margin-top: 30px;
-    }
-
-    div.qr-code h3 {
-        font-size: 20px;
-    }
-}
 
 /* Media query footer */
 @media screen and (max-width: 700px) {
@@ -702,6 +631,49 @@ input::placeholder {
     .title-container {
         width: 100%;
     }
+}
+
+
+
+
+
+/*Media footer para tela pequena*/
+@media (max-width: 414px) {
+    footer {
+        height: 100%;
+        margin-top: 150px;
+    }
+
+    .form-check-inline {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+/*Media para tela pequena- Iphone-se*/
+@media (max-width: 375px) {
+    #div-selecao {
+        width: 80%;
+    }
+
+    footer {
+        height: 100%;
+        margin-top: 300px;
+    }
+
+    .form-check-inline {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    input #option2 {
+        margin-left: -100px;
+        background-color: pink !important;
+    }
+
 }
 
 
@@ -775,45 +747,4 @@ input::placeholder {
         height: 50px !important;
     }
 
-}
-
-@media screen and (max-width: 770px) {
-
-    div.vr {
-        display: none;
-    }
-
-    .wrapper {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding-left: 50px;
-        padding-right: 70px;
-
-    }
-
-    .container {
-        margin-bottom: 100px;
-        padding-bottom: 80px;
-    }
-
-    div.qr-code {
-        margin-top: -135px;
-    }
-
-    .qr-code h3,
-    p {
-        text-align: center;
-    }
-
-    .qr-img {
-        display: flex;
-        margin: auto;
-        margin-bottom: -100px;
-        margin-top: 30px;
-    }
-
-    div.qr-code h3 {
-        font-size: 20px;
-    }
 }
