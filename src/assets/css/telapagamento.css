@@ -2,6 +2,10 @@ body {
     letter-spacing: normal;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
 /*header1*/
 
@@ -416,13 +420,13 @@ p {
     color: #0035A0;
 }
 
+
 /*FOOTER*/
 footer {
     height: 10em;
     width: 100vw;
     background-color: #F5F5F7;
     font-family: Arial, Helvetica, sans-serif;
- 
 }
 
 /* Envolvendo cadastro newsletter + icons numa tag pai */
@@ -515,7 +519,6 @@ input::placeholder {
 
 }
 
-
 .icons img {
     margin: 15px;
     width: 20px;
@@ -527,13 +530,15 @@ input::placeholder {
     font-weight: 600;
 }
 
-
-#inputError {
+#emailError {
     color: #cc0033;
-}
-
-#btnError {
-    color: #cc0033;
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: flex;
 }
 
 #emailNewsError {
@@ -547,18 +552,6 @@ input::placeholder {
     display: flex;
 }
 
-
-/*Mensagem de erro no input da newsletter*/
-#emailError {
-    color: #cc0033;
-    display: flex;
-    margin: auto;
-    font-size: 12px;
-    line-height: 15px;
-    margin-top: 5px;
-    margin-left: 20px;
-    display: flex;
-}
 
 
 /*Media nav branca para tela media*/
@@ -640,10 +633,6 @@ input::placeholder {
 
 /*Media  para tela pequena*/
 @media (max-width: 414px) {
-    footer {
-        height: 100%;
-        margin-top: 150px;
-    }
 
     .form-check-inline {
         margin-left: 50px;
@@ -696,10 +685,6 @@ input::placeholder {
 
 
 @media (max-width: 461px) {
-    footer {
-        height: 100%;
-        margin-top: 150px;
-    }
 
     .form-check-inline {
         margin-left: 50px;
@@ -746,6 +731,11 @@ input::placeholder {
         margin-top: -20px;
     }
 
+    
+    footer {
+        position: relative;
+    }
+
 
 }
 
@@ -760,8 +750,8 @@ input::placeholder {
     }
 
     footer {
-        height: 100%;
         margin-top: 300px;
+        
     }
 
     .form-check-inline {
