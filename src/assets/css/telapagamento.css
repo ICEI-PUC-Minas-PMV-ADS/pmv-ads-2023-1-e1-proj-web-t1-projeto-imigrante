@@ -422,6 +422,7 @@ footer {
     width: 100vw;
     background-color: #F5F5F7;
     font-family: Arial, Helvetica, sans-serif;
+ 
 }
 
 /* Envolvendo cadastro newsletter + icons numa tag pai */
@@ -637,7 +638,7 @@ input::placeholder {
 
 
 
-/*Media footer para tela pequena*/
+/*Media  para tela pequena*/
 @media (max-width: 414px) {
     footer {
         height: 100%;
@@ -649,14 +650,113 @@ input::placeholder {
         margin-bottom: 20px;
     }
 
+    #div-selecao {
+        width: 90%;
+        border-radius: 80px;
+        display: flex !important;
+        margin: auto;
+    }
+
+
+    .form-check-inline {
+        margin-left: 90px;
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        justify-content: center !important;
+        display: flex;
+        margin-left: 110px;
+        margin-bottom: 10px;
+    }
+
+    .btn-titulo {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .big {
+        margin-top: -10px !important;
+        margin-bottom: -5px;
+    }
+
+    .btn-next {
+        margin-top: 20px;
+        margin-left: -65px;
+    }
+
+    .title {
+        margin-top: -20px;
+    }
+
+
 }
 
 
 
-/*Media para tela pequena- Iphone-se*/
+@media (max-width: 461px) {
+    footer {
+        height: 100%;
+        margin-top: 150px;
+    }
+
+    .form-check-inline {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    #div-selecao {
+        width: 90%;
+        border-radius: 80px;
+        display: flex !important;
+        margin: auto;
+    }
+
+
+    .form-check-inline {
+        margin-left: 90px;
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        justify-content: center !important;
+        display: flex;
+        margin-left: 110px;
+        margin-bottom: 10px;
+    }
+
+    .btn-titulo {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .big {
+        margin-top: -10px !important;
+        margin-bottom: -5px;
+    }
+
+    .btn-next {
+        margin-top: 20px;
+        margin-left: -65px;
+    }
+
+    .title {
+        margin-top: -20px;
+    }
+
+
+}
+
+
+/*Media  para tela pequena- Iphone-se*/
 @media (max-width: 375px) {
     #div-selecao {
-        width: 80%;
+        width: 90%;
+        border-radius: 80px;
+        display: flex !important;
+        margin: auto;
     }
 
     footer {
@@ -665,14 +765,33 @@ input::placeholder {
     }
 
     .form-check-inline {
-        margin-left: 50px;
+        margin-left: 90px;
         margin-bottom: 20px;
     }
 
-    input #option2 {
-        margin-left: -100px;
-        background-color: pink !important;
+    .btn-primary {
+        justify-content: center !important;
+        display: flex;
+        margin-left: 110px;
+        margin-bottom: 10px;
     }
+
+    .btn-titulo {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .big {
+        margin-top: -10px !important;
+        margin-bottom: -5px;
+    }
+
+    .btn-next {
+        margin-top: 20px;
+        margin-left: -35px;
+    }
+
 
 }
 
@@ -740,7 +859,7 @@ input::placeholder {
 
 
     .fa-solid {
-        margin-left: -50px;
+        margin-left: -60px;
     }
 
     #white-header div {
