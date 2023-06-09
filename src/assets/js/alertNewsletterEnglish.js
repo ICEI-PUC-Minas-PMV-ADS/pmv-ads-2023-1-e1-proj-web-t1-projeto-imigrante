@@ -1,5 +1,5 @@
 //Acessa o campo do email
-const emailNewsletter = document.getElementById("email-news");
+let emailNewsletter = document.getElementById("email-news");
 
 // Acessa campo de erro no html
 let emailNewsletterError = document.getElementById("emailNewsError");
@@ -18,7 +18,7 @@ emailNewsletter.addEventListener('submit', (event) => {
 
 
 // Funcao p validar campo email
-function validateEmailInput() {
+function validateNewsletterInput() {
     const valueNews = emailNewsletter.value.trim();
     let errorMessageNews = '';
     let isValidNews = false;
@@ -39,8 +39,9 @@ function validateEmailInput() {
 
 //Funcao p mostrar a tela de alerta se o email for preenchido
 function showAlertMessage() {
-    if ( validateEmailInput()) {
+    if (validateNewsletterInput()) {
         alert("Email successfully registered!");
+        emailNewsletter.value = "";
     }
 }
 
