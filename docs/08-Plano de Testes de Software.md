@@ -60,7 +60,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Requisitos Associados | RF-05 -A aplicação deve possuir opção de o usuário enviar seu currículo. |
 |   Objetivo do Teste   | Verificar se o usuário consegue enviar seu currículo.                                                                                                                                                                       |
 |        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site: [Imigra Brasil](https://pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante.pages.dev/) <br> 3) Acessar a página principal <br> 4) Clicar no card Mercado de trabalho ou trabalho, que está na barra de navegação <br> 5) Preencher o nome e  email<br> 6) Clicar no botão enviar.                        |
-|  Critérios de Êxito   | Caso nenhum arquivo seja selecionado, o usuário visualizará um alerta na tela com a seguinte mensagem: "Nenhum Arquivo Selecionado".                                                                                                                                                                                |
+|  Critérios de Êxito   | Caso o campo nome seja preenchido com poucos caracteres, aparecerá a mensagem "Digite seu nome completo. Se o campo email não for preenchido com um email válido, aparecerá a mensagem de erro "Email inválido, e  se nenhum arquivo for selecionado, o usuário visualizará um alerta na tela com a seguinte mensagem: "Nenhum Arquivo Selecionado".                                                                                                                                                                                |
 
 
 |     Caso de teste     | CT-06 – Cadastro na Newsletter (CASO DE SUCESSO)|
