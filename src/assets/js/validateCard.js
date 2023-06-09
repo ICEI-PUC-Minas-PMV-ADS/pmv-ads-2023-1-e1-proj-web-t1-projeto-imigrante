@@ -57,8 +57,8 @@ function validateCardInput() {
     let errorMessage = "";
     let isValid = true;
 
-    if (value.length !== 3) {
-        errorMessage = "Invalid card number";
+    if (value.length === "") {
+        errorMessage = "Type a number";
         isValid = false;
     } else {
         errorMessage = ""; // Clear the error message

@@ -34,7 +34,8 @@
                 <div class="nav justify-content-end  d-flex" id="navbarNav">
                     <ul class="navbar-nav  navbar-right">
                         <div class="botao-doar px-3">
-                            <a href="./englishtelapagamento.html"><input id="btn" type="submit" value="&#9825 DONATE"></a>
+                            <a href="./englishtelapagamento.html"><input id="btn" type="submit"
+                                    value="&#9825 DONATE"></a>
                         </div>
                         <div class="mode px-5">
                             <i id="mode_icon" class="fa-solid fa-moon"></i>
@@ -197,8 +198,9 @@
                     <h4>Subscribe to our Newsletter</h4>
                 </div>
                 <div class="title-inputs" id="title-inputs">
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                    <input id="btn" type="submit" value="Send">
+                    <input type="email" name="email" id="email-news" placeholder="Email" required>
+                    <input id="btn" type="submit" value="Send" onclick=" return showAlertMessage()">
+                    <div id="emailNewsError"></div>
                 </div>
             </div>
             <div class="icons">
@@ -217,7 +219,7 @@
     </footer>
 
 
-
+    <script src="../assets/js/alertNewsletterEnglish.js"></script>
     <script src="../assets/js/darkMode.js"></script>
 
 

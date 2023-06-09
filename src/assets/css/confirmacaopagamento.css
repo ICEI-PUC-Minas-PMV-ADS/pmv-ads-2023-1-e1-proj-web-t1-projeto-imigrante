@@ -356,6 +356,16 @@ input::placeholder {
   display: flex;
 }
 
+#emailNewsError {
+  color: #cc0033;
+  display: flex;
+  margin: auto;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 5px;
+  margin-left: 20px;
+  display: flex;
+}
 
 
 /*Media nav branca para tela media*/
