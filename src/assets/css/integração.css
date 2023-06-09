@@ -3,6 +3,80 @@ body {
 }
 
 
+/*DARK MODE*/
+.dark#body {
+  background-color: #242527;
+  color: #F5F5F7;
+  transition: 0.3s;
+}
+
+.dark#body div#opcoes p{
+  color: #c5d1eb;
+}
+
+.dark#body p a{
+  color: #F5F5F7;
+}
+
+.dark#body p {
+  color: #F5F5F7;
+}
+
+.dark#body #white-header{
+  background-color: #484B52 !important;
+}
+
+.dark#body #titulo {
+  color: #F5F5F7 !important;
+}
+
+.dark#body #titulo-apoio{
+  color: #c5d1eb;
+}
+
+.dark#body #titulo-necessidades{
+  color: #c5d1eb;
+}
+
+.dark#body #apoio{
+  color: #c5d1eb;
+}
+
+.dark#body #titulo-direitos{
+  color: #c5d1eb;
+}
+
+.dark#body #titulo-saude{
+  color: #c5d1eb;
+}
+
+.dark#body #educação{
+  color: #c5d1eb;
+}
+
+.dark#body  #link {
+  color: #9955e7;
+  text-decoration: none;
+}
+
+.dark#body  #lista li{
+  color: #b155e7;
+}
+
+
+.dark#body div#div-selecao{
+  background-color: #5C5E63;
+}
+
+.dark#body footer {
+  background-color: #484B52;
+  color: #F5F5F7;
+}
+
+
+
+
+
 /*header1*/
 
 .navbar {

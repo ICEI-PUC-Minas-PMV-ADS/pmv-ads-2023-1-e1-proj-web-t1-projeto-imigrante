@@ -28,9 +28,9 @@
 <title>Imigra Brasil</title>
 </head>
 
-<body>
+<body id="body">
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" id="white-header">
             <div class="container-fluid">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
@@ -38,27 +38,27 @@
                             class="d-inline-block">
                     </a>
                     <li class="nav-text px-1 header1">
-                        <a class="nav-link" href="#">IMIGRA BRASIL</a>
+                        <a class="nav-link" href="#" id="titulo">IMIGRA BRASIL</a>
                     </li>
                 </div>
 
                 <div class="nav justify-content-end px-5" id="navbarNav">
-                    <ul class="nav justify-content-end d-flex col">
-                        <li class="nav-item botao-doar px-5">
-                            <a href="./pages/telapagamento.html"><input id="btn" type="submit" value="DOAR"></a>
-                        </li>
-                        <li class="nav-item d-flex">
-                            <div class="mode">
-                                <i id="mode_icon" class="fa-solid fa-moon"></i>
-                            </div>
-                        </li>
-                        <li class="nav-item botoes d-flex">
+                    <ul class="navbar-nav">
+                        <div class="botao-doar px-5">
+                            <form>
+                                <a href="./telapagamento.html"><input id="btn" type="submit" value="DOAR"></a>
+                            </form>
+                        </div>
+                        <div class="mode">
+                            <i id="mode_icon" class="fa-solid fa-moon"></i>
+                        </div>
+                        <li class="nav-item px-1 botoes">
                             <a class="nav-link"
-                                href="./englishpages/englishhome.html">EN</a>
-                        </li>
-                        <li class="nav-item botoes d-flex">
+                                href="../src/englishpages/englishcartao.html">EN</a>
+                        <li class="nav-item botoes">
                             <a class="nav-link"
-                                href="./index.html">PT</a>
+                                href="./cartao.html">PT</a>
+                        </li>
                         </li>
                     </ul>
                 </div>
@@ -92,10 +92,10 @@
 
 
  <div class="container-main" > 
-    <div class="container"> 
+    <div class="container" id="cadastro"> 
     <form class="mt-5">
                  
-        <div class="section2">      
+        <div class="section2" id="opcoes">      
             <p><b>Selecione bandeira do cartão:</b></p>
             <br>
             <div class="form-check form-check-inline">
@@ -123,20 +123,20 @@
              </div>
         </div>
        
-        <div class="form-group mb-3">
+        <div class="form-group mb-3" id="preenchimento">
             <p><b>Nome do Titular do Cartão:</b></p>
             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="*Nome" required>
         </div>
       
-        <div class="form-group mb-3">
+        <div class="form-group mb-3" id="preenchimento">
             <p><b>Número do cartão:</b></p>
             <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="*Número do Cartão" required>
         </div>
 
-        <div class="row">
+        <div class="row" id="preenchimento">
             <p><b>Validade:</b></p>
-            <div class="col mb-3" required>               
-                <select id="inputState" class="form-control">
+            <div class="col mb-3" required id="form-data">               
+                <select id="inputState" class="form-control" required>
                     <option selected>Mês</option>
                     <option>Janeiro</option>
                     <option>Fevereiro</option>
@@ -153,7 +153,7 @@
                 </select>
             </div>
 
-            <div class="col mb-3" required>
+            <div class="col mb-3" id="form-data">
                 <select id="inputState" class="form-control">
                     <option selected>Ano</option>
                     <option>2023</option>
@@ -170,7 +170,7 @@
     
            </div>
         </div>
-        <div class="form-group2 mb-3">
+        <div class="form-group2 mb-3" id="preenchimento">
             <p><b>Código de segurança:</b></p>
             <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="*CVV" required>
         </div>
@@ -229,6 +229,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+
+     <script src="../src/assets/js/Darkcartão.js"></script>
 </body>
 
 

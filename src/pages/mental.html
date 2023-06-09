@@ -9,20 +9,26 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <link rel="stylesheet" href="../assets/css/infopage.css">
+
+         <!--CDN ICONE LUA-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
         <title>Imigra Brasil</title>
     </head>
 
-    <body>
+    <body id="body">
         <header>
-            <nav class="navbar">
+            <nav class="navbar" id="white-header">
                 <div class="container-fluid">
                     <div class="d-flex col">
                         <a class="navbar-brand" href="#">
                             <img src="../assets/images/logo-principal.png" alt="Logo" width="55" height="55"
                                 class="d-inline-block">
                         </a>
-                        <li class="nav-text px-1 header1 px-2 mt-3">
-                            <a class="nav-link" href="#">IMIGRA BRASIL</a>
+                        <li class="nav-text px-1 header1 px-2 mt-3" >
+                            <a class="nav-link" href="#" id="titulo">IMIGRA BRASIL</a>
                         </li>
                     </div>
 
@@ -32,9 +38,8 @@
                                 <a href="./pages/telapagamento.html"><input id="btn" type="submit" value="DOAR"></a>
                             </li>
                             <li class="nav-item d-flex">
-                                <div class="form-check form-switch px-5 mt-2">
-                                    <input class="form-check-input" type="checkbox" role="switch"
-                                        id="flexSwitchCheckDefault">
+                                <div class="mode">
+                                    <i id="mode_icon" class="fa-solid fa-moon"></i>
                                 </div>
                             </li>
                             <li class="nav-item botoes d-flex">
@@ -78,10 +83,10 @@
                     </div>
                 </div>
             </div>
-            <p class="home-text"><a href="../index.html" class="">&#8592 Home</a></p>
+            <p class="home-text" ><a href="../index.html" class="" id="home">&#8592 Home</a></p>
             <div class="container-fluid container">
                 <div class="justify-content-center">
-                    <div class="text-container">
+                    <div class="text-container" id="info">
                         <h2 class="mb-4">Cuidados com a sáude mental</h2>
                         <p class="mb-4">
                             A importância da saúde mental é universal e se torna ainda mais crucial quando se trata de
@@ -91,7 +96,7 @@
                             plenamente à sociedade de acolhimento. Confira algumas dicas de como manter seu bem-estar
                             emocional.
                         </p>
-                        <ol class="mb-4">
+                        <ol class="mb-4" id="link">
                             <li><b>Busque apoio emocional:</b> É fundamental encontrar redes de apoio, como organizações
                                 comunitárias, grupos de apoio ou centros de assistência, que possam oferecer suporte
                                 emocional e orientação durante o processo de adaptação e integração.</li> <br>
@@ -217,6 +222,8 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
                 crossorigin="anonymous"></script>
+
+             <script src="../assets/js/botãodarkmode.js"></script>
     </body>
 
     </html>
