@@ -25,6 +25,10 @@ body {
     align-items: center;
 }
 
+.header1 img {
+    width: 110px;
+    margin-left: -20px;
+}
 
 .nav1 {
     height: 100px;
@@ -67,7 +71,7 @@ body {
     padding-top: 20px;
     padding-bottom: 10px;
     width: 400px;
-    font-weight: bold;
+    font-weight: 600;
 
 }
 
@@ -76,11 +80,15 @@ body {
     border: none;
     text-align: center;
     box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    font-weight: 600;
 
 }
 
 .botao-doar {
     display: flex;
+    float: right;
+    margin-top: 5px;
+    margin-right: -60px;
 
 }
 
@@ -113,12 +121,28 @@ body {
 .botoes a {
     font-size: 13px;
     margin-right: 5px;
-    margin-left: 5px;
     font-weight: bold;
     color: #a7aba8;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
 }
+
+.botao-doar {
+    display: flex;
+    float: right;
+    margin-top: 5px;
+}
+
+
+
+.mode {
+    margin-top: 11px;
+    margin-left: 20px;
+    color: #555555;
+}
+
+
 
 .botoesZoom a {
     font-size: 15px;
@@ -158,6 +182,65 @@ body {
     width: 100px;
     height: 40px;
     color: rgb(255, 255, 255);
+}
+
+
+/*DARK MODE INGLÊS*/
+.dark#body {
+    background-color: #303030;
+    color: white;
+}
+
+.dark#body p a {
+    color: white;
+}
+
+.dark#body p {
+    color: white;
+
+}
+
+.dark#body #white-header {
+    background-color: #121212 !important;
+    color: white;
+}
+
+
+.dark#body #container {
+    background-color: #424242;
+}
+
+.dark#body footer {
+    background-color: #121212;
+    color: white;
+}
+
+.dark#body #imigra-text {
+    color: white !important;
+}
+
+.dark#body #title-inputs input {
+    background-color: #5d5a5a;
+}
+
+.dark#body #title-end h5 {
+    color: white;
+}
+
+.dark#body #title-text h4 {
+    color: white;
+}
+
+.dark#body #donate-title h4 {
+    color: white;
+}
+
+.dark#body .qr-code h3 {
+    color: white;
+}
+
+.dark#body .form-group input {
+    background-color: #5d5a5a;
 }
 
 
@@ -214,6 +297,9 @@ a {
     justify-content: center;
 }
 
+.div-btn button {
+    font-weight: 600;
+}
 
 #emailError {
     color: #cc0033;
@@ -248,7 +334,7 @@ a {
     color: #0035A0;
     font-size: 23px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 
@@ -262,6 +348,7 @@ a {
     width: 100px;
     height: 40px;
     color: rgb(255, 255, 255) !important;
+    font-weight: 600;
 }
 
 .div-btn {
@@ -370,12 +457,39 @@ input::placeholder {
 
 }
 
-
 .icons img {
     margin: 15px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
+
 }
+
+.title-inputs #btn {
+    font-weight: 600;
+}
+
+#emailError {
+    color: #cc0033;
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: flex;
+}
+
+#emailNewsError {
+    color: #cc0033;
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: flex;
+}
+
 
 
 @media screen and (max-width: 770px) {
@@ -424,11 +538,81 @@ input::placeholder {
         margin-top: 10px;
     }
 
-    
+
 }
 
 
+/*Media nav branca para tela media*/
+@media (min-width: 730px) {
+    .navbar-brand img {
+        margin-left: -10px;
+    }
 
+}
+
+/*media nav branca tela media*/
+@media (max-width: 766px) {
+    .navbar-brand img {
+        margin-left: 2px;
+
+    }
+
+    .header1 a {
+        font-size: 12px;
+    }
+
+    .navbar-right {
+        justify-content: center;
+        margin: auto;
+    }
+
+
+    .botao-doar a {
+        font-size: 12px;
+    }
+
+}
+
+/*media nav branca tela small-tablets*/
+@media (max-width: 613px) {
+    .navbar-brand img {
+        margin-left: 2px;
+
+    }
+
+    .header1 img {
+        display: none;
+    }
+
+    .botao-doar a {
+        font-size: 12px;
+    }
+
+}
+
+/*media nav branca tela small-celular*/
+@media (max-width: 441px) {
+
+
+    .header1 img {
+        display: none;
+    }
+
+    .botao-doar a {
+        font-size: 12px;
+        margin-left: -180px;
+    }
+
+
+    .fa-solid {
+        margin-left: -50px;
+    }
+
+    #white-header div {
+        height: 50px !important;
+    }
+
+}
 
 /*Media query para centralizar links no togller*/
 @media screen and (max-width: 991px) {
@@ -451,20 +635,22 @@ input::placeholder {
 
     .title-inputs {
         margin-top: -10px;
-        margin-right: 40px;
     }
 
     .title-inputs input {
-        width: auto;
         margin-bottom: 10px;
         font-size: 12px;
-        /* Adjust the font size for smaller screens */
+        width: 210px;
     }
 
     .icons {
         margin-top: -55px;
         text-align: center;
         margin-bottom: 20px;
+    }
+
+    input#btn {
+        width: 70px;
     }
 
     .icons a {
@@ -491,7 +677,7 @@ input::placeholder {
         margin-top: -10px;
         font-size: 12px;
         /* Adjust the font size for smaller screens */
-        margin-left: 100px;
+        margin-left: 130px;
     }
 
     .title-container {

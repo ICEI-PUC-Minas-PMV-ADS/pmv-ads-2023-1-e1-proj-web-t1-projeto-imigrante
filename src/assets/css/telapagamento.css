@@ -2,6 +2,7 @@ body {
     letter-spacing: normal;
 }
 
+
 /*header1*/
 
 .navbar {
@@ -12,6 +13,10 @@ body {
     align-items: center;
 }
 
+.header1 img {
+    width: 110px;
+    margin-left: -20px;
+}
 
 .nav1 {
     height: 100px;
@@ -33,8 +38,119 @@ body {
     font-family: Helvetica;
     color: #0035A0;
     text-decoration: none;
-    font-weight: bold;
+}
 
+.title-input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.title-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-text h4 {
+    font-size: 14px;
+    margin-left: 23px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 400px;
+    font-weight: 600;
+
+}
+
+.botao-doar input {
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    box-shadow: rgb(255, 248, 248) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    font-weight: 600;
+
+}
+
+.botao-doar {
+    display: flex;
+    float: right;
+    margin-top: 5px;
+    margin-right: -60px;
+
+}
+
+#btn {
+    background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#btn:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 0px 0px;
+    text-align: center;
+}
+
+.title-end h5 {
+    font-size: 14px;
+}
+
+
+
+.botoes a {
+    font-size: 13px;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #a7aba8;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
+}
+
+.botao-doar {
+    display: flex;
+    float: right;
+    margin-top: 5px;
+}
+
+
+
+
+.mode {
+    margin-top: 7px;
+    margin-left: 20px;
+    color: #555555;
+}
+
+
+
+.botoesZoom a {
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #a7aba8;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header1 a {
+    display: flex;
+    font-family: Helvetica;
+    color: #0035A0 !important;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -20px;
 }
 
 .botao-doar input {
@@ -52,6 +168,82 @@ body {
 
 #btn {
     background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+/*DARK MODE INGLÊS*/
+.dark#body {
+    background-color: #303030;
+    color: white;
+}
+
+.dark#body p a {
+    color: white;
+}
+
+.dark#body p {
+    color: white;
+
+}
+
+.dark#body #white-header {
+    background-color: #121212 !important;
+    color: white;
+}
+
+
+.dark#body #div-selecao {
+    background-color: #424242;
+}
+
+.dark#body #div-selecao h5 {
+    color: white;
+}
+
+.dark#body footer {
+    background-color: #121212;
+    color: white;
+}
+
+.dark#body #imigra-text {
+    color: white !important;
+}
+
+.dark#body #title-inputs input {
+    background-color: #5d5a5a;
+}
+
+.dark#body #title-end h5 {
+    color: white;
+}
+
+.dark#body #title-text h4 {
+    color: white;
+}
+
+.dark#body #donate-title h4 {
+    color: white;
+}
+
+.dark#body .qr-code h3 {
+    color: white;
+}
+
+.dark#body .form-group input {
+    background-color: #5d5a5a;
+}
+
+/* BOTÃO DARKMODE*/
+
+.mode #mode_icon {
+    margin-top: 9px;
+}
+
+#btn {
+    background: #0035A0;
     width: 100px;
     height: 40px;
     color: rgb(255, 255, 255);
@@ -90,16 +282,11 @@ body {
     box-sizing: border-box;
 }
 
-
-.header1 a {
-    display: flex;
-    font-family: Helvetica;
-    color: #0035A0 !important;
-    text-decoration: none;
-    font-weight: bold;
+.header1 img {
+    width: 110px;
     margin-left: -20px;
-
 }
+
 
 .botao-doar input {
     border-radius: 40px;
@@ -130,6 +317,7 @@ body {
     font-size: 14.7px;
     letter-spacing: .09375rem;
 }
+
 
 .bg-body-tertiary {
     background: linear-gradient(180deg, #0085F8 0%, #006AC6 0.01%, rgba(0, 92, 171, 0.83) 45.31%, rgba(58, 152, 233, 0.98219) 94.27%, #419FF0 100%);
@@ -181,8 +369,9 @@ a {
     text-align: center;
 }
 
-.title p {
-    color: black;
+#subtitle {
+    color: #555555;
+    font-weight: normal;
 }
 
 .title h4 {
@@ -215,22 +404,16 @@ a {
 
 .Seleção {
     background-color: #F5F5F7;
-    border-radius: 200px;
+    border-radius: 120px;
     margin-left: 15%;
     margin-bottom: 20px;
     height: 500px;
     width: 70%;
 }
 
-#inputError {
-    color: red;
-    margin: 10px;
-}
-
-#btnError {
-    color: red;
-    margin-top: 10px;
-    margin-left: 18px;
+.Seleção h5,
+p {
+    color: #0035A0;
 }
 
 /*FOOTER*/
@@ -239,8 +422,6 @@ footer {
     width: 100vw;
     background-color: #F5F5F7;
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
-    bottom: 0;
 }
 
 /* Envolvendo cadastro newsletter + icons numa tag pai */
@@ -336,43 +517,234 @@ input::placeholder {
 
 .icons img {
     margin: 15px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.title-inputs #btn {
+    font-weight: 600;
 }
 
 
-@media screen and (max-width: 770px) {
+#inputError {
+    color: #cc0033;
+}
 
-    div.vr {
+#btnError {
+    color: #cc0033;
+}
+
+#emailNewsError {
+    color: #cc0033;
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: flex;
+}
+
+
+/*Mensagem de erro no input da newsletter*/
+#emailError {
+    color: #cc0033;
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: flex;
+}
+
+
+/*Media nav branca para tela media*/
+@media (min-width: 730px) {
+    .navbar-brand img {
+        margin-left: -10px;
+    }
+
+}
+
+
+
+
+/* Media query footer */
+@media screen and (max-width: 700px) {
+    .title-container {
+        flex-direction: column;
+    }
+
+    footer {
+        background-color: #F5F5F7;
+    }
+
+    .title-inputs {
+        margin-top: -10px;
+    }
+
+    .title-inputs input {
+        margin-bottom: 10px;
+        font-size: 12px;
+        width: 210px;
+    }
+
+    .icons {
+        margin-top: -55px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    input#btn {
+        width: 70px;
+    }
+
+    .icons a {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .icons img {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .title-end {
+        margin-top: -55px;
+    }
+
+    .title-end h5 {
+        font-size: 12px;
+        margin-top: 12px;
+    }
+
+    .title-text h4 {
+        margin-top: -10px;
+        font-size: 12px;
+        /* Adjust the font size for smaller screens */
+        margin-left: 130px;
+    }
+
+    .title-container {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/*Media footer para tela pequena*/
+@media (max-width: 414px) {
+    footer {
+        height: 100%;
+        margin-top: 150px;
+    }
+
+    .form-check-inline {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+/*Media para tela pequena- Iphone-se*/
+@media (max-width: 375px) {
+    #div-selecao {
+        width: 80%;
+    }
+
+    footer {
+        height: 100%;
+        margin-top: 300px;
+    }
+
+    .form-check-inline {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    input #option2 {
+        margin-left: -100px;
+        background-color: pink !important;
+    }
+
+}
+
+
+/*Media nav branca para tela media*/
+@media (min-width: 730px) {
+    .navbar-brand img {
+        margin-left: -10px;
+    }
+
+}
+
+/*media nav branca tela media*/
+@media (max-width: 766px) {
+    .navbar-brand img {
+        margin-left: 2px;
+
+    }
+
+    .header1 a {
+        font-size: 12px;
+    }
+
+    .navbar-right {
+        justify-content: center;
+        margin: auto;
+    }
+
+
+    .botao-doar a {
+        font-size: 12px;
+    }
+
+}
+
+/*media nav branca tela small-tablets*/
+@media (max-width: 613px) {
+    .navbar-brand img {
+        margin-left: 2px;
+
+    }
+
+    .header1 img {
         display: none;
     }
 
-    .wrapper {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding-left: 50px;
-        padding-right: 70px;
-
+    .botao-doar a {
+        font-size: 12px;
     }
 
-    div.qr-code {
-        margin-top: -135px;
+}
+
+/*media nav branca tela small-celular*/
+@media (max-width: 441px) {
+
+
+    .header1 img {
+        display: none;
     }
 
-    .qr-code h3,
-    p {
-        text-align: center;
+    .botao-doar a {
+        font-size: 12px;
+        margin-left: -180px;
     }
 
-    .qr-img {
-        display: flex;
-        justify-content: center;
-        margin-bottom: -100px;
-        margin-top: 30px;
+
+    .fa-solid {
+        margin-left: -50px;
     }
 
-    div.qr-code h3 {
-        font-size: 20px;
+    #white-header div {
+        height: 50px !important;
     }
+
 }
