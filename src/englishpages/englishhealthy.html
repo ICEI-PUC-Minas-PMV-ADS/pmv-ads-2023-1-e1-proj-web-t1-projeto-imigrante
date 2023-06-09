@@ -205,8 +205,9 @@
                         <h4>Subscribe to our Newsletter</h4>
                     </div>
                     <div class="title-inputs" id="title-inputs">
-                        <input type="email" name="email" id="email" placeholder="Email" required>
-                        <input id="btn" type="submit" value="Send">
+                        <input type="email" name="email" id="email-news" placeholder="Email" required>
+                        <input id="btn" type="submit" value="Send" onclick=" return showAlertMessage()">
+                        <div id="emailNewsError"></div>
                     </div>
                 </div>
                 <div class="icons">
@@ -223,9 +224,9 @@
                 </h5>
             </div>
         </footer>
-
-
-
+    
+    
+        <script src="../assets/js/alertNewsletterEnglish.js"></script>
         <script src="../assets/js/darkMode.js"></script>
 
         <script src="../assets/js/englishComments.js"></script>

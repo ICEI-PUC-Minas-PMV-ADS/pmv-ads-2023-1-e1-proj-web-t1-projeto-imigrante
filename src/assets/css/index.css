@@ -541,6 +541,18 @@ input::placeholder {
   letter-spacing: 0.2px;
 }
 
+#emailNewsError {
+  color: #cc0033;
+  display: flex;
+  margin: auto;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 5px;
+  margin-left: 20px;
+  display: flex;
+}
+
+
 
 /*Media nav branca para tela media*/
 @media (min-width: 730px) {
@@ -667,15 +679,7 @@ input::placeholder {
 }
 
 
-/*Media query margin-top title destacados*/
-@media screen and (max-width: 900px) {
-  .title-dest {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
 
-  }
-}
 
 /* Media query footer */
 @media screen and (max-width: 700px) {

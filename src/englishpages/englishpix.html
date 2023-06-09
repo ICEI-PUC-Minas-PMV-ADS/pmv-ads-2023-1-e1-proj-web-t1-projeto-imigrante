@@ -73,13 +73,13 @@
             <div class="input col-md-3">
                 <p class="p-div"><b>Fill in your information:</b></p>
                 <form id="form" class="form w-100">
-                    <div class=" form-group mb-2">
+                    <div class=" form-group">
                         <input type="text" class="form-control" name="username" id="username" placeholder="Name*"
                             required>
                         <div id="usernameError"></div>
                     </div>
 
-                    <div class="form-group  mb-2">
+                    <div class="form-group  mb-4">
                         <input type="text" class="form-control" name="email" id="email" placeholder="Email*" required>
                         <div id="emailError"></div>
                     </div>
@@ -116,8 +116,9 @@
                     <h4>Subscribe to our Newsletter</h4>
                 </div>
                 <div class="title-inputs" id="title-inputs">
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                    <input id="btn" type="submit" value="Send">
+                    <input type="email" name="email" id="email-news" placeholder="Email" required>
+                    <input id="btn" type="submit" value="Send" onclick="return showAlertMessage()">
+                    <div id="emailNewsError"></div>
                 </div>
             </div>
             <div class="icons">
@@ -136,6 +137,7 @@
     </footer>
 
 
+    <script src="../assets/js/alertNewsletterEnglish.js"></script>
 
 
     <script src="../assets/js/darkMode.js"></script>
