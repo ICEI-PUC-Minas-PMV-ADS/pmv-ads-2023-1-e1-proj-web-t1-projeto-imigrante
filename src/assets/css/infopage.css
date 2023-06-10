@@ -643,6 +643,12 @@ input::placeholder {
     margin-bottom: -40px;
   }
 
+
+.botao-doar a input  {
+   margin-left: -22px;
+   background-color: pink;
+  }
+
 }
 
 /*media nav branca tela small-celular*/
