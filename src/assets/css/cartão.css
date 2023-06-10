@@ -10,11 +10,11 @@ body {
   transition: 0.3s;
 }
 
-.dark#body div#opcoes p{
+.dark#body div#opcoes p {
   color: #c5d1eb;
 }
 
-.dark#body p a{
+.dark#body p a {
   color: #F5F5F7;
 }
 
@@ -22,7 +22,7 @@ body {
   color: #F5F5F7;
 }
 
-.dark#body #white-header{
+.dark#body #white-header {
   background-color: #484B52 !important;
   color: #F5F5F7;
 }
@@ -35,25 +35,44 @@ body {
   color: #0e4894;
 }
 
-.dark#body div#cadastro{
+.dark#body div#cadastro {
   background-color: #61656e;
 }
 
 .dark#body footer {
   background-color: #484B52;
-  color: #F5F5F7;
+  color: #c5d1eb;
 }
 
 .dark#body header nav {
   background-color: #484B52;
-  color: #F5F5F7;
-}
-
-.dark#body div#preenchimento p  { 
   color: #c5d1eb;
 }
 
+.dark#body div#preenchimento p {
+  color: #c5d1eb;
+}
 
+.dark#body .confirmacao-pagamento {
+  background-color: #61656e;
+}
+
+.dark#body .mode {
+  color: #c5d1eb;
+}
+
+.dark#body label b {
+  color: #c5d1eb;
+}
+
+.dark#body .container  {
+  background-color: #484B52;
+}
+
+
+.dark#body b {
+  color: #c5d1eb;
+}
 
 
 /*header1*/
@@ -225,6 +244,7 @@ body {
   height: 40px;
   color: rgb(255, 255, 255);
 }
+
 
 
 /* HEADER 2*/

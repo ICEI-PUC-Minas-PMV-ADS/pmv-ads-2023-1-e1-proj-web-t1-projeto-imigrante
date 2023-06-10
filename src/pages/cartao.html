@@ -15,7 +15,7 @@
     <title>Imigra Brasil</title>
 </head>
 
-<body>
+<body id="body">
     <header>
         <nav class="navbar navbar-expand" id="white-header">
             <div class="container-fluid">
@@ -67,11 +67,12 @@
         </div>
     </header>
 
-    <p class="home-text"><a href="../index.html" class="">&#8592 Home</a></p>
+    <p class="home-text"><a href="../index.html">&#8592 Home</a></p>
+    
     <div class="container-main">
-        <div class="container">
+        <div class="container" id="cadastro">
             <form class="mt-5">
-                <div class="section2">
+                <div class="section2"  id="opcoes">
                     <p><b>Selecione a bandeira do cartão:</b></p>
                     <br>
                     <div class="form-check form-check-inline">
@@ -103,12 +104,12 @@
                     </div>
                 </div>
 
-                <div class="form-group mb-3">
+                <div class="form-group mb-3" id="preenchimento">
                     <p><b>Nome do Titular do Cartão:</b></p>
                     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="*Nome" required>
                 </div>
 
-                <div class="form-group mb-3">
+                <div class="form-group mb-3" id="preenchimento">
                     <p><b>Número do cartão:</b></p>
                     <input type="number" class="form-control" id="formGroupExampleInput2"
                         placeholder="*Número do cartão" required>
@@ -117,7 +118,7 @@
                 <div class="row">
                     <p><b>Validate:</b></p>
                     <div class="col mb-3">
-                        <div class="col mb-3 month-input">
+                        <div class="col mb-3 month-input" id="preenchimento">
                             <input type="number" class="form-control" id="input-month" placeholder="*Mês" required>
                             <div id="monthError" class="error"></div>
                         </div>
@@ -125,7 +126,7 @@
                         <div id="selectMonthError"></div>
                     </div>
 
-                    <div class="col mb-3">
+                    <div class="col mb-3" id="preenchimento">
                         <div class="col mb-3 year-input">
                             <input type="number" class="form-control" id="input-year" placeholder="*Ano" required>
                             <div id="yearError" class="error"></div>
@@ -133,12 +134,12 @@
                     </div>
                 </div>
 
-                <div class="form-group2 mb-5">
+                <div class="form-group2 mb-5"  id="preenchimento">
                     <p><b>Código de segurança</b></p>
                     <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="*CVV" required>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
                     <label class="" for="flexCheckDefault">
                         <b>Cpf do titular do cartão é igual do cadastro.</b>
                     </label>
@@ -164,17 +165,16 @@
         </div>
     </div>
 
-
     <footer>
+        <!-- Cadastro da newsletter -->
         <div class="container-fluid title-container">
             <div class="title-input">
                 <div class="title-text">
                     <h4>Inscreva-se na nossa Newsletter</h4>
                 </div>
-                <div class="title-inputs" id="title-inputs">
-                    <input type="email" name="email" id="email-news" placeholder="Email" required>
-                    <input id="btn" type="submit" value="Enviar" onclick="return showAlertMessage()">
-                    <div id="emailNewsError"></div>
+                <div class="title-inputs">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input id="btn" type="submit" value="Send" >
                 </div>
             </div>
             <div class="icons">
@@ -194,11 +194,10 @@
 
     <script src="../assets/js/validacaoCartao.js"></script>
 
-    <script src="../assets/js/validateCard.js"></script>
-
     <script src="../assets/js/alertaNewsletterPortugues.js"></script>
-
-
+    
+    <script src="../assets/js/darkMode.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
