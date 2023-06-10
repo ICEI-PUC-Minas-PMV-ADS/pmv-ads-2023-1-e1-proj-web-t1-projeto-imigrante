@@ -20,58 +20,78 @@ body {
     background-color: #242527;
     color: #F5F5F7;
     transition: 0.3s;
-  }
-  
-  .dark#body div#opcoes p{
+}
+
+
+.dark#body div#opcoes p {
     color: #c5d1eb;
-  }
-  
-  .dark#body p a{
+}
+
+.dark#body p a {
     color: #F5F5F7;
-  }
-  
-  .dark#body p {
+}
+
+.dark#body p {
     color: #F5F5F7;
-  }
-  
-  .dark#body #white-header{
+}
+
+
+.dark#body #white-header {
     background-color: #484B52 !important;
-    color: #F5F5F7;
-  }
-  
-  .dark#body #titulo {
+    color: #c5d1eb;
+}
+
+.dark#body #titulo {
     color: #F5F5F7 !important;
-  }
-  
-  .dark#body #QR h3{
-    color: #c5d1eb;
-  }
+}
 
-  .dark#body #dados p{
+.dark#body #QR h3 {
     color: #c5d1eb;
-  }
+}
 
-  .dark#body #btn-next:hover {
+.dark#body #dados p {
+    color: #c5d1eb;
+}
+
+.dark#body #btn-next:hover {
     color: #0e4894;
-  }
-  
-  .dark#body div#cadastro{
+}
+
+.dark#body div#cadastro {
     background-color: #61656e;
-  }
-  
-  .dark#body footer {
+}
+
+.dark#body footer {
     background-color: #484B52;
     color: #F5F5F7;
   }
-  
-  .dark#body header nav {
+
+.dark#body header nav {
     background-color: #484B52;
     color: #F5F5F7;
-  }
-  
-  .dark#body div#preenchimento p  { 
+}
+
+.dark#body div#preenchimento p {
     color: #c5d1eb;
-  }
+}
+
+.dark#body .mode {
+    color: #c5d1eb;
+}
+
+.dark#body .container {
+    background-color: #61656e;
+}
+
+.dark#body b {
+    color: #c5d1eb;
+}
+
+.dark#body .qr-code h3 {
+    color: #c5d1eb;
+}
+
+
   
 /*header1*/
 
@@ -240,75 +260,6 @@ body {
     width: 100px;
     height: 40px;
     color: rgb(255, 255, 255);
-}
-
-
-/*DARK MODE INGLÊS*/
-.dark#body {
-    background-color: #303030;
-    color: white;
-}
-
-.dark#body p a {
-    color: white;
-}
-
-.dark#body p {
-    color: white;
-}
-
-.dark#body .form-check-input label{
-   background-color: white;
-}
-
-.dark#body #white-header {
-    background-color: #121212 !important;
-    color: white;
-}
-
-
-.dark#body #container {
-    background-color: #424242 !important;
-}
-
-.dark#body footer {
-    background-color: #121212;
-    color: white;
-}
-
-.dark#body #imigra-text {
-    color: white !important;
-}
-
-
-.dark#body #title-end h5 {
-    color: white;
-}
-
-.dark#body #title-text h4 {
-    color: white;
-}
-
-.dark#body #donate-title h4 {
-    color: white;
-}
-
-.dark#body .qr-code h3 {
-    color: white;
-}
-
-.dark#body .form-group input {
-    background-color: #5d5a5a;
-}
-
-
-.dark#body .form-group input::placeholder {
-    color: white;
-}
-
-
-.dark#body  input {
-    background-color: #5d5a5a;
 }
 
 

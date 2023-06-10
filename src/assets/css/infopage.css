@@ -32,6 +32,10 @@ body {
   color: #F5F5F7;
 }
 
+.dark#body li {
+  color: #F5F5F7;
+}
+
 .dark#body #white-header {
   background-color: #484B52 !important;
 }

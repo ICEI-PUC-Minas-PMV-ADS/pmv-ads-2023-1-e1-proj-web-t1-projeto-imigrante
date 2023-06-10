@@ -23,7 +23,7 @@ body {
 
 .dark#body #white-header {
   background-color: #484B52 !important;
-  color: #F5F5F7;
+  color: #c5d1eb;
 }
 
 .dark#body #titulo {
@@ -45,7 +45,7 @@ body {
 
 .dark#body header nav {
   background-color: #484B52;
-  color: #F5F5F7;
+  color: #c5d1eb;
 }
 
 .dark#body div#preenchimento p {
@@ -57,7 +57,7 @@ body {
 }
 
 .dark#body .mode {
-  color: #F5F5F7;
+  color: #c5d1eb;
 }
 
 

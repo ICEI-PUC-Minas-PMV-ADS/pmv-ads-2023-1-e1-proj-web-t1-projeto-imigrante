@@ -141,6 +141,7 @@ body {
 
 .dark#body #white-header {
   background-color: #484B52 !important;
+  color: #c5d1eb;
 }
 
 .dark#body #titulo a{
@@ -169,7 +170,7 @@ body {
 
 .dark#body footer {
   background-color: #484B52;
-  color: #F5F5F7;
+  color: #c5d1eb;
   border: none; 
 }
 

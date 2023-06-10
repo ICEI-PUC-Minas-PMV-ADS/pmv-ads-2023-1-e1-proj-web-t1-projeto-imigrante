@@ -1,3 +1,4 @@
+
 //Card radio
 function isRadioCardSelected() {
   let radioCardOptions = document.getElementsByName("inlineRadioOptions");
@@ -32,7 +33,7 @@ function validateNomeInput() {
   let isValid = true;
 
   if (value.length < 4) {
-    errorMessage = "Digite o seu nome completo";
+    errorMessage = "Digite seu nome completo";
     isValid = false;
   } else {
     errorMessage = ""; // Clear the error message
@@ -74,7 +75,7 @@ function validateCvvInput() {
   let isValid = true;
 
   if (value.length !== 3) {
-    errorMessage = "Número CVV inválido";
+    errorMessage = "Número inválido";
     isValid = false;
   } else {
     errorMessage = ""; // Clear the error message
@@ -95,7 +96,7 @@ function validateMonthInput() {
   let isValid = true;
 
   if (inputValue.length !== 2) {
-    errorMessage = "Digite dois números";
+    errorMessage = "Digite dois dígitos";
     isValid = false;
   } else {
     isValid = true;
@@ -116,7 +117,7 @@ function validateYearInput() {
   let isValid = true;
 
   if (inputValue.length !== 2) {
-    errorMessage = "Digite dois números";
+    errorMessage = "Digite dois dígitos";
     isValid = false;
   } else {
     isValid = true;
@@ -137,6 +138,6 @@ function goToMessagePagePt() {
     validateYearInput() &&
     validateCvvInput()
   ) {
-    window.location.href = "confirmacaopagamento.html";
+    window.location.href = 'confirmacaopagamento.html';
   }
 }
