@@ -12,31 +12,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        p.big {
-            line-height: 2.0;
-        }
-
-        h5.big {
-            line-height: 2.0;
-        }
-    </style>
+    <title>Imigra Brasil</title>
 </head>
 
-<title>Imigra Brasil</title>
-</head>
-
-<body>
+<body id="body">
     <header>
         <nav class="navbar navbar-expand" id="white-header">
             <div class="container-fluid">
                 <div class="container-fluid">
-                    <a class="navbar-brand"  href="../index.html">
+                    <a class="navbar-brand" href="../index.html">
                         <img src="../assets/images/logo-principal.png" alt="Logo" width="55" height="55"
                             class="d-inline-block">
                     </a>
                     <li class="nav-text  header1">
-                        <img class="nav-link"  src="../assets/images/imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png">
+                        <img class="nav-link"
+                            src="../assets/images/imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png">
                     </li>
                     <div class="botao-doar px-3">
                         <a href="./telapagamento.html"><input id="btn" type="submit" value="&#9825 DOAR"></a>
@@ -87,10 +77,11 @@
         <div class="confirmacao-pagamento">
             <img class="page-check" src="../assets/images/accept.png" align="left" alt="pagamento-check">
             <h4 class="mb-3"><b>Pagamento realizado com sucesso!</b></h4>
-            <h4><b>Agradecemos a sua doação.</b><h4>
+            <h4><b>Agradecemos a sua doação.</b>
+                <h4>
         </div>
     </div>
-    
+
     <footer class="fixed-bottom">
         <!-- Cadastro da newsletter -->
         <div class="container-fluid title-container">
@@ -100,7 +91,7 @@
                 </div>
                 <div class="title-inputs" id="title-inputs">
                     <input type="email" name="email" id="email-news" placeholder="Email" required>
-                    <input id="btn" type="submit" value="Enviar">
+                    <input id="btn" type="submit" value="Enviar" onclick="return showAlertMessage()">
                     <div id="emailNewsError"></div>
                 </div>
             </div>
@@ -120,6 +111,10 @@
     </footer>
 
 
+    <script src="../assets/js/alertaNewsletterPortugues.js"></script>
+
+    <script src="../assets/js/darkMode.js"></script>
+    
     <!-- To link js in Bootstrap  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

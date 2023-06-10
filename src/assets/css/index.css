@@ -84,7 +84,6 @@ body {
 .mode {
   margin-top: 6px;
   margin-left: 20px;
-  color: #555555;
 }
 
 
@@ -126,67 +125,6 @@ body {
 }
 
 
-
-
-/*DARK MODE INGLÊS*/
-.dark#body {
-  background-color: black;
-  color: white;
-}
-
-.dark#body p a {
-  color: white;
-}
-
-.dark#body p {
-  color: white;
-
-}
-
-.dark#body #white-header {
-  background-color: gray !important;
-  color: white;
-}
-
-.dark#body footer {
-  color: #000;
-}
-
-
-.dark#body div#div-selecao {
-  background-color: gray;
-}
-
-.dark#body footer {
-  background-color: gray;
-  color: white;
-}
-
-.dark#body #imigra-text {
-  color: white;
-}
-
-.dark#body .container h2 {
-  color: white;
-}
-
-.dark#body #h3-destacados {
-  color: white;
-}
-
-.dark#body .container h3 a {
-  color: white;
-}
-
-.dark#body #title-end h5 {
-  color: white;
-}
-
-.dark#body #title-text h4 {
-  color: white;
-}
-
-
 /* BOTÃO DARKMODE*/
 
 .mode #mode_icon {
@@ -194,7 +132,7 @@ body {
 }
 
 
-/*DARK MODE*/
+/*DARK MODE */
 .dark#body {
   background-color: #242527;
   color: #F5F5F7;
