@@ -9,6 +9,7 @@ body {
 }
 
 
+
 /*header1*/
 
 .navbar {
@@ -191,6 +192,49 @@ body {
 .mode #mode_icon {
   margin-top: 9px;
 }
+
+
+/*DARK MODE*/
+.dark#body {
+  background-color: #242527;
+  color: #F5F5F7;
+  transition: 0.3s;
+}
+
+.dark#body #white-header {
+  background-color: #484B52 !important;
+}
+
+.dark#body #titulo a{
+  color: #F5F5F7 !important;
+}
+
+.dark#body div#title-primary h2{
+  color: #c5d1eb;
+}
+
+.dark#body h3{
+  color: #c5d1eb;
+}
+
+.dark#body h3 a{
+  color: #c5d1eb;
+}
+
+.dark#body h2 a{
+  color: #c5d1eb;
+}
+
+.dark#body p {
+  color: #F5F5F7;
+}
+
+.dark#body footer {
+  background-color: #484B52;
+  color: #F5F5F7;
+  border: none; 
+}
+
 
 
 /* HEADER 2*/

@@ -113,9 +113,22 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Artefatos** 
 
-- 
-- 
-- 
+- index.html 
+- logo-principal.png
+- telapagamento.html
+- englishtelapagamento.html
+- redirectPayment.js
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png
+- quemsomos.html
+- residir.html
+- educacao.html
+- saude.html
+- cartão cd.png
+- icon-pix.png
+- boleto banco.png
+- insta-logo.png
+- facebook-logo.png
+- linkedin-logo.png
 
 **Acesso a página**
 
@@ -133,9 +146,21 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Artefatos** 
 
-- 
-- 
-- 
+- pix.html
+- index.html
+- logo-principal.png
+- pix.css
+- validatePixInput.js
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png
+- quemsomos.html
+- residir.html
+- educacao.html
+- saude.html
+- englishpix.html
+- QR_code_for_mobile_English_Wikipedia.svg.png
+- insta-logo.png
+- facebook-logo.png
+- linkedin-logo.png
 
 **Acesso a página**
 
@@ -153,9 +178,24 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Artefatos** 
 
-- 
-- 
-- 
+- cartao.html
+- index.html
+- englishcartao.html
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png
+- validateCard.js
+- cartão.css
+- quemsomos.html
+- residir.html
+- educacao.html
+- saude.html
+- visa.png
+- mastercard.png
+- Amex.png
+- elo.png
+- logo-principal.png
+- insta-logo.png
+- facebook-logo.png
+- linkedin-logo.png
 
 **Acesso a página**
 
@@ -173,9 +213,19 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Artefatos** 
 
-- 
-- 
-- 
+- boleto.html
+- boleto.css
+- validateBoleto.js
+- englishboleto.html
+- Sem nome [Tamanho original] (5).png
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png
+- quemsomos.html
+- residir.html
+- educacao.html
+- saude.html
+- insta-logo.png
+- facebook-logo.png
+- linkedin-logo.png
 
 **Acesso a página**
 
@@ -193,9 +243,21 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Artefatos** 
 
-- 
-- 
--
+- confirmacaopagamento.html
+- confirmacaopagamento.css
+- index.html
+- logo-principal.png
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png
+- englishmsgpago.html
+- accept.png
+- quemsomos.html
+- residir.html
+- educacao.html
+- saude.html
+- visa.png
+- insta-logo.png
+- facebook-logo.png
+- linkedin-logo.png
 
 **Acesso a página**
 
