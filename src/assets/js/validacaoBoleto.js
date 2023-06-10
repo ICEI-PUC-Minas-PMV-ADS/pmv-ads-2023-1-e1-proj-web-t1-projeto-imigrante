@@ -25,7 +25,7 @@ function validateNomeInput() {
 
   // Valida o tamanho do nome
   if (value.length < 4) {
-    errorMessage = "Type your full name";
+    errorMessage = "Digite o seu nome completo";
     isValid = false;
   }
   // Mostra a mensagem
@@ -42,7 +42,7 @@ function validateEmailInput() {
 
   // Verifica se o email é válido
   if (!value.match(emailIsValid)) {
-    errorMessage = "Invalid email";
+    errorMessage = "Email inválido";
     isValid = false;
   }
   emailError.innerHTML = errorMessage;
@@ -58,7 +58,7 @@ function validateCpfInput() {
 
   // Verifica se o cpf está vazio
   if (value.length === 0) {
-    errorMessage = "Type your cpf or cnpj";
+    errorMessage = "Cpf inválido";
     isValid = false;
   }
   cpfError.innerHTML = errorMessage;
@@ -69,6 +69,6 @@ function validateCpfInput() {
 // Function to redirect to another page
 function goToMessagePage() {
   if (validateNomeInput() && validateEmailInput() && validateCpfInput()) {
-    window.location.href = "englishmsgpago.html";
+    window.location.href = "confirmacaopagamento.html";
   }
 }
