@@ -273,8 +273,9 @@ a:before {
   margin-bottom: 100px;
 }
 
-#title-primary {
+#title-primary h2{
   font-weight: 600;
+  font-size: 2.3em;
 }
 
 
