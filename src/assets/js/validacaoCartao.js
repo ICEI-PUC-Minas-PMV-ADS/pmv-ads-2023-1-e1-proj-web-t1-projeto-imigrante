@@ -53,7 +53,7 @@ function validateCardInput() {
   let errorMessage = "";
   let isValid = true;
 
-  if (value.length === "") {
+  if (value.length !== 5) {
     errorMessage = "Digite um número";
     isValid = false;
   } else {
