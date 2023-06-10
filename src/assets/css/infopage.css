@@ -645,13 +645,13 @@ input::placeholder {
 
 
 .botao-doar a input  {
-   margin-left: -22px;
+   margin-left: -10px;
    background-color: pink;
   }
 
 }
 
-/*media nav branca tela small-celular*/
+/*media nav branca tela small-celular- se*/
 @media (max-width: 441px) {
   .navbar-brand img {
     display: none !important;
@@ -666,7 +666,7 @@ input::placeholder {
 
   .botao-doar a {
     font-size: 12px;
-    margin-left: -150px;
+    margin-left: -15px;
   }
 
 
@@ -689,10 +689,10 @@ input::placeholder {
 }
 
 
-/*media nav branca tela small-375*/
-@media (max-width: 375px) {
+/*media nav branca tela small-12*/
+@media (max-width: 414px) {
   .botao-doar a {
-    margin-left: -140px;
+    margin-left: -130px;
   }
 }
 
@@ -704,6 +704,14 @@ input::placeholder {
   }
 
 }
+
+/*media nav branca tela small'*/
+@media (min-width: 390px) {
+  .botao-doar a input{
+    margin-left: -27px;
+  }
+}
+
 
 /* Media query footer */
 @media screen and (max-width: 700px) {
