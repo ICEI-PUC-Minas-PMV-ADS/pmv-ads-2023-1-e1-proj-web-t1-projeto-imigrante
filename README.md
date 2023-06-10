@@ -27,7 +27,9 @@ O objetivo deste projeto é criar um site estático que facilite o acesso a info
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+- Site hospedado no Cloudflare
+- Acesse o projeto pelo computador, tablet ou celular. Link de acesso: https://pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante.pages.dev/
+- Browser compatível: Chrome, Firefox e Edge
 
 # Documentação
 
