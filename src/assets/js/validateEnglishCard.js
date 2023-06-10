@@ -52,7 +52,7 @@ function isRadioCardSelected() {
     let errorMessage = "";
     let isValid = true;
   
-    if (value.length === "") {
+    if (value.length !== 5) {
       errorMessage = "Type a number";
       isValid = false;
     } else {

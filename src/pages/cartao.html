@@ -71,9 +71,9 @@
     
     <div class="container-main">
         <div class="container" id="cadastro">
-            <form class="mt-5">
-                <div class="section2"  id="opcoes">
-                    <p><b>Selecione a bandeira do cartão:</b></p>
+            <form class="form mt-5">
+                <div class="section2">
+                    <p><b>Selecione a bandeira:</b></p>
                     <br>
                     <div class="form-check form-check-inline">
                         <img class="page-image" src="../assets/images/visa.png" alt="pix-image">
@@ -102,23 +102,26 @@
                             value="option3">
                         <label class="form-check-label" for="inlineRadio3"></label>
                     </div>
+                    <div id="cardRadioError" class="error"></div>
                 </div>
 
-                <div class="form-group mb-3" id="preenchimento">
-                    <p><b>Nome do Titular do Cartão:</b></p>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="*Nome" required>
+                <div class="form-group mb-3">
+                    <p><b>Nome do titular do cartão:</b></p>
+                    <input type="text" class="form-control" id="formGroupName" placeholder="*Nome" required >
+                    <div id="usernameError"  class="error"></div>
                 </div>
 
-                <div class="form-group mb-3" id="preenchimento">
+                <div class="form-group mb-3">
                     <p><b>Número do cartão:</b></p>
-                    <input type="number" class="form-control" id="formGroupExampleInput2"
-                        placeholder="*Número do cartão" required>
+                    <input type="number" class="form-control" id="formGroupCard" placeholder="*Número do cartão"
+                       required>
+                    <div id="cardNumberError"  class="error"></div>
                 </div>
 
                 <div class="row">
-                    <p><b>Validate:</b></p>
+                    <p><b>Validade:</b></p>
                     <div class="col mb-3">
-                        <div class="col mb-3 month-input" id="preenchimento">
+                        <div class="col mb-3 month-input">
                             <input type="number" class="form-control" id="input-month" placeholder="*Mês" required>
                             <div id="monthError" class="error"></div>
                         </div>
@@ -126,7 +129,7 @@
                         <div id="selectMonthError"></div>
                     </div>
 
-                    <div class="col mb-3" id="preenchimento">
+                    <div class="col mb-3">
                         <div class="col mb-3 year-input">
                             <input type="number" class="form-control" id="input-year" placeholder="*Ano" required>
                             <div id="yearError" class="error"></div>
@@ -134,33 +137,26 @@
                     </div>
                 </div>
 
-                <div class="form-group2 mb-5"  id="preenchimento">
+                <div class="form-group2 mb-5">
                     <p><b>Código de segurança</b></p>
-                    <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="*CVV" required>
+                    <input type="number" class="form-control" id="formGroupCvv" placeholder="*CVV" required>
+                    <div id="cvvNumberError"  class="error"></div>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
-                    <label class="" for="flexCheckDefault">
-                        <b>Cpf do titular do cartão é igual do cadastro.</b>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1" required>
+                    <label class="label" for="flexCheckDefault">
+                        <b>O CPF do titular do cartão é o mesmo informado no cadastro.</b>
                     </label>
+                    <div id="check1Error" class="error"></div>
                 </div>
                 <div class="form-check mb-5">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="" for="flexCheckDefault">
-                        <b> Guardar informações para futuras compras.</b>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                    <label class="label" for="flexCheckDefault">
+                        <b>Todas as informações serão salvas para suas futuras compras.</b>
                     </label>
+                    <div id="check2Error"></div>
                 </div>
-                <div class="div-btn">
-                    <button
-                      type="submit"
-                      value="Submit"
-                      id="btn"
-                      class="btn"
-                      onclick=" return goToMessagePagePt()"
-                    >
-                      DOAR
-                    </button>
-                  </div>
+                <button type="submit" class="btn" id="donate-btn" onclick="return goToMessagePagePt()">DOAR</button>
             </form>
         </div>
     </div>
