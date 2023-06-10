@@ -253,10 +253,6 @@ a:before {
   margin-top: 20px;
 }
 
-#h3-destacados {
-  font-weight: bold;
-}
-
 
 .line {
   border-bottom: solid #D9D9D9;
@@ -277,7 +273,9 @@ a:before {
   margin-bottom: 100px;
 }
 
-
+#title-primary {
+  font-weight: 600;
+}
 
 
 
