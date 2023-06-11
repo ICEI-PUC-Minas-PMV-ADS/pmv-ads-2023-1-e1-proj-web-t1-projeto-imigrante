@@ -67,8 +67,6 @@ Nessa sessão da documentação, será apresentada as telas com cada funcionalid
 - infopage.css;
 - imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png;
 - telapagamento.html;
-- englishajuda.html
-- ajuda.html;
 - quemsomos.html;
 - residir.html;
 - educacao.html;
