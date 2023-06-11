@@ -521,7 +521,8 @@ input::placeholder {
     font-weight: 600;
 }
 
-#emailError {
+
+#inputError {
     color: #cc0033;
     display: flex;
     margin: auto;
@@ -532,7 +533,7 @@ input::placeholder {
     display: flex;
 }
 
-#emailNewsError {
+#btnError{
     color: #cc0033;
     display: flex;
     margin: auto;
