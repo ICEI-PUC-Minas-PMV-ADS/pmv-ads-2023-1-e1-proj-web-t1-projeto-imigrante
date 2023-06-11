@@ -40,7 +40,11 @@ Nessa sessão da documentação, será apresentada as telas com cada funcionalid
  - informe-esfuerzo365x200 2 (2).png;
  - insta-logo.png;
  - facebook-logo.png;
- - linkedin-logo.png.
+ - linkedin-logo.png;
+ - darkMode.js;
+ - alertaNewsletterPortugues.js;
+ - https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js.
+
 
 
 **Acesso a página**
@@ -58,7 +62,24 @@ Nessa sessão da documentação, será apresentada as telas com cada funcionalid
 
 **Artefatos** 
 
-- 
+- logo-principal.png;
+- index.html;
+- infopage.css;
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png;
+- telapagamento.html;
+- englishajuda.html
+- ajuda.html;
+- quemsomos.html;
+- residir.html;
+- educacao.html;
+- saude.html;
+- insta-logo.png;
+- facebook-logo.png;
+- linkedin-logo.png;
+- alertaNewsletterPortugues.js;
+- darkMode.js;
+- comments.js;
+- https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js.
 
 
 **Acesso a página**
@@ -76,8 +97,7 @@ Para acessar e vsualizar detalhes das informações,  é preciso clicar em algum
 
 **Artefatos** 
 
-- comments.js
-
+- comments.js.
 
 **Acesso a página**
 
@@ -95,11 +115,29 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Artefatos** 
 
--
+- infopage.css;
+- index.html;
+- logo-principal.png;
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png;
+- telapagamento.html;
+- englishajuda.html
+- ajuda.html;
+- quemsomos.html;
+- residir.html;
+- educacao.html;
+- saude.html;
+- insta-logo.png;
+- facebook-logo.png;
+- linkedin-logo.png;
+- alertaNewsletterPortugues.js;
+- darkMode.js;
+- https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js;
+- upload.js.
+
 
 **Acesso a página**
 
--  
+-  Para acessar a página, basta clicar no card mercado trabalho.
 
 ### Tela doação
 
@@ -113,26 +151,29 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Artefatos** 
 
-- index.html 
-- logo-principal.png
-- telapagamento.html
-- englishtelapagamento.html
-- redirectPayment.js
-- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png
-- quemsomos.html
-- residir.html
-- educacao.html
-- saude.html
-- cartão cd.png
-- icon-pix.png
-- boleto banco.png
-- insta-logo.png
-- facebook-logo.png
-- linkedin-logo.png
+- index.html;
+- logo-principal.png;
+- telapagamento.html;
+- englishtelapagamento.html;
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png;
+- quemsomos.html;
+- residir.html;
+- educacao.html;
+- saude.html;
+- cartão cd.png;
+- icon-pix.png;
+- boleto banco.png;
+- insta-logo.png;
+- facebook-logo.png;
+- linkedin-logo.png;
+- alertaNewsletterPortugues.js;
+- darkMode.js;
+- redirectPayment.js;
+- https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js.
 
 **Acesso a página**
 
-- Para acessar a pagina de doação é preciso clicar no botão doação encontrado no Cabeçalho. Nele o usuário será redirecionado a pagina de doação que poderá escolher a forma de pagamento junto do valor que deseja doar.
+- Para acessar a pagina de doação é preciso clicar no botão doação encontrado no Cabeçalho. Nele o usuário será redirecionado a pagina de doação, e poderá escolher a forma de pagamento junto do valor que deseja doar.
 
 
 ### Tela forma pagamento pix
@@ -146,21 +187,23 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Artefatos** 
 
-- pix.html
-- index.html
-- logo-principal.png
-- pix.css
-- validatePixInput.js
-- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png
-- quemsomos.html
-- residir.html
-- educacao.html
-- saude.html
-- englishpix.html
-- QR_code_for_mobile_English_Wikipedia.svg.png
-- insta-logo.png
-- facebook-logo.png
-- linkedin-logo.png
+- index.html;
+- logo-principal.png;
+- pix.css;
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png;
+- quemsomos.html;
+- residir.html;
+- educacao.html;
+- saude.html;
+- englishpix.html;
+- QR_code_for_mobile_English_Wikipedia.svg.png;
+- insta-logo.png;
+- facebook-logo.png;
+- linkedin-logo.png;
+- validacaoPix.js;
+- darkMode.js;
+- alertaNewsletterPortugues.js;
+- https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js.
 
 **Acesso a página**
 
@@ -178,24 +221,27 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Artefatos** 
 
-- cartao.html
-- index.html
-- englishcartao.html
-- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png
-- validateCard.js
-- cartão.css
-- quemsomos.html
-- residir.html
-- educacao.html
-- saude.html
-- visa.png
-- mastercard.png
-- Amex.png
-- elo.png
-- logo-principal.png
-- insta-logo.png
-- facebook-logo.png
-- linkedin-logo.png
+- index.html;
+- englishcartao.html;
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png;
+- cartão.css;
+- quemsomos.html;
+- residir.html:
+- educacao.html;
+- saude.html;
+- visa.png;
+- mastercard.png;
+- Amex.png;
+- elo.png;
+- logo-principal.png;
+- insta-logo.png;
+- facebook-logo.png;
+- linkedin-logo.png;
+- darkMode.js;
+- alertaNewsletterPortugues.js;
+- validacaoCartao.js;
+- https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js.
+
 
 **Acesso a página**
 
@@ -213,19 +259,20 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Artefatos** 
 
-- boleto.html
-- boleto.css
-- validateBoleto.js
-- englishboleto.html
-- Sem nome [Tamanho original] (5).png
-- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png
-- quemsomos.html
-- residir.html
-- educacao.html
-- saude.html
-- insta-logo.png
-- facebook-logo.png
-- linkedin-logo.png
+- englishboleto.html;
+- Sem nome [Tamanho original] (5).png;
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png;
+- quemsomos.html;
+- residir.html;
+- educacao.html;
+- saude.html;
+- insta-logo.png;
+- facebook-logo.png;
+- linkedin-logo.png;
+- validacaoBoleto.js;
+- darkMode.js;
+- alertaNewsletterPortugues.js;
+- https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js.
 
 **Acesso a página**
 
@@ -243,21 +290,23 @@ Para acessar a sessão do comentários, é preciso clicar em algum card ou notí
 
 **Artefatos** 
 
-- confirmacaopagamento.html
-- confirmacaopagamento.css
-- index.html
-- logo-principal.png
-- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png
-- englishmsgpago.html
-- accept.png
-- quemsomos.html
-- residir.html
-- educacao.html
-- saude.html
-- visa.png
-- insta-logo.png
-- facebook-logo.png
-- linkedin-logo.png
+- confirmacaopagamento.css;
+- index.html;
+- logo-principal.png;
+- imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png;
+- englishmsgpago.html;
+- accept.png;
+- quemsomos.html;
+- residir.html;
+- educacao.html;
+- saude.html;
+- visa.png:
+- insta-logo.png;
+- facebook-logo.png;
+- linkedin-logo.png;
+- darkMode.js;
+- alertaNewsletterPortugues.js;
+- https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js.
 
 **Acesso a página**
 
