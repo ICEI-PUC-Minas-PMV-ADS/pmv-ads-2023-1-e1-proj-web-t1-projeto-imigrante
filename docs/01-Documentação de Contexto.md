@@ -24,4 +24,4 @@ De acordo com os dados fornecidos pelo Ministério da Justiça e Segurança Púb
 
 ## Público-Alvo
 
-Com base nos dados do Comitê Nacional para Refugiados, nosso público alvo é composto por refugiados, imigrantes recém- chegados, os que possuem a intenção de imigrar para o Brasil e os que já residem aqui, com a idade entre 18 a 45 anos. [(Referências)](https://app.powerbi.com/view?r=eyJrIjoiZTk3OTdiZjctNGQwOC00Y2FhLTgxYTctNDNlN2ZkNjZmMWVlIiwidCI6ImU1YzM3OTgxLTY2NjQtNDEzNC04YTBjLTY1NDNkMmFmODBiZSIsImMiOjh9&pageName=ReportSection )
+Com base nos dados do Comitê Nacional para Refugiados, identificamos que nosso público-alvo é constituído por dois grupos: refugiados e imigrantes. A maioria dessas pessoas é de nacionalidade venezuelana (48.789), seguida por sírios (3.682) e congoleses (1.078), e possuem entre 18 e 45 anos. [(Referências)](https://app.powerbi.com/view?r=eyJrIjoiZTk3OTdiZjctNGQwOC00Y2FhLTgxYTctNDNlN2ZkNjZmMWVlIiwidCI6ImU1YzM3OTgxLTY2NjQtNDEzNC04YTBjLTY1NDNkMmFmODBiZSIsImMiOjh9&pageName=ReportSection )
