@@ -43,7 +43,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |        Passos         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site: [Imigra Brasil](https://pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante.pages.dev/) <br> 3) Acessar a página principal <br> 4) Na barra de navegação no canto direito, clicar no botão doar <br>  5)Clicar no botão próximo                           |
 |  Critérios de Êxito   | Caso a forma de pagamento não seja selecionada, aparecerá um mensagem abaixo do campo: "Por favor, selecione uma opção, e se o campo valor não for selecionado, aparecerá a seguinte mensagem abaixo desse campo: "Por favor, selecionae um valor".  Sem selecionar esses campos, o usuário não será redirecionado para a tela de pagamento, e não conseguirá finalizar a sua doação.                                                                                                                                                                             |
 
-<br><br>|
+<br><br>
 
 |     Caso de teste     | CT-04 – Ativar dark mode |
 | :-------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
