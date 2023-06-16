@@ -174,17 +174,17 @@ body {
 }
 
 .dark#body div#info b {
-  color: #ae9ff0;
+  color: #c5d1eb;;
 }
 
 .dark#body .text-container p {
   color: white;
 }
 
-.dark#body #link a {
-  color: #9955e7;
-  text-decoration: none;
+.dark#body a {
+  color:#c5d1eb !important;
 }
+
 
 .dark#body #link li {
   color: #F5F5F7;
