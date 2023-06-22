@@ -2,6 +2,17 @@ body {
   letter-spacing: normal;
 }
 
+#title {
+  margin-top:40px;
+}
+
+
+
+#apoio-text {
+  color: #0035A0;
+  margin-top: 20px;
+}
+
 /*DARK MODE*/
 .dark#body {
   background-color: #242527;
