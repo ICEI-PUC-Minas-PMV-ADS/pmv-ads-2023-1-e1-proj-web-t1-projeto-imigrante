@@ -8,6 +8,18 @@ body {
     margin: 0;
 }
 
+
+#title {
+    margin-top: 40px;
+}
+
+
+
+#apoio-text {
+    color: #0035A0;
+    margin-top: 20px;
+}
+
 /*header1*/
 
 /*DARK MODE*/
@@ -533,7 +545,7 @@ input::placeholder {
     display: flex;
 }
 
-#btnError{
+#btnError {
     color: #cc0033;
     display: flex;
     margin: auto;
