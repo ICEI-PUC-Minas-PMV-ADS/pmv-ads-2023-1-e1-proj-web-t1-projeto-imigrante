@@ -70,10 +70,75 @@ const contacts = [
              protecao: " Proteção Documental: (31) 99210-3444 e 99210-3443",
              email: "E-mail: caritassp@caritassp.org.br"
          }
+     },
+     {
+        cic: {
+             website: "Site: https://justica.sp.gov.br/index.php/coordenacoes-e-programas/integracao-da-cidadania-cic/",
+             adress: "Endereço: Rua Barra Funda, 1020 - Barra Funda",
+             phone: "Telefone: +55 (11) 3115-2048 55",
+             email: " E-mail: cicdoimigrante@sp.gov.br ",
+             atividades: "Atividades: atendimento a imigrantes e a refugiados, aulas de português, capacitação profissional, orientação sobre documentação e sobre Sisconare",
+             horário: "Horário de atendimento: das 8h às 17h"
+         }
+     },
+     {
+        compassiva: {
+             website: "Site:compassiva.org.br",
+             adress: "Endereço: Rua da Glória, 900 - Liberdade",
+             phone: "Telefone(s): +55 (11) 2537-3441",
+             email: "E-mail: contato@compassiva.org.br",
+             atividades: "Atividades desenvolvidas: revalidação de diplomas de graduação de refugiados."
+         }
+     },
+     {
+       crai: {
+             website: "Site: www.prefeitura.sp.gov.br/cidade/secretarias/direitos_humanos/imigrantes_e_trabalho_decente/crai",
+             adress: "Endereço: Rua Major Diogo, 834, Bela Vista",
+             phone: "Telefones: +55 (11) 2361-3780 | +55 (11) 2361-5069",
+             email: "E-mail: crai@sefras.org.br"  
+         }
+     },
+     {
+        unifesp: {
+             website: "Site: sp.unifesp.br/epm/medicina-preventiva/informes/acolhimento-psicossocial-intercultural",
+             phone: "Whatsapp: +55 (11) 99179-1699",
+             email: "E-mail: intercultural@unifesp.br"
+         }
      }
- 
 
 ];
+
+
+const unifespElement = document.getElementById("unifesp");
+for (let key in contacts[11].unifesp) {
+    let listItem = document.createElement('li');
+    listItem.textContent = `${contacts[11].unifesp[key]}`;;
+    unifespElement.appendChild(listItem);
+}
+
+
+const craiElement = document.getElementById("crai");
+for (let key in contacts[10].crai) {
+    let listItem = document.createElement('li');
+    listItem.textContent = `${contacts[10].crai[key]}`;;
+    craiElement.appendChild(listItem);
+}
+
+const compassaivaElement = document.getElementById("compassiva");
+for (let key in contacts[9].compassiva) {
+    let listItem = document.createElement('li');
+    listItem.textContent = `${contacts[9].compassiva[key]}`;;
+    compassaivaElement.appendChild(listItem);
+}
+
+
+
+const cicElement = document.getElementById("cic");
+for (let key in contacts[8].cic) {
+    let listItem = document.createElement('li');
+    listItem.textContent = `${contacts[8].cic[key]}`;;
+    cicElement.appendChild(listItem);
+}
 
 
 
