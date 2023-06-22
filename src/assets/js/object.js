@@ -93,6 +93,7 @@ for (let key in contacts[6].caritasRj) {
     caritas1.appendChild(listItem);
 }
 
+
 const migracoes2 = document.getElementById("migracoes-rs");
 for (let key in contacts[5].migracoesRs) {
     let listItem = document.createElement('li');
