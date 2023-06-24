@@ -546,6 +546,11 @@ input::placeholder {
     height: 50px !important;
   }
 
+  .container {
+    margin: auto;
+    margin-left: -30px;
+  }
+
 }
 
 /* Media query footer */
@@ -686,6 +691,8 @@ input::placeholder {
   }
 
 }
+
+
 
 
 
