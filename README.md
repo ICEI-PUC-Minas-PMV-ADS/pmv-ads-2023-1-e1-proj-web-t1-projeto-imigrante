@@ -28,7 +28,6 @@ O objetivo deste projeto é criar um site estático que facilite o acesso a info
 ## Instruções de utilização
 
 - Acesse o projeto através do seu computador, tablet ou celular.
-- Link de acesso: [Imigra Brasil](https://pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante.pages.dev/)
 
 # Documentação
 
@@ -46,7 +45,7 @@ O objetivo deste projeto é criar um site estático que facilite o acesso a info
 </ol>
 
 # Hospedagem
-* Site hospedado no Cloudflare: https://pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante.pages.dev/
+https://pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante.pages.dev/
 
 
 # Armazenamento do Código-Fonte
