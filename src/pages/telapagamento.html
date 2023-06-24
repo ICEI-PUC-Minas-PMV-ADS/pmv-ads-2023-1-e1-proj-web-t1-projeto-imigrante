@@ -84,65 +84,67 @@
 
     <p class="home-text"><a href="../index.html" class="">&#8592 Home</a></p>
     <div class="container-main d-flex justify-content-center ">
-        <div class="container">
-            <div class="title" id="titulo">
-                <h4><b>DOE E AJUDE IMIGRANTES E REFUGIADOS</b>
-                    <br>
-                    <br>
-                    <div>
-                        <p id="subtitle">O valor será repassado integralmente para insituições que ajudam imigrantes e
-                            refugiados.
-                        </p>
-                    </div>
-            </div>
-
-            <div class="Seleção" id="div-selecao">
-                <div class="">
-                    <h5 class="btn-titulo"><b>Selecione Forma de Pagamento:</b></h5>
-
-                    <div class="Valores">
-                        <div class="form-check form-check-inline">
-                            <img class="page-image" src="../assets/images/cartão cd.png" alt="pix-image">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                                value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Cartão Crédito</label>
+        <div class="container-main1">
+            <div class="container">
+                <div class="title" id="titulo">
+                    <h4><b>DOE E AJUDE IMIGRANTES E REFUGIADOS</b>
+                        <br>
+                        <br>
+                        <div>
+                            <p id="subtitle">O valor será repassado integralmente para insituições que ajudam imigrantes e
+                                refugiados.
+                            </p>
                         </div>
-
-                        <div class="form-check form-check-inline">
-                            <img class="page-image" src="../assets/images/icon-pix.png" alt="pix-image">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                                value="option2">
-                            <label class="form-check-label" for="inlineRadio2">Pix</label>
+                </div>
+    
+                <div class="Seleção" id="div-selecao">
+                    <div class="">
+                        <h5 class="btn-titulo"><b>Selecione Forma de Pagamento:</b></h5>
+    
+                        <div class="Valores">
+                            <div class="form-check form-check-inline">
+                                <img class="page-image" src="../assets/images/cartão cd.png" alt="pix-image">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Cartão Crédito</label>
+                            </div>
+    
+                            <div class="form-check form-check-inline">
+                                <img class="page-image" src="../assets/images/icon-pix.png" alt="pix-image">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Pix</label>
+                            </div>
+    
+                            <div class="form-check form-check-inline">
+                                <img class="page-image" src="../assets/images/boleto banco.png" alt="pix-image">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                                    value="option3">
+                                <label class="form-check-label" for="inlineRadio3">Boleto Bancário</label>
+                            </div>
+                            <div id="inputError"></div>
                         </div>
-
-                        <div class="form-check form-check-inline">
-                            <img class="page-image" src="../assets/images/boleto banco.png" alt="pix-image">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
-                                value="option3">
-                            <label class="form-check-label" for="inlineRadio3">Boleto Bancário</label>
+                        <div>
+                            <p class="big"><b>Selecione qual valor deseja doar:</b></p>
+                            <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+                            <label class="btn btn-primary" for="option1">R$10,00</label>
+    
+                            <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                            <label class="btn btn-primary" for="option2">R$15,00</label>
+    
+                            <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+                            <label class="btn btn-primary" for="option3">R$20,00</label>
+    
+                            <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+                            <label class="btn btn-primary" for="option4">R$25,00</label>
+                            <div id="btnError"></div>
                         </div>
-                        <div id="inputError"></div>
+    
+                        <div class="btn-next">
+                            <a class="btn btn-secondary" id="btn-next" role="button" aria-disabled="true" href="#" onclick=" return goToAnotherPage()">Próximo</a>
+                        </div>
+    
                     </div>
-                    <div>
-                        <p class="big"><b>Selecione qual valor deseja doar:</b></p>
-                        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
-                        <label class="btn btn-primary" for="option1">R$10,00</label>
-
-                        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
-                        <label class="btn btn-primary" for="option2">R$15,00</label>
-
-                        <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
-                        <label class="btn btn-primary" for="option3">R$20,00</label>
-
-                        <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
-                        <label class="btn btn-primary" for="option4">R$25,00</label>
-                        <div id="btnError"></div>
-                    </div>
-
-                    <div class="btn-next">
-                        <a class="btn btn-secondary" id="btn-next" role="button" aria-disabled="true" href="#" onclick=" return goToAnotherPage()">Próximo</a>
-                    </div>
-
                 </div>
             </div>
         </div>
