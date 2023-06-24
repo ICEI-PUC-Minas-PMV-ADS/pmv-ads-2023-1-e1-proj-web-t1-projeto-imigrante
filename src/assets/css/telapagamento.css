@@ -813,3 +813,12 @@ input::placeholder {
     background-color: red;
   }
 }
+
+
+
+/*Media query para centralizar links no togller*/
+@media screen and (max-width: 990px) {
+  .navbar-nav a {
+    text-align: center !important;
+  }
+}
