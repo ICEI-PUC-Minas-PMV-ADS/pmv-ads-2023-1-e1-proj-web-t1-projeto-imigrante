@@ -13,21 +13,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        p.big {
-            line-height: 2.0;
-        }
 
-        h5.big {
-            line-height: 2.0;
-        }
-    </style>
+    <title>Imigra Brasil</title>
 </head>
 
-<title>Imigra Brasil</title>
-</head>
 
-<body id="body">
+<body class="d-flex flex-column min-vh-100" id="body">
     <header>
         <nav class="navbar navbar-expand" id="white-header">
             <div class="container-fluid">
@@ -37,12 +28,11 @@
                             class="d-inline-block">
                     </a>
                     <li class="nav-text  header1">
-                        <img class="nav-link" href="./englishhome.html"
-                            src="../assets/images/imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png">
+                        <img class="nav-link"  src="../assets/images/imigra-brasil-high-resolution-logo-color-on-transparent-background (10).png">
                     </li>
                 </div>
-    
-                <div class="nav justify-content-end  d-flex" id="navbarNav">
+
+                <div class="nav justify-content-end px-5 d-flex navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav  navbar-right">
                         <div class="mode px-5">
                             <i id="mode_icon" class="fa-solid fa-moon"></i>
@@ -58,8 +48,9 @@
             </div>
         </nav>
 
-             <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary" id="white-header">
-                <div class="container-fluid" id="header2">
+        <div>
+            <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -75,8 +66,7 @@
                     </div>
                 </div>
             </nav>
-      
-
+        </div>
     </header>
 
     <p class="home-text"><a href="./englishhome.html" class="">&#8592 Home</a></p>
@@ -143,15 +133,15 @@
         </div>
     </div>
     
-    <footer>
+    <footer class="mt-auto">
         <div class="container-fluid  title-container">
             <div class="title-input">
                 <div class="title-text" id="title-text">
                     <h4>Subscribe to our Newsletter</h4>
                 </div>
                 <div class="title-inputs" id="title-inputs">
-                    <input type="email" name="email" id="email-news" placeholder="Email" required>
-                    <input id="btn" type="submit" value="Send" onclick=" return showAlertMessage()">
+                    <input type="email" name="email-news" id="email-news" placeholder="Email" required>
+                    <input id="btn" type="submit" value="Send" onclick="return showAlertMessage()">
                     <div id="emailNewsError"></div>
                 </div>
             </div>
@@ -169,6 +159,7 @@
             </h5>
         </div>
     </footer>
+
 
 
     <script src="../assets/js/alertNewsletterEnglish.js"></script>
