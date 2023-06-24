@@ -27,7 +27,7 @@ O objetivo deste projeto é criar um site estático que facilite o acesso a info
 
 ## Instruções de utilização
 
-- Acesse o projeto através do seu computador, tablet ou celular.
+- Acesse o site através do seu computador, tablet ou celular.
 
 # Documentação
 
