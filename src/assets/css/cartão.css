@@ -710,3 +710,10 @@ input::placeholder {
   margin-bottom: 120px;
   padding-bottom: 40px;
 }
+
+/*Media query para centralizar links no togller*/
+@media screen and (max-width: 990px) {
+  .navbar-nav a {
+    text-align: center !important;
+  }
+}
