@@ -139,38 +139,38 @@
 
                 <div class="form-group2 mb-5">
                     <p><b>Código de segurança</b></p>
-                    <input type="number" class="form-control" id="formGroupCvv" placeholder="*CVV" required>
+                    <input type="number" class="form-control" id="formGroupCvv" placeholder="*CVV">
                     <div id="cvvNumberError" class="error"></div>
                 </div>
+
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1" required>
+                    <input class="form-check-input" type="checkbox" id="flexCheckDefault1">
                     <label class="label" for="flexCheckDefault">
                         <b>O CPF do titular do cartão é o mesmo informado no cadastro.</b>
                     </label>
-                    <div id="check1Error" class="error"></div>
                 </div>
                 <div class="form-check mb-5">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                    <input class="form-check-input" type="checkbox" id="flexCheckDefault2">
                     <label class="label" for="flexCheckDefault">
                         <b>Todas as informações serão salvas para suas futuras compras.</b>
                     </label>
-                    <div id="check2Error"></div>
                 </div>
-                <button type="submit" class="btn" id="donate-btn" onclick="return goToMessagePagePt()">DOAR</button>
+                
+                <button type="submit" class="btn" id="donate-btn" onclick="goToMessagePagePt(event)">DOAR</button>
             </form>
         </div>
     </div>
-
     <footer>
-        <!-- Cadastro da newsletter -->
         <div class="container-fluid title-container">
             <div class="title-input">
                 <div class="title-text">
                     <h4>Inscreva-se na nossa Newsletter</h4>
                 </div>
-                <div class="title-inputs">
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                    <input id="btn" type="submit" value="Send">
+                <div class="title-inputs" id="title-inputs">
+                    <input type="email" name="email" id="email-news" placeholder="Email" required>
+                    <input id="btn" type="submit" value="Enviar" onclick="return showAlertMessage()"
+                    >
+                    <div id="emailNewsError"></div>
                 </div>
             </div>
             <div class="icons">

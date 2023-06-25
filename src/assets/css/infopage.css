@@ -64,7 +64,7 @@ body {
 }
 
 .dark#body a {
-  color:#c5d1eb !important;
+  color: #c5d1eb !important;
 }
 
 
@@ -226,14 +226,12 @@ body {
 }
 
 .bg-body-tertiary {
-  background: linear-gradient(
-    180deg,
-    #0085f8 0%,
-    #006ac6 0.01%,
-    rgba(0, 92, 171, 0.83) 45.31%,
-    rgba(58, 152, 233, 0.98219) 94.27%,
-    #419ff0 100%
-  );
+  background: linear-gradient(180deg,
+      #0085f8 0%,
+      #006ac6 0.01%,
+      rgba(0, 92, 171, 0.83) 45.31%,
+      rgba(58, 152, 233, 0.98219) 94.27%,
+      #419ff0 100%);
   transition: 0.2ms;
 }
 
@@ -254,6 +252,12 @@ a {
   letter-spacing: unset;
   color: #0035a0;
 }
+
+.link-integracao {
+  color: #212529;
+}
+
+
 
 .c-img {
   height: 100%;
@@ -342,14 +346,12 @@ p a {
 }
 
 .btn {
-  background: linear-gradient(
-    180deg,
-    #0085f8 0%,
-    #006ac6 0.01%,
-    rgba(0, 92, 171, 0.83) 45.31%,
-    rgba(58, 152, 233, 0.98219) 94.27%,
-    #419ff0 100%
-  );
+  background: linear-gradient(180deg,
+      #0085f8 0%,
+      #006ac6 0.01%,
+      rgba(0, 92, 171, 0.83) 45.31%,
+      rgba(58, 152, 233, 0.98219) 94.27%,
+      #419ff0 100%);
   font-weight: 600 !important;
 }
 
@@ -486,14 +488,12 @@ input::placeholder {
 }
 
 #btn {
-  background: linear-gradient(
-    180deg,
-    #0085f8 0%,
-    #006ac6 0.01%,
-    rgba(0, 92, 171, 0.83) 45.31%,
-    rgba(58, 152, 233, 0.98219) 94.27%,
-    #419ff0 100%
-  );
+  background: linear-gradient(180deg,
+      #0085f8 0%,
+      #006ac6 0.01%,
+      rgba(0, 92, 171, 0.83) 45.31%,
+      rgba(58, 152, 233, 0.98219) 94.27%,
+      #419ff0 100%);
   width: 100px;
   height: 40px;
   color: rgb(255, 255, 255);

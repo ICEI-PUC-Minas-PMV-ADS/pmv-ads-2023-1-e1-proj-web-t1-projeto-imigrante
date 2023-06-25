@@ -128,7 +128,8 @@ function isRadioCardSelected() {
   }
   
   // Redirect to another page
-  function goToMessagePage() {
+  function goToMessagePage(event) {
+    event.preventDefault();
     if (
       isRadioCardSelected() &&
       validateNomeInput() &&
