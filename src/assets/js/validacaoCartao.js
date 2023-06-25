@@ -4,7 +4,7 @@ function isRadioCardSelected() {
   let radioCardOptions = document.getElementsByName("inlineRadioOptions");
   const radioCardError = document.getElementById("cardRadioError");
 
-  let errorMessage = "";
+  let errorMessageCartao = "";
   let isSelected = false;
 
   for (let i = 0; i < radioCardOptions.length; i++) {
@@ -15,10 +15,10 @@ function isRadioCardSelected() {
   }
 
   if (!isSelected) {
-    errorMessage = "Por favor, selecione uma opção";
+    errorMessageCartao = "Por favor, selecione uma opção";
   }
 
-  radioCardError.innerHTML = errorMessage;
+  radioCardError.innerHTML = errorMessageCartao;
 
   return isSelected;
 }
@@ -29,17 +29,17 @@ function validateNomeInput() {
   const nameError = document.getElementById("usernameError");
 
   const value = nameInput.value.trim();
-  let errorMessage = "";
+  let errorMessageCartao = "";
   let isValid = true;
 
   if (value.length < 4) {
-    errorMessage = "Digite seu nome completo";
+    errorMessageCartao = "Digite seu nome completo";
     isValid = false;
   } else {
-    errorMessage = ""; // Clear the error message
+    errorMessageCartao = ""; // Clear the error message
   }
 
-  nameError.innerHTML = errorMessage;
+  nameError.innerHTML = errorMessageCartao;
 
   return isValid;
 }
@@ -50,17 +50,17 @@ function validateCardInput() {
   const cardNumberError = document.getElementById("cardNumberError");
 
   const value = cardNumberInput.value.trim();
-  let errorMessage = "";
+  let errorMessageCartao = "";
   let isValid = true;
 
   if (value.length !== 5) {
-    errorMessage = "Digite um número";
+    errorMessageCartao = "Digite 5 números";
     isValid = false;
   } else {
-    errorMessage = ""; // Clear the error message
+    errorMessageCartao = ""; // Clear the error message
   }
 
-  cardNumberError.innerHTML = errorMessage;
+  cardNumberError.innerHTML = errorMessageCartao;
 
   return isValid;
 }
@@ -71,17 +71,17 @@ function validateCvvInput() {
   const cvvNumberError = document.getElementById("cvvNumberError");
 
   const value = cvvNumberInput.value.trim();
-  let errorMessage = "";
+  let errorMessageCartao = "";
   let isValid = true;
 
   if (value.length !== 3) {
-    errorMessage = "Número inválido";
+    errorMessageCartao = "Digite 3 dígitos";
     isValid = false;
   } else {
-    errorMessage = ""; // Clear the error message
+    errorMessageCartao = ""; // Clear the error message
   }
 
-  cvvNumberError.innerHTML = errorMessage;
+  cvvNumberError.innerHTML = errorMessageCartao;
 
   return isValid;
 }
@@ -92,17 +92,17 @@ function validateMonthInput() {
   let monthInputError = document.getElementById("monthError");
 
   const inputValue = monthInput.value.trim();
-  let errorMessage = "";
+  let errorMessageCartao = "";
   let isValid = true;
 
   if (inputValue.length !== 2) {
-    errorMessage = "Digite dois dígitos";
+    errorMessageCartao = "Digite dois dígitos";
     isValid = false;
   } else {
     isValid = true;
   }
 
-  monthInputError.innerHTML = errorMessage;
+  monthInputError.innerHTML = errorMessageCartao;
 
   return isValid;
 }
@@ -113,17 +113,17 @@ function validateYearInput() {
   let yearInputError = document.getElementById("yearError");
 
   const inputValue = yearInput.value.trim();
-  let errorMessage = "";
+  let errorMessageCartao = "";
   let isValid = true;
 
   if (inputValue.length !== 2) {
-    errorMessage = "Digite dois dígitos";
+    errorMessageCartao = "Digite dois dígitos";
     isValid = false;
   } else {
     isValid = true;
   }
 
-  yearInputError.innerHTML = errorMessage;
+  yearInputError.innerHTML = errorMessageCartao;
 
   return isValid;
 }
