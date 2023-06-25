@@ -129,7 +129,8 @@ function validateYearInput() {
 }
 
 // Redirect to another page
-function goToMessagePagePt() {
+function goToMessagePagePt(event) {
+  event.preventDefault();
   if (
     isRadioCardSelected() &&
     validateNomeInput() &&
