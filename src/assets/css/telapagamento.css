@@ -341,6 +341,7 @@ a {
   margin-top: 50px;
   width: 100%;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .home-text {
@@ -821,4 +822,19 @@ input::placeholder {
   .navbar-nav a {
     text-align: center !important;
   }
+}
+
+
+
+/*Media container para tela grande*/
+@media (min-width:1024x) {
+  .container {
+    width: 50%;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+
+
 }

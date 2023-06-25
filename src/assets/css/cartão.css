@@ -644,15 +644,7 @@ input::placeholder {
 @media (min-width:889px) {
   .container {
     width: 60%;
-  }
-
-
-}
-
-/*Media container para tela grande*/
-@media (min-width:1075px) {
-  .container {
-    width: 50%;
+    margin-bottom: 100px;
   }
 
 
@@ -693,8 +685,6 @@ input::placeholder {
   }
 
 }
-
-
 
 
 
