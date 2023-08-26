@@ -5,11 +5,11 @@
 
 `Análise e Desenvolvimento de Sistemas `
 
-`Projeto: Desenvolvimento de Aplicação Web Front-End`
+`Projeto: Desenvolvimento de Aplicação Interativa`
 
-  `1º SEMESTRE 2023 `
+  `2º SEMESTRE 2023 `
 
-O objetivo deste projeto é criar um site estático que facilite o acesso a informações e serviços específicos para estrangeiros e refugiados em situação de vulnerabilidade, abrangendo tanto aqueles que já residem no Brasil quanto os que buscam informações para se estabelecerem aqui.
+
 
 
 ## Integrantes
@@ -23,7 +23,7 @@ O objetivo deste projeto é criar um site estático que facilite o acesso a info
 
 ## Orientador
 
-* [Joyce Christina De Paiva](https://github.com/joycecpc)
+* Carlos Alberto Marques Pietrobon
 
 ## Instruções de utilização
 
