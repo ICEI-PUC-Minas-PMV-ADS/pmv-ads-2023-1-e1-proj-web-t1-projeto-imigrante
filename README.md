@@ -7,7 +7,7 @@
 
 `Projeto: Desenvolvimento de Aplicação Interativa`
 
-  `2º SEMESTRE 2023 `
+  `1º SEMESTRE 2023 `
 
 
 
