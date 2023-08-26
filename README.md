@@ -23,7 +23,7 @@
 
 ## Orientador
 
-* Carlos Alberto Marques Pietrobon
+* Joyce
 
 ## Instruções de utilização
 
