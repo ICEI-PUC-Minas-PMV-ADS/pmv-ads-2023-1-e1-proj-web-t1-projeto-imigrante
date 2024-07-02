@@ -1,0 +1,27 @@
+message: Please cite this software using these metadata.
+title: Imigra Brasil
+authors:
+  - family-names: Nishihara
+    given-names: Alissa
+  - family-names: Bandeira
+    given-names: Fernanda
+  - family-names: Abreu
+    given-names: Maria Teresa
+ - family-names: Carvalho
+    given-names: Igor
+ - family-names: de Sousa
+    given-names: Lucas
+ - family-names: Dias
+    given-names: Vinícius 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names:de Paiva Carvalho
+    given-names: Joyce Christina
+keywords:
+  -Imigrar para o Brasil
+  -Vistos para o Brasil
+  -Residência no Brasil
+  -Trabalho no Brasil
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-projeto-imigrante/tree/main
+version: 1.0.0
+date-released: 2023-07-02
